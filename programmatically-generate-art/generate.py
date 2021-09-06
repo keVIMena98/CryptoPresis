@@ -1,7 +1,10 @@
+# import all necessary packages
 import csv
 import pathlib
 from PIL import Image
-from random import randint
+from IPython.display import display
+import random
+import json 
 
 ########################################################################
 # Settings - Change as required
@@ -9,14 +12,14 @@ from random import randint
 
 # Maximum number of each rarity
 MAX_RARITY_COUNT_LIST = {
-    "Legendary": 25,
-    "Mythic": 100,
-    "Rare": 175,
-    "Uncommon": 300,
-    "Common": 400,
+    "Legendary": 250,
+    "Mythic": 1000,
+    "Rare": 1750,
+    "Uncommon": 3000,
+    "Common": 4000,
 }
 
-TOTAL_ARTWORK = 1000
+TOTAL_ARTWORK = 10000
 
 # Name of your artwork
 NAME = 'NFT Artwork Name'
