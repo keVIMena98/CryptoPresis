@@ -4,15 +4,10 @@ const baseUri = "https://hashlips/nft";
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 20,
+    growEditionSizeTo: 1000,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      ,
     ],
   },
 ];
@@ -24,7 +19,7 @@ const format = {
 
 const background = {
   generate: true,
-  brightness: "80%",
+  brightness: "100%",
 };
 
 const rarityDelimiter = "#";
