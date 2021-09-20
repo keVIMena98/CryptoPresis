@@ -1,0 +1,27 @@
+{
+  "dna": "aa2f164e345b40925735fdce6358957f41ff10a5",
+  "name": "#20",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/20.png",
+  "edition": 20,
+  "date": 1632115445532,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Bitcoin Beach"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Pale Skin"
+    },
+    {
+      "trait_type": "Hats",
+      "value": "Christmas Hat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Red Laser Eyes"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

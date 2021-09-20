@@ -1,0 +1,27 @@
+{
+  "dna": "ab4c59345661a64dd563d88d25d045a4df405620",
+  "name": "#29",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/29.png",
+  "edition": 29,
+  "date": 1632115445962,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Crypto Teal"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "The SimpsonsSkin"
+    },
+    {
+      "trait_type": "Hats",
+      "value": "Black Hat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Red Laser Eyes"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}
