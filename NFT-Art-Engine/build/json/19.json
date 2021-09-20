@@ -2,7 +2,7 @@
   "dna": "77fc6d2bad77a3f86dcf0e30e7eecc8bda1c1434",
   "name": "#19",
   "description": "This is the description of your NFT project, remember to replace this",
-  "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/19.png",
+  "image": "ipfs://REPLACE_WITH_IPFS_CID/19.png",
   "edition": 19,
   "date": 1632115445483,
   "attributes": [

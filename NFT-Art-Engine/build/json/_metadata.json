@@ -3,7 +3,7 @@
     "dna": "6b7d538e0e0358b676fbb7812e13b6ecd3d16ad8",
     "name": "#1",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/1.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/1.png",
     "edition": 1,
     "date": 1632115444491,
     "attributes": [
@@ -30,7 +30,7 @@
     "dna": "a8fdc60c41df56d903e40ab330655a82ba72363b",
     "name": "#2",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/2.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/2.png",
     "edition": 2,
     "date": 1632115444633,
     "attributes": [
@@ -57,7 +57,7 @@
     "dna": "8a748b38666706bf9ce2d649fff1397ffc8634fa",
     "name": "#3",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/3.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/3.png",
     "edition": 3,
     "date": 1632115444705,
     "attributes": [
@@ -84,7 +84,7 @@
     "dna": "b1b30a225e734d599b3324d2c3ed36a10e71f3f8",
     "name": "#4",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/4.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/4.png",
     "edition": 4,
     "date": 1632115444763,
     "attributes": [
@@ -111,7 +111,7 @@
     "dna": "1181f77af47356f0d501343aa96ab799714f193e",
     "name": "#5",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/5.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/5.png",
     "edition": 5,
     "date": 1632115444785,
     "attributes": [
@@ -138,7 +138,7 @@
     "dna": "57172ec82e02b858706b55be2cd790a9a2c41bc0",
     "name": "#6",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/6.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/6.png",
     "edition": 6,
     "date": 1632115444900,
     "attributes": [
@@ -165,7 +165,7 @@
     "dna": "74e71bdf8c4b4a569ad4160dd4d3cd6cae5b2404",
     "name": "#7",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/7.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/7.png",
     "edition": 7,
     "date": 1632115444960,
     "attributes": [
@@ -192,7 +192,7 @@
     "dna": "e4d2ca390637370d971c43659032392bc4f6d922",
     "name": "#8",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/8.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/8.png",
     "edition": 8,
     "date": 1632115445038,
     "attributes": [
@@ -219,7 +219,7 @@
     "dna": "ab138ad280e2b7c4cb65b2762f7032a630a95299",
     "name": "#9",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/9.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/9.png",
     "edition": 9,
     "date": 1632115445093,
     "attributes": [
@@ -246,7 +246,7 @@
     "dna": "5811c74a6d50e97e368f174196a455d5d08c97eb",
     "name": "#10",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/10.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/10.png",
     "edition": 10,
     "date": 1632115445170,
     "attributes": [
@@ -273,7 +273,7 @@
     "dna": "67e2beb25d3c3c28adc8419a5601339a436b2631",
     "name": "#11",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/11.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/11.png",
     "edition": 11,
     "date": 1632115445213,
     "attributes": [
@@ -300,7 +300,7 @@
     "dna": "df5860d0340c900a5438e2847b1d3ddd3b8358a5",
     "name": "#12",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/12.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/12.png",
     "edition": 12,
     "date": 1632115445238,
     "attributes": [
@@ -327,7 +327,7 @@
     "dna": "c3b9d64305648cb6930d95166be8d3e82374b459",
     "name": "#13",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/13.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/13.png",
     "edition": 13,
     "date": 1632115445246,
     "attributes": [
@@ -354,7 +354,7 @@
     "dna": "65f01b6c00bf255425f831ea95da77dc120de068",
     "name": "#14",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/14.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/14.png",
     "edition": 14,
     "date": 1632115445284,
     "attributes": [
@@ -381,7 +381,7 @@
     "dna": "15cd7b40402c0ee6715757e8ee5a66cfbee368f2",
     "name": "#15",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/15.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/15.png",
     "edition": 15,
     "date": 1632115445360,
     "attributes": [
@@ -408,7 +408,7 @@
     "dna": "cbb77dfb594d446944746fedd909307fd3efe9a3",
     "name": "#16",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/16.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/16.png",
     "edition": 16,
     "date": 1632115445387,
     "attributes": [
@@ -435,7 +435,7 @@
     "dna": "efdee271ecadbb16744960439a8cfcd714aeb535",
     "name": "#17",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/17.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/17.png",
     "edition": 17,
     "date": 1632115445460,
     "attributes": [
@@ -462,7 +462,7 @@
     "dna": "8c159099c912e47681c49f06715fa602be821fcd",
     "name": "#18",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/18.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/18.png",
     "edition": 18,
     "date": 1632115445476,
     "attributes": [
@@ -489,7 +489,7 @@
     "dna": "77fc6d2bad77a3f86dcf0e30e7eecc8bda1c1434",
     "name": "#19",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/19.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/19.png",
     "edition": 19,
     "date": 1632115445483,
     "attributes": [
@@ -516,7 +516,7 @@
     "dna": "aa2f164e345b40925735fdce6358957f41ff10a5",
     "name": "#20",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/20.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/20.png",
     "edition": 20,
     "date": 1632115445532,
     "attributes": [
@@ -543,7 +543,7 @@
     "dna": "dd8a977b2b7fd9f99e93dc5586751c072315762e",
     "name": "#21",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/21.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/21.png",
     "edition": 21,
     "date": 1632115445690,
     "attributes": [
@@ -570,7 +570,7 @@
     "dna": "7c3ecc5065d3f0010b80b7db2affd201c299eea8",
     "name": "#22",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/22.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/22.png",
     "edition": 22,
     "date": 1632115445730,
     "attributes": [
@@ -597,7 +597,7 @@
     "dna": "a09975cad0e29d8b02815e717a0efb59d9b40a44",
     "name": "#23",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/23.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/23.png",
     "edition": 23,
     "date": 1632115445756,
     "attributes": [
@@ -624,7 +624,7 @@
     "dna": "6c90f36ec36b8fea4b9fff66b75f0eef391eef0b",
     "name": "#24",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/24.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/24.png",
     "edition": 24,
     "date": 1632115445791,
     "attributes": [
@@ -651,7 +651,7 @@
     "dna": "ea6eda0592ff9404b856b3c1e880f5e6742ec321",
     "name": "#25",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/25.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/25.png",
     "edition": 25,
     "date": 1632115445894,
     "attributes": [
@@ -678,7 +678,7 @@
     "dna": "816aeb6e902117bdd2f0651326ab1962660a7997",
     "name": "#26",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/26.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/26.png",
     "edition": 26,
     "date": 1632115445923,
     "attributes": [
@@ -705,7 +705,7 @@
     "dna": "167efdaa32e823cc29177eade0a4ab9fee16bc2b",
     "name": "#27",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/27.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/27.png",
     "edition": 27,
     "date": 1632115445929,
     "attributes": [
@@ -732,7 +732,7 @@
     "dna": "6943d4709f1c21eb753b730cd6f1274b178a7b11",
     "name": "#28",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/28.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/28.png",
     "edition": 28,
     "date": 1632115445936,
     "attributes": [
@@ -759,7 +759,7 @@
     "dna": "ab4c59345661a64dd563d88d25d045a4df405620",
     "name": "#29",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/29.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/29.png",
     "edition": 29,
     "date": 1632115445962,
     "attributes": [
@@ -786,7 +786,7 @@
     "dna": "2d535427b7ab5b82731f0ccbc75baf1918e34a18",
     "name": "#30",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/30.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/30.png",
     "edition": 30,
     "date": 1632115446089,
     "attributes": [
@@ -813,7 +813,7 @@
     "dna": "88a2701c20fdaac0b14a6449619b828358179bfd",
     "name": "#31",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/31.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/31.png",
     "edition": 31,
     "date": 1632115446139,
     "attributes": [
@@ -840,7 +840,7 @@
     "dna": "6de75f9266faeed9ac3836900889b27cc4d1488a",
     "name": "#32",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/32.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/32.png",
     "edition": 32,
     "date": 1632115446146,
     "attributes": [
@@ -867,7 +867,7 @@
     "dna": "6c7012e85ba95715ec27fa07139df1b8e30204e4",
     "name": "#33",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/33.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/33.png",
     "edition": 33,
     "date": 1632115446155,
     "attributes": [
@@ -894,7 +894,7 @@
     "dna": "f17a6ede48ff135e0a1b5f5e4a877c2012e13a1c",
     "name": "#34",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/34.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/34.png",
     "edition": 34,
     "date": 1632115446211,
     "attributes": [
@@ -921,7 +921,7 @@
     "dna": "10b128533c1caab5e17cea58eace34d15248b841",
     "name": "#35",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/35.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/35.png",
     "edition": 35,
     "date": 1632115446252,
     "attributes": [
@@ -948,7 +948,7 @@
     "dna": "a7dff4ef7f3be59ea5530a16e5b8e0521e16a946",
     "name": "#36",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/36.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/36.png",
     "edition": 36,
     "date": 1632115446264,
     "attributes": [
@@ -975,7 +975,7 @@
     "dna": "994f91525c3ced281fc4f11df32e1b82f34c45f7",
     "name": "#37",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/37.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/37.png",
     "edition": 37,
     "date": 1632115446271,
     "attributes": [
@@ -1002,7 +1002,7 @@
     "dna": "39ea621950637a02d531d061c39cc8526f5be005",
     "name": "#38",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/38.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/38.png",
     "edition": 38,
     "date": 1632115446317,
     "attributes": [
@@ -1029,7 +1029,7 @@
     "dna": "d34a56f011a6516e1d9bc4b39773c53741a3919b",
     "name": "#39",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/39.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/39.png",
     "edition": 39,
     "date": 1632115446333,
     "attributes": [
@@ -1056,7 +1056,7 @@
     "dna": "bf59f82f2dfe3317cb991f86b2d2cde22a2c4e01",
     "name": "#40",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/40.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/40.png",
     "edition": 40,
     "date": 1632115446340,
     "attributes": [
@@ -1083,7 +1083,7 @@
     "dna": "7e7a71cd45618c4d4e4a97a922a962f7d303cf04",
     "name": "#41",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/41.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/41.png",
     "edition": 41,
     "date": 1632115446391,
     "attributes": [
@@ -1110,7 +1110,7 @@
     "dna": "957cde0e5c1978ea634c1b7841b052d4ebd8d025",
     "name": "#42",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/42.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/42.png",
     "edition": 42,
     "date": 1632115446459,
     "attributes": [
@@ -1137,7 +1137,7 @@
     "dna": "8772b265fbd8cf68449d606de3088077568cdaab",
     "name": "#43",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/43.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/43.png",
     "edition": 43,
     "date": 1632115446484,
     "attributes": [
@@ -1164,7 +1164,7 @@
     "dna": "cd0b46c48e87477e48baebbf5df0251943a4977d",
     "name": "#44",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/44.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/44.png",
     "edition": 44,
     "date": 1632115446495,
     "attributes": [
@@ -1191,7 +1191,7 @@
     "dna": "fd65c2a383cb345b764cdaac143ac3c9c71b47a8",
     "name": "#45",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/45.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/45.png",
     "edition": 45,
     "date": 1632115446566,
     "attributes": [
@@ -1218,7 +1218,7 @@
     "dna": "267cf97d6f7ce5fc3968b6b80492497ab8199839",
     "name": "#46",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/46.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/46.png",
     "edition": 46,
     "date": 1632115446593,
     "attributes": [
@@ -1245,7 +1245,7 @@
     "dna": "33f89b42a224fe94817ab502520ffebca471efe5",
     "name": "#47",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/47.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/47.png",
     "edition": 47,
     "date": 1632115446643,
     "attributes": [
@@ -1272,7 +1272,7 @@
     "dna": "85bd0f577baed08521ed0ba9b9d7f6bbb8a575da",
     "name": "#48",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/48.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/48.png",
     "edition": 48,
     "date": 1632115446651,
     "attributes": [
@@ -1299,7 +1299,7 @@
     "dna": "0d7ba839083407eb863c319d97b483f835a89213",
     "name": "#49",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/49.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/49.png",
     "edition": 49,
     "date": 1632115446691,
     "attributes": [
@@ -1326,7 +1326,7 @@
     "dna": "89faabaa483a40689bbde8e7996956a4e5023e52",
     "name": "#50",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53/50.png",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/50.png",
     "edition": 50,
     "date": 1632115446701,
     "attributes": [

@@ -108,7 +108,7 @@ const addMetadata = (_dna, _edition) => {
     edition: _edition,
     date: dateTime,
     attributes: attributesList,
-    compiler: "HashLips Art Engine",
+    compiler: "Ackermann Art Engine",
   };
   metadataList.push(tempMetadata);
   attributesList = [];
