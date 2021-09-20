@@ -5,26 +5,23 @@ const baseUri = "ipfs://QmNfPMWLPTEbFpBtPFy4wkYEHRVWcz8dzjziTcPbebzF53";
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 20,
+    growEditionSizeTo: 50,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Backgrounds" },
+      { name: "Skin" },
+      { name: "Hats" },
+      { name: "Eyes" },
     ],
   },
 ];
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 24,
+  height: 24,
 };
 
 const background = {
-  generate: true,
+  generate: false,
   brightness: "80%",
 };
 
