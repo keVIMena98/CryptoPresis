@@ -44,4 +44,5 @@ module.exports = {
   uniqueDnaTorrance,
   layerConfigurations,
   rarityDelimiter,
+  preview,
 };
