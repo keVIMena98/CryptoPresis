@@ -22,7 +22,7 @@ const format = {
 };
 
 const background = {
-  generate: false,
+  generate: true,
   brightness: "80%",
 };
 
