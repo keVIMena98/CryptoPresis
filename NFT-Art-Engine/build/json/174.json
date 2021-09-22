@@ -1,0 +1,31 @@
+{
+  "dna": "ab41be6bfcfc4f59ebf3376c838f325ad2680931",
+  "name": "#174",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://REPLACE_WITH_IPFS_CID/174.png",
+  "edition": 174,
+  "date": 1632289236805,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Bitcoin Beach"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Base"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Pale Skin"
+    },
+    {
+      "trait_type": "Hats",
+      "value": "Old Mario Bros Hat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "The Monocle"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

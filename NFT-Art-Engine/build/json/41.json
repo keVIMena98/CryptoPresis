@@ -1,26 +1,30 @@
 {
-  "dna": "7e7a71cd45618c4d4e4a97a922a962f7d303cf04",
+  "dna": "1a9a3683098836ec8986a5495c518d2bb35a65a6",
   "name": "#41",
   "description": "This is the description of your NFT project, remember to replace this",
   "image": "ipfs://REPLACE_WITH_IPFS_CID/41.png",
   "edition": 41,
-  "date": 1632115446391,
+  "date": 1632289036085,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "The Volcano"
+      "value": "The Patriot"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Base"
     },
     {
       "trait_type": "Skin",
-      "value": "Pale Skin"
+      "value": "Tan Skin"
     },
     {
       "trait_type": "Hats",
-      "value": "Black Hat"
+      "value": "Christmas Hat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Yellow Lens"
+      "value": "Black Frames"
     }
   ],
   "compiler": "HashLips Art Engine"

@@ -1,0 +1,31 @@
+{
+  "dna": "53058cf0d44b23b995d4c49b2fb12b24f286c99a",
+  "name": "#98",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://REPLACE_WITH_IPFS_CID/98.png",
+  "edition": 98,
+  "date": 1632289120568,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Bitcoin Beach"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Base"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Cyborg Skin"
+    },
+    {
+      "trait_type": "Hats",
+      "value": "White Hat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue Laser Eyes"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

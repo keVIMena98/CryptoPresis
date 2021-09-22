@@ -1,0 +1,31 @@
+{
+  "dna": "a8c4d1241bea45b75d963c4d4b8d95e9c4a96107",
+  "name": "#93",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://REPLACE_WITH_IPFS_CID/93.png",
+  "edition": 93,
+  "date": 1632289113154,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Crypto Teal"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Base"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "The SimpsonsSkin"
+    },
+    {
+      "trait_type": "Hats",
+      "value": "Wizard Hat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Men in Black"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

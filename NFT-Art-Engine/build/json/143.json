@@ -1,0 +1,31 @@
+{
+  "dna": "ec057dbc179ddd93ac0f953c3501d59ac187729e",
+  "name": "#143",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://REPLACE_WITH_IPFS_CID/143.png",
+  "edition": 143,
+  "date": 1632289193109,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "The Patriot"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Base"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Pale Skin"
+    },
+    {
+      "trait_type": "Hats",
+      "value": "Mario Bros Hat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Normal Eyes"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

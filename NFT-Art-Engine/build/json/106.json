@@ -1,0 +1,31 @@
+{
+  "dna": "e8a812790a0cd55a397f2685c88aefcab4c9f810",
+  "name": "#106",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://REPLACE_WITH_IPFS_CID/106.png",
+  "edition": 106,
+  "date": 1632289132975,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "The Volcano"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Base"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Pale Skin"
+    },
+    {
+      "trait_type": "Hats",
+      "value": "Cowboy Hat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Men in Black"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

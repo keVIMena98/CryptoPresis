@@ -1,0 +1,31 @@
+{
+  "dna": "e20c33719720e1b8cf8e99f2c113b5c57abb6e74",
+  "name": "#135",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://REPLACE_WITH_IPFS_CID/135.png",
+  "edition": 135,
+  "date": 1632289181692,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Crypto Teal"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Base"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Tan Skin"
+    },
+    {
+      "trait_type": "Hats",
+      "value": "Mario Bros Hat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Yellow Laser Eyes"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

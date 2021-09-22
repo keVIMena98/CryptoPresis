@@ -1,15 +1,19 @@
 [
   {
-    "dna": "6b7d538e0e0358b676fbb7812e13b6ecd3d16ad8",
+    "dna": "8c5ad9b8c30c6695fd837645d5bc55e2f93c7959",
     "name": "#1",
     "description": "This is the description of your NFT project, remember to replace this",
     "image": "ipfs://REPLACE_WITH_IPFS_CID/1.png",
     "edition": 1,
-    "date": 1632115444491,
+    "date": 1632288964160,
     "attributes": [
       {
         "trait_type": "Backgrounds",
-        "value": "The Patriot"
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
       },
       {
         "trait_type": "Skin",
@@ -17,624 +21,34 @@
       },
       {
         "trait_type": "Hats",
-        "value": "White Hat"
+        "value": "Backwards Black Hat"
       },
       {
         "trait_type": "Eyes",
-        "value": "Blue Laser Eyes"
+        "value": "Normal Eyes"
       }
     ],
     "compiler": "HashLips Art Engine"
   },
   {
-    "dna": "a8fdc60c41df56d903e40ab330655a82ba72363b",
+    "dna": "45c905dd563bb103e4355485da9781739bc2c5ce",
     "name": "#2",
     "description": "This is the description of your NFT project, remember to replace this",
     "image": "ipfs://REPLACE_WITH_IPFS_CID/2.png",
     "edition": 2,
-    "date": 1632115444633,
+    "date": 1632288968266,
     "attributes": [
       {
         "trait_type": "Backgrounds",
-        "value": "Bitcoin"
+        "value": "The Volcano"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
       },
       {
         "trait_type": "Skin",
         "value": "Pale Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Christmas Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Normal Eyes"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "8a748b38666706bf9ce2d649fff1397ffc8634fa",
-    "name": "#3",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/3.png",
-    "edition": 3,
-    "date": 1632115444705,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Bitcoin"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Pale Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Backwards White Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Yellow Laser Eyes"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "b1b30a225e734d599b3324d2c3ed36a10e71f3f8",
-    "name": "#4",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/4.png",
-    "edition": 4,
-    "date": 1632115444763,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Bitcoin Beach"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Pale Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Backwards White Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Pink Lens"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "1181f77af47356f0d501343aa96ab799714f193e",
-    "name": "#5",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/5.png",
-    "edition": 5,
-    "date": 1632115444785,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Crypto Teal"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Tan Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "White Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Pink Lens"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "57172ec82e02b858706b55be2cd790a9a2c41bc0",
-    "name": "#6",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/6.png",
-    "edition": 6,
-    "date": 1632115444900,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "The Patriot"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Tan Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Mario Bros Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Yellow Lens"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "74e71bdf8c4b4a569ad4160dd4d3cd6cae5b2404",
-    "name": "#7",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/7.png",
-    "edition": 7,
-    "date": 1632115444960,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Bitcoin"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Tan Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Backwards Black Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Purple Lens"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "e4d2ca390637370d971c43659032392bc4f6d922",
-    "name": "#8",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/8.png",
-    "edition": 8,
-    "date": 1632115445038,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "The Moon"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Pale Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Hoodie"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Men in Black"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "ab138ad280e2b7c4cb65b2762f7032a630a95299",
-    "name": "#9",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/9.png",
-    "edition": 9,
-    "date": 1632115445093,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Crypto Teal"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Pale Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "White Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Normal Eyes"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "5811c74a6d50e97e368f174196a455d5d08c97eb",
-    "name": "#10",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/10.png",
-    "edition": 10,
-    "date": 1632115445170,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "The Patriot"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Pale Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Backwards Black Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "The Monocle"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "67e2beb25d3c3c28adc8419a5601339a436b2631",
-    "name": "#11",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/11.png",
-    "edition": 11,
-    "date": 1632115445213,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Bitcoin Beach"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Pale Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Mario Bros Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Blue Lens"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "df5860d0340c900a5438e2847b1d3ddd3b8358a5",
-    "name": "#12",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/12.png",
-    "edition": 12,
-    "date": 1632115445238,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Bitcoin"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Pale Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "White Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Normal Eyes"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "c3b9d64305648cb6930d95166be8d3e82374b459",
-    "name": "#13",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/13.png",
-    "edition": 13,
-    "date": 1632115445246,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "The Patriot"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Tan Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Magician Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Normal Eyes"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "65f01b6c00bf255425f831ea95da77dc120de068",
-    "name": "#14",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/14.png",
-    "edition": 14,
-    "date": 1632115445284,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Bitcoin Beach"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "The SimpsonsSkin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Backwards White Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Pink Lens"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "15cd7b40402c0ee6715757e8ee5a66cfbee368f2",
-    "name": "#15",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/15.png",
-    "edition": 15,
-    "date": 1632115445360,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Bitcoin Beach"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Pale Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "White Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Black Frames"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "cbb77dfb594d446944746fedd909307fd3efe9a3",
-    "name": "#16",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/16.png",
-    "edition": 16,
-    "date": 1632115445387,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Crypto Teal"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Pale Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Backwards White Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Normal Eyes"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "efdee271ecadbb16744960439a8cfcd714aeb535",
-    "name": "#17",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/17.png",
-    "edition": 17,
-    "date": 1632115445460,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Crypto Teal"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Tan Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Backwards Black Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Normal Eyes"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "8c159099c912e47681c49f06715fa602be821fcd",
-    "name": "#18",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/18.png",
-    "edition": 18,
-    "date": 1632115445476,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "The Patriot"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Tan Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Wizard Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Black Frames"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "77fc6d2bad77a3f86dcf0e30e7eecc8bda1c1434",
-    "name": "#19",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/19.png",
-    "edition": 19,
-    "date": 1632115445483,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Crypto Teal"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Tan Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Old Mario Bros Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Normal Eyes"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "aa2f164e345b40925735fdce6358957f41ff10a5",
-    "name": "#20",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/20.png",
-    "edition": 20,
-    "date": 1632115445532,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Bitcoin Beach"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Pale Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Christmas Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Red Laser Eyes"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "dd8a977b2b7fd9f99e93dc5586751c072315762e",
-    "name": "#21",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/21.png",
-    "edition": 21,
-    "date": 1632115445690,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "The Patriot"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Pale Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "White Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Pink Lens"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "7c3ecc5065d3f0010b80b7db2affd201c299eea8",
-    "name": "#22",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/22.png",
-    "edition": 22,
-    "date": 1632115445730,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Crypto Teal"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Pale Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Christmas Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "The Monocle"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "a09975cad0e29d8b02815e717a0efb59d9b40a44",
-    "name": "#23",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/23.png",
-    "edition": 23,
-    "date": 1632115445756,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Patriot Blue"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Pale Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Backwards Black Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Pink Lens"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "6c90f36ec36b8fea4b9fff66b75f0eef391eef0b",
-    "name": "#24",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/24.png",
-    "edition": 24,
-    "date": 1632115445791,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "The Moon"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Tan Skin"
       },
       {
         "trait_type": "Hats",
@@ -648,20 +62,3124 @@
     "compiler": "HashLips Art Engine"
   },
   {
-    "dna": "ea6eda0592ff9404b856b3c1e880f5e6742ec321",
-    "name": "#25",
+    "dna": "c813ca1d88aed9a10ece7785feb96c1c1a3b4d59",
+    "name": "#3",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/25.png",
-    "edition": 25,
-    "date": 1632115445894,
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/3.png",
+    "edition": 3,
+    "date": 1632288970641,
     "attributes": [
       {
         "trait_type": "Backgrounds",
         "value": "Crypto Teal"
       },
       {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "d30dd3dfaff5e9773568f2bf2d85b68de1285802",
+    "name": "#4",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/4.png",
+    "edition": 4,
+    "date": 1632288973191,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Pink Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "58168ead59d79ca2e4c3f024b193564f82d486b0",
+    "name": "#5",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/5.png",
+    "edition": 5,
+    "date": 1632288975694,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Mario Bros Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Cyclops"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "6ac9a0cf4d173b071c25d722ef5d8f2580e9f55d",
+    "name": "#6",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/6.png",
+    "edition": 6,
+    "date": 1632288978366,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
         "trait_type": "Skin",
         "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Mario Bros Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "e00e7908797b0ec68101dfb074f8efe532b42a76",
+    "name": "#7",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/7.png",
+    "edition": 7,
+    "date": 1632288980613,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Mario Bros Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "101b2ac9e0857c98de7a996855732980cee9301e",
+    "name": "#8",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/8.png",
+    "edition": 8,
+    "date": 1632288982522,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "0995e6aef9ef4b4bae9732e7f5961cc0fe49ed83",
+    "name": "#9",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/9.png",
+    "edition": 9,
+    "date": 1632288984099,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "e9116ea6e2e41a347e84ebe43b72604328bf690b",
+    "name": "#10",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/10.png",
+    "edition": 10,
+    "date": 1632288985823,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Black Frames"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "a0d599b345d11c98905e5482a5b574bd9a2c93b5",
+    "name": "#11",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/11.png",
+    "edition": 11,
+    "date": 1632288988600,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Christmas Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "989b629f597f5c2428923071ce4dbf47693493a7",
+    "name": "#12",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/12.png",
+    "edition": 12,
+    "date": 1632288990812,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Hoodie"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "9ddde5fd9d73ce3ab2f8b513a3416f4234b1f619",
+    "name": "#13",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/13.png",
+    "edition": 13,
+    "date": 1632288993801,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Old Mario Bros Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Cyclops"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "9c153a3e9ace00787afe34bc33d7429aba494f09",
+    "name": "#14",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/14.png",
+    "edition": 14,
+    "date": 1632288995747,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "bfaec7dc370fc54d0b98fa2c73fb466004b51abd",
+    "name": "#15",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/15.png",
+    "edition": 15,
+    "date": 1632288997414,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "The Monocle"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "dda62eb4a8df232fc494de36f050c01f95d5872a",
+    "name": "#16",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/16.png",
+    "edition": 16,
+    "date": 1632288999243,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "The Monocle"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "afc0115359716ec6eba5dca47de3c0f54c4d23f2",
+    "name": "#17",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/17.png",
+    "edition": 17,
+    "date": 1632289001097,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "d7570297b5fa4f5ed9b1f5f7da3ed3ec2990b7ee",
+    "name": "#18",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/18.png",
+    "edition": 18,
+    "date": 1632289002523,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "d2acaaf5d16f811da675e5abbcc0c17af4478143",
+    "name": "#19",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/19.png",
+    "edition": 19,
+    "date": 1632289004095,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Purple Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "02ef86c7c08e4dd77b5e7fb8edf277cd77485554",
+    "name": "#20",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/20.png",
+    "edition": 20,
+    "date": 1632289005543,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Hoodie"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "02bd0202c41c0f61fa8b2e6b361e483910f17f82",
+    "name": "#21",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/21.png",
+    "edition": 21,
+    "date": 1632289007212,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Christmas Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "8411ab5f60a960af9a77c10827876cad6dea5e33",
+    "name": "#22",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/22.png",
+    "edition": 22,
+    "date": 1632289008683,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Magician Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "The Monocle"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "9b47b88705ca8e403aabf1debfd61c0e60ee4a11",
+    "name": "#23",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/23.png",
+    "edition": 23,
+    "date": 1632289010090,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Cyclops"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "3a5039db82e660c188e7decb32b150644d0d6c55",
+    "name": "#24",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/24.png",
+    "edition": 24,
+    "date": 1632289011757,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Red Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "c4d1e93bd7995c80bd200eaacc4df9239e76a0e0",
+    "name": "#25",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/25.png",
+    "edition": 25,
+    "date": 1632289013359,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Christmas Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "e91b662f058c7275027b01ab428ca3bc30759556",
+    "name": "#26",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/26.png",
+    "edition": 26,
+    "date": 1632289015033,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "be6034c6795276ebcbf37d9e3f8b7c4f98024274",
+    "name": "#27",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/27.png",
+    "edition": 27,
+    "date": 1632289016396,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Christmas Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "d38e298957916728f15765e83d0d0a4545bcd7d3",
+    "name": "#28",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/28.png",
+    "edition": 28,
+    "date": 1632289017737,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "6815b998a34a9848d303cff0af584a50968f5707",
+    "name": "#29",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/29.png",
+    "edition": 29,
+    "date": 1632289019359,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "026ef3adefbc548f5f28cd0c281eab40a1ffafb9",
+    "name": "#30",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/30.png",
+    "edition": 30,
+    "date": 1632289020850,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Space Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "6caf06449110eff8ccd2c939af3be5199b48c594",
+    "name": "#31",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/31.png",
+    "edition": 31,
+    "date": 1632289022410,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Magician Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "7c834d03850c987b8ec2d29d6290efc45d7deae7",
+    "name": "#32",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/32.png",
+    "edition": 32,
+    "date": 1632289023642,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Magician Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "18476f502c946f057bbbc060948f37278da6179a",
+    "name": "#33",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/33.png",
+    "edition": 33,
+    "date": 1632289024864,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Red Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "0621c0b90de58e9e6a0edfa89434bc7f4debd86b",
+    "name": "#34",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/34.png",
+    "edition": 34,
+    "date": 1632289026280,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "907f5ede468bab7de5b3cb81af9c93d45d729a84",
+    "name": "#35",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/35.png",
+    "edition": 35,
+    "date": 1632289028065,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Mario Bros Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "47996d0682534e8320756094983a526987f542ce",
+    "name": "#36",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/36.png",
+    "edition": 36,
+    "date": 1632289029340,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Pink Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "19440f97d367a42fd46b4786a718f3b19fdcaff2",
+    "name": "#37",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/37.png",
+    "edition": 37,
+    "date": 1632289030629,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Cowboy Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "97675521752131dcffbf5d4fac8b84e6a507e569",
+    "name": "#38",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/38.png",
+    "edition": 38,
+    "date": 1632289032340,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Mario Bros Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "9e3aa3184b7084fb7d3be691b7caef3a161893ba",
+    "name": "#39",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/39.png",
+    "edition": 39,
+    "date": 1632289033709,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Volcano"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Cowboy Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "cd7e0599c6a0b8df1cdb0e6ba7fa8c3e6f5386e8",
+    "name": "#40",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/40.png",
+    "edition": 40,
+    "date": 1632289034930,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Magician Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "1a9a3683098836ec8986a5495c518d2bb35a65a6",
+    "name": "#41",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/41.png",
+    "edition": 41,
+    "date": 1632289036085,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Christmas Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Black Frames"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "c7e94312b0420f5e14cc4b632409edf1fff62e78",
+    "name": "#42",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/42.png",
+    "edition": 42,
+    "date": 1632289037274,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "ee052d96188341ad14d7348773b832f311632825",
+    "name": "#43",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/43.png",
+    "edition": 43,
+    "date": 1632289038752,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Christmas Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "5c30eb66f0af1161f4657047b2bd997df7bbf7ab",
+    "name": "#44",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/44.png",
+    "edition": 44,
+    "date": 1632289039973,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Volcano"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "0cb8cd911b61272fd0fe37413475284b5bac8fc0",
+    "name": "#45",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/45.png",
+    "edition": 45,
+    "date": 1632289041142,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Volcano"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "a9e1a6322f614e9149b5a55dc71eaca942f913cf",
+    "name": "#46",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/46.png",
+    "edition": 46,
+    "date": 1632289042461,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Pink Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "1ca93b3fd78f0a5dff050a91758ca1a4e16550cd",
+    "name": "#47",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/47.png",
+    "edition": 47,
+    "date": 1632289043659,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Hoodie"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "be9c451ce340c871b54d8257c620c25ee0d308fb",
+    "name": "#48",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/48.png",
+    "edition": 48,
+    "date": 1632289045105,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Cowboy Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "f50d4718c6093fc0c502b99433f2e4e06d3cac54",
+    "name": "#49",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/49.png",
+    "edition": 49,
+    "date": 1632289046407,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Moon"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "34586281220048de840cea6c37a1519c14bff1fa",
+    "name": "#50",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/50.png",
+    "edition": 50,
+    "date": 1632289047777,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Cyborg Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "0d9df8e0719af3c775290d4d46aedb17509079c5",
+    "name": "#51",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/51.png",
+    "edition": 51,
+    "date": 1632289049042,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "The Monocle"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "aa7043ec2924ce51a7c9f5b0d00dd7ad36bebf85",
+    "name": "#52",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/52.png",
+    "edition": 52,
+    "date": 1632289050527,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Wizard Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Pink Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "2506b2d5c74a067d66a19534ded141e08fcb6f29",
+    "name": "#53",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/53.png",
+    "edition": 53,
+    "date": 1632289051886,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Pink Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "a2fb5b58386a0535af7a3da9e4792e5be780871d",
+    "name": "#54",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/54.png",
+    "edition": 54,
+    "date": 1632289053118,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Wizard Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "4bd7a374e7914d0a330c7c3b5afd84509e3ad68e",
+    "name": "#55",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/55.png",
+    "edition": 55,
+    "date": 1632289054291,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "aaba97758ce996e48994c35758b28d22684bd5a2",
+    "name": "#56",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/56.png",
+    "edition": 56,
+    "date": 1632289055578,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Magician Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "ee134c35cdec9ac7c317ca8095dc66f183238382",
+    "name": "#57",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/57.png",
+    "edition": 57,
+    "date": 1632289056870,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "7e067e8e0fa500217f44b58c853acc372cc3de6f",
+    "name": "#58",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/58.png",
+    "edition": 58,
+    "date": 1632289058239,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "c0df02d40738aff7e8b9f4eed38b62d30203fc19",
+    "name": "#59",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/59.png",
+    "edition": 59,
+    "date": 1632289059696,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "30145a5588c620d48e789c0194ed7b8ed4f2d4ed",
+    "name": "#60",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/60.png",
+    "edition": 60,
+    "date": 1632289060933,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Volcano"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "38c66664da3f16eb8d4f0fd59aea05deaf238a73",
+    "name": "#61",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/61.png",
+    "edition": 61,
+    "date": 1632289062442,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Magician Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "d6b591c80d7ab4f3889ef5c45a09bb2756865135",
+    "name": "#62",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/62.png",
+    "edition": 62,
+    "date": 1632289064128,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "6dc3e616893f646e419cd68fa28fb75b7ba0c758",
+    "name": "#63",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/63.png",
+    "edition": 63,
+    "date": 1632289065740,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Wizard Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "379da2fbec9d76439c132517521b1c2046572d2c",
+    "name": "#64",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/64.png",
+    "edition": 64,
+    "date": 1632289067242,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Zombie Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Cowboy Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Cyclops"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "f6c2935cedd1907d9f76166cef32cd4a66747199",
+    "name": "#65",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/65.png",
+    "edition": 65,
+    "date": 1632289068669,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Cyborg Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "acee716b4a1d5624516a4d58704f0f268d9e0d4b",
+    "name": "#66",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/66.png",
+    "edition": 66,
+    "date": 1632289070171,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Old Mario Bros Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "6b10bbde008d54e0d26c6bf072296e9441093dfc",
+    "name": "#67",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/67.png",
+    "edition": 67,
+    "date": 1632289071854,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Mario Bros Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "cdbe1b721a9e4882101dd6dca8c3758dd04dcf33",
+    "name": "#68",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/68.png",
+    "edition": 68,
+    "date": 1632289073367,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "The Monocle"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "79c87c163b44733bac106d59a95c9bf9645ac39a",
+    "name": "#69",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/69.png",
+    "edition": 69,
+    "date": 1632289074755,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "a95e9dc14b85d7d12942d54e9e7b4be1c5c20ead",
+    "name": "#70",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/70.png",
+    "edition": 70,
+    "date": 1632289076155,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Moon"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "e78c4b152d2e4dc7330c933d046de4155390b87e",
+    "name": "#71",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/71.png",
+    "edition": 71,
+    "date": 1632289077871,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "4bb5e0b549e0e4cfd3def6ef0d789ced176a3107",
+    "name": "#72",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/72.png",
+    "edition": 72,
+    "date": 1632289079618,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "The Monocle"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "9d38fb17e412dba72357350114a9a04d8fd12a98",
+    "name": "#73",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/73.png",
+    "edition": 73,
+    "date": 1632289081916,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Old Mario Bros Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "e7a759217a950e907d1a112ce9bbd277f31cbacd",
+    "name": "#74",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/74.png",
+    "edition": 74,
+    "date": 1632289083430,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "ff87068c7f5ee1394ebe6b132d7d5218f7f5f546",
+    "name": "#75",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/75.png",
+    "edition": 75,
+    "date": 1632289085119,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "83903c1dc60734af67937629fdfea2c4ddd48f16",
+    "name": "#76",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/76.png",
+    "edition": 76,
+    "date": 1632289086803,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Wizard Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Black Frames"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "44c30917a6117af045917d09b1fbf5c07620243a",
+    "name": "#77",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/77.png",
+    "edition": 77,
+    "date": 1632289088092,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Volcano"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "57bfd7629553f5784c385d8dcb9ce21705d0f2a8",
+    "name": "#78",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/78.png",
+    "edition": 78,
+    "date": 1632289089481,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Red Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "2900bedd72a53fb68500935d1c0d73ecd75a1b20",
+    "name": "#79",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/79.png",
+    "edition": 79,
+    "date": 1632289090956,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "754e2d690d5af5339c144f1bc70bbe5b01d50fba",
+    "name": "#80",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/80.png",
+    "edition": 80,
+    "date": 1632289092543,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Hoodie"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Black Frames"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "f66065295dbca0764d270dee2fe76cb38d8c69df",
+    "name": "#81",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/81.png",
+    "edition": 81,
+    "date": 1632289093837,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Cowboy Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "The Monocle"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "012d17126edf4f42cb94e14602ff57a0d3b7b5af",
+    "name": "#82",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/82.png",
+    "edition": 82,
+    "date": 1632289095199,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "37265f39cf39313c6a7fdf131e4374ac6298be12",
+    "name": "#83",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/83.png",
+    "edition": 83,
+    "date": 1632289096558,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Mario Bros Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "559e40c2f64144b0bb3f9346fcab4425d7887734",
+    "name": "#84",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/84.png",
+    "edition": 84,
+    "date": 1632289098269,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Magician Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "584d0acba275fb98169a111593891befb51252f0",
+    "name": "#85",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/85.png",
+    "edition": 85,
+    "date": 1632289099844,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Cyborg Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Hoodie"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "9e85f1585c8252a9ae916f5f9b2396ecc1fbd720",
+    "name": "#86",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/86.png",
+    "edition": 86,
+    "date": 1632289101178,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "373a619fd9f49982e23ef94b9426f9d11ca9c1a1",
+    "name": "#87",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/87.png",
+    "edition": 87,
+    "date": 1632289102572,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Magician Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "1b729de173db3c572e1afd6a181925e7e01253b2",
+    "name": "#88",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/88.png",
+    "edition": 88,
+    "date": 1632289104532,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Cyborg Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "a983de4b62b03f4c7277a6b5a871ccf4f9813f6e",
+    "name": "#89",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/89.png",
+    "edition": 89,
+    "date": 1632289106523,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "e7326a5fe39017ee89b2c5f586cb31e7eddb3b0c",
+    "name": "#90",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/90.png",
+    "edition": 90,
+    "date": 1632289108181,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "0c1042555b39a68af9e8809aa1b060602db42d80",
+    "name": "#91",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/91.png",
+    "edition": 91,
+    "date": 1632289109424,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Christmas Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "72da92065a0e65a876c0e1d1b93c4061d5d0c8d5",
+    "name": "#92",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/92.png",
+    "edition": 92,
+    "date": 1632289110958,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "a8c4d1241bea45b75d963c4d4b8d95e9c4a96107",
+    "name": "#93",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/93.png",
+    "edition": 93,
+    "date": 1632289113154,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Wizard Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "ba350ea15a75b20d227fa90574dd5d413b9527cd",
+    "name": "#94",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/94.png",
+    "edition": 94,
+    "date": 1632289114639,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "7e6264861395b48ee79d35daa812a4382ea0f917",
+    "name": "#95",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/95.png",
+    "edition": 95,
+    "date": 1632289116124,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Cyborg Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "354889ab1d6d770a2307574744f919c4eea09989",
+    "name": "#96",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/96.png",
+    "edition": 96,
+    "date": 1632289117531,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Moon"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "1955a63b323c69133b2c35250841da2ee74348db",
+    "name": "#97",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/97.png",
+    "edition": 97,
+    "date": 1632289118983,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Black Frames"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "53058cf0d44b23b995d4c49b2fb12b24f286c99a",
+    "name": "#98",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/98.png",
+    "edition": 98,
+    "date": 1632289120568,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Cyborg Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "9b98a13fb1b1bff6b10bea9dc7db01ced6af9892",
+    "name": "#99",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/99.png",
+    "edition": 99,
+    "date": 1632289122108,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Mario Bros Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Red Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "05ec0386a5e2400fab26b732ddcfa0cd0c198e8f",
+    "name": "#100",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/100.png",
+    "edition": 100,
+    "date": 1632289123678,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "The Monocle"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "711caf56a40779ed42dfec7626d51c448416c063",
+    "name": "#101",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/101.png",
+    "edition": 101,
+    "date": 1632289124906,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Cyborg Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Cowboy Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Black Frames"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "0118171f0b3f46ae45d8ee6cb27ce2f71eb73491",
+    "name": "#102",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/102.png",
+    "edition": 102,
+    "date": 1632289126578,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "40e36d8d136d7a2e9ae5619e80d97b850ad38c36",
+    "name": "#103",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/103.png",
+    "edition": 103,
+    "date": 1632289128323,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
       },
       {
         "trait_type": "Hats",
@@ -675,16 +3193,82 @@
     "compiler": "HashLips Art Engine"
   },
   {
-    "dna": "816aeb6e902117bdd2f0651326ab1962660a7997",
-    "name": "#26",
+    "dna": "f47c7ecfc34434b6d5a9dfa1e62b641aff5f0017",
+    "name": "#104",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/26.png",
-    "edition": 26,
-    "date": 1632115445923,
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/104.png",
+    "edition": 104,
+    "date": 1632289130027,
     "attributes": [
       {
         "trait_type": "Backgrounds",
-        "value": "Bitcoin"
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Cyborg Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "2cbf985de36e1448b0e176f65d9d51636cecf5c4",
+    "name": "#105",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/105.png",
+    "edition": 105,
+    "date": 1632289131453,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Cowboy Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "e8a812790a0cd55a397f2685c88aefcab4c9f810",
+    "name": "#106",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/106.png",
+    "edition": 106,
+    "date": 1632289132975,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Volcano"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
       },
       {
         "trait_type": "Skin",
@@ -692,7 +3276,224 @@
       },
       {
         "trait_type": "Hats",
+        "value": "Cowboy Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "08ea786189dba81d28d19bef3c6c21f5ba20ba3c",
+    "name": "#107",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/107.png",
+    "edition": 107,
+    "date": 1632289134935,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Space Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "df17313a7dca0eeeb1c3c80a6d298ed39d845204",
+    "name": "#108",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/108.png",
+    "edition": 108,
+    "date": 1632289136329,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Christmas Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "1156a89cda428a8cdeff5ceaa6bacf7f296f7328",
+    "name": "#109",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/109.png",
+    "edition": 109,
+    "date": 1632289138110,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "b58d704d7846139a5133ee13095925492aa32754",
+    "name": "#110",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/110.png",
+    "edition": 110,
+    "date": 1632289140085,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
         "value": "Magician Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "6c511fbf6306451f8ffe4993f3bad222b7424bfb",
+    "name": "#111",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/111.png",
+    "edition": 111,
+    "date": 1632289141924,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "ee82af20c3b086a0d48ce5d00d7971a404f283d8",
+    "name": "#112",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/112.png",
+    "edition": 112,
+    "date": 1632289143513,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "2b3f80fad9610ec0254a4d8386f5131afc19ad15",
+    "name": "#113",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/113.png",
+    "edition": 113,
+    "date": 1632289145007,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
       },
       {
         "trait_type": "Eyes",
@@ -702,16 +3503,20 @@
     "compiler": "HashLips Art Engine"
   },
   {
-    "dna": "167efdaa32e823cc29177eade0a4ab9fee16bc2b",
-    "name": "#27",
+    "dna": "59064b089b5894aa1e22ae74906a453f71522d48",
+    "name": "#114",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/27.png",
-    "edition": 27,
-    "date": 1632115445929,
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/114.png",
+    "edition": 114,
+    "date": 1632289147268,
     "attributes": [
       {
         "trait_type": "Backgrounds",
-        "value": "The Patriot"
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
       },
       {
         "trait_type": "Skin",
@@ -719,26 +3524,371 @@
       },
       {
         "trait_type": "Hats",
-        "value": "Mario Bros Hat"
+        "value": "Backwards Black Hat"
       },
       {
         "trait_type": "Eyes",
-        "value": "Black Frames"
+        "value": "Cyclops"
       }
     ],
     "compiler": "HashLips Art Engine"
   },
   {
-    "dna": "6943d4709f1c21eb753b730cd6f1274b178a7b11",
-    "name": "#28",
+    "dna": "dedf68b04c07d304fb1292845f2e0d567b5ebad8",
+    "name": "#115",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/28.png",
-    "edition": 28,
-    "date": 1632115445936,
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/115.png",
+    "edition": 115,
+    "date": 1632289148836,
     "attributes": [
       {
         "trait_type": "Backgrounds",
         "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Hoodie"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "c0699448c25797ec9cc79853b8bb4bd9b861b1ca",
+    "name": "#116",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/116.png",
+    "edition": 116,
+    "date": 1632289151084,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Cowboy Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Purple Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "3c91bfdc8a4a1ceeb84aeb8dc37d465d69e957a7",
+    "name": "#117",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/117.png",
+    "edition": 117,
+    "date": 1632289152567,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "The Monocle"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "15c8daba71c1096b7a2f6676185f7dab906686f2",
+    "name": "#118",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/118.png",
+    "edition": 118,
+    "date": 1632289154567,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Christmas Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Pink Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "c4b0429f6d14756539de83d0be195176880c34bb",
+    "name": "#119",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/119.png",
+    "edition": 119,
+    "date": 1632289156068,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "The Monocle"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "cd889853adcd4080dffb43217b3cbf142c14e14a",
+    "name": "#120",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/120.png",
+    "edition": 120,
+    "date": 1632289157511,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Volcano"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "e1e4bccfefc191b67a84448b6a7857d9890943a5",
+    "name": "#121",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/121.png",
+    "edition": 121,
+    "date": 1632289159109,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "d0d008e64e287c71e06ff3972a79e15516d929a2",
+    "name": "#122",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/122.png",
+    "edition": 122,
+    "date": 1632289160964,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Pink Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "d4e59e6af1ee47e427cd44a332fff76344781d29",
+    "name": "#123",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/123.png",
+    "edition": 123,
+    "date": 1632289162942,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Pink Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "c809dc962880d1c1305fc5b1f64195b94ef138ca",
+    "name": "#124",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/124.png",
+    "edition": 124,
+    "date": 1632289164611,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "dec5720e48ddba3f79a70af312038119a4b0c37f",
+    "name": "#125",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/125.png",
+    "edition": 125,
+    "date": 1632289166388,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Cyborg Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Magician Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "ba504d08a248bdaa5dae591766049aa7cf2e8e51",
+    "name": "#126",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/126.png",
+    "edition": 126,
+    "date": 1632289167885,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
       },
       {
         "trait_type": "Skin",
@@ -756,43 +3906,20 @@
     "compiler": "HashLips Art Engine"
   },
   {
-    "dna": "ab4c59345661a64dd563d88d25d045a4df405620",
-    "name": "#29",
+    "dna": "04a194acd6769e6d6ea6f79a1220f72e52a921f2",
+    "name": "#127",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/29.png",
-    "edition": 29,
-    "date": 1632115445962,
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/127.png",
+    "edition": 127,
+    "date": 1632289169416,
     "attributes": [
       {
         "trait_type": "Backgrounds",
         "value": "Crypto Teal"
       },
       {
-        "trait_type": "Skin",
-        "value": "The SimpsonsSkin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Black Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Red Laser Eyes"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "2d535427b7ab5b82731f0ccbc75baf1918e34a18",
-    "name": "#30",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/30.png",
-    "edition": 30,
-    "date": 1632115446089,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Bitcoin"
+        "trait_type": "Base",
+        "value": "Base"
       },
       {
         "trait_type": "Skin",
@@ -804,26 +3931,61 @@
       },
       {
         "trait_type": "Eyes",
-        "value": "Yellow Lens"
+        "value": "Men in Black"
       }
     ],
     "compiler": "HashLips Art Engine"
   },
   {
-    "dna": "88a2701c20fdaac0b14a6449619b828358179bfd",
-    "name": "#31",
+    "dna": "44f42014bec708135fae8385009798ef0bdc89da",
+    "name": "#128",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/31.png",
-    "edition": 31,
-    "date": 1632115446139,
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/128.png",
+    "edition": 128,
+    "date": 1632289171049,
     "attributes": [
       {
         "trait_type": "Backgrounds",
         "value": "Bitcoin"
       },
       {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
         "trait_type": "Skin",
-        "value": "The SimpsonsSkin"
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Magician Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "520b4f45d6fa8cc9464c984020fd50c1d690d3ab",
+    "name": "#129",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/129.png",
+    "edition": 129,
+    "date": 1632289172715,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
       },
       {
         "trait_type": "Hats",
@@ -831,22 +3993,88 @@
       },
       {
         "trait_type": "Eyes",
-        "value": "Blue Lens"
+        "value": "Pink Lens"
       }
     ],
     "compiler": "HashLips Art Engine"
   },
   {
-    "dna": "6de75f9266faeed9ac3836900889b27cc4d1488a",
-    "name": "#32",
+    "dna": "9fd52a2cadc5e74521dd3cb27e6f2ecec388c2a3",
+    "name": "#130",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/32.png",
-    "edition": 32,
-    "date": 1632115446146,
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/130.png",
+    "edition": 130,
+    "date": 1632289174323,
     "attributes": [
       {
         "trait_type": "Backgrounds",
-        "value": "Bitcoin"
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Cyborg Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Wizard Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "e4fa29556d24290b1ef0619d0abeef5974c21031",
+    "name": "#131",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/131.png",
+    "edition": 131,
+    "date": 1632289175695,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Magician Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "1d97b79444397f9b50004478b37167d3288aa451",
+    "name": "#132",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/132.png",
+    "edition": 132,
+    "date": 1632289177035,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
       },
       {
         "trait_type": "Skin",
@@ -858,22 +4086,181 @@
       },
       {
         "trait_type": "Eyes",
-        "value": "Pink Lens"
+        "value": "Yellow Laser Eyes"
       }
     ],
     "compiler": "HashLips Art Engine"
   },
   {
-    "dna": "6c7012e85ba95715ec27fa07139df1b8e30204e4",
-    "name": "#33",
+    "dna": "5f817ccb0721a1142f2b926991d090241119bf4c",
+    "name": "#133",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/33.png",
-    "edition": 33,
-    "date": 1632115446155,
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/133.png",
+    "edition": 133,
+    "date": 1632289178388,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "3D Glasses"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "2db8f95c86243af552d341dc0b5f1a0823dc86e5",
+    "name": "#134",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/134.png",
+    "edition": 134,
+    "date": 1632289180406,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Moon"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Magician Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Cyclops"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "e20c33719720e1b8cf8e99f2c113b5c57abb6e74",
+    "name": "#135",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/135.png",
+    "edition": 135,
+    "date": 1632289181692,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Mario Bros Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "ad73b29597aee26be47fa5cd1d98b51b3f7100bd",
+    "name": "#136",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/136.png",
+    "edition": 136,
+    "date": 1632289183221,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "e748a147c535f094d747d9051396e2bcd752ab74",
+    "name": "#137",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/137.png",
+    "edition": 137,
+    "date": 1632289184487,
     "attributes": [
       {
         "trait_type": "Backgrounds",
         "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Magician Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "3185da1f8ce406dc374e272ae4cba4d895d8f387",
+    "name": "#138",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/138.png",
+    "edition": 138,
+    "date": 1632289185810,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
       },
       {
         "trait_type": "Skin",
@@ -891,97 +4278,20 @@
     "compiler": "HashLips Art Engine"
   },
   {
-    "dna": "f17a6ede48ff135e0a1b5f5e4a877c2012e13a1c",
-    "name": "#34",
+    "dna": "66bd621c2da61a8170a2644f170f8cc05df23def",
+    "name": "#139",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/34.png",
-    "edition": 34,
-    "date": 1632115446211,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Bitcoin"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Pale Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Wizard Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Purple Lens"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "10b128533c1caab5e17cea58eace34d15248b841",
-    "name": "#35",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/35.png",
-    "edition": 35,
-    "date": 1632115446252,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Patriot Blue"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Tan Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Backwards Black Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Yellow Laser Eyes"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "a7dff4ef7f3be59ea5530a16e5b8e0521e16a946",
-    "name": "#36",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/36.png",
-    "edition": 36,
-    "date": 1632115446264,
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/139.png",
+    "edition": 139,
+    "date": 1632289187622,
     "attributes": [
       {
         "trait_type": "Backgrounds",
         "value": "Bitcoin Beach"
       },
       {
-        "trait_type": "Skin",
-        "value": "Pale Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "White Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Yellow Lens"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "994f91525c3ced281fc4f11df32e1b82f34c45f7",
-    "name": "#37",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/37.png",
-    "edition": 37,
-    "date": 1632115446271,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Bitcoin Beach"
+        "trait_type": "Base",
+        "value": "Base"
       },
       {
         "trait_type": "Skin",
@@ -990,87 +4300,6 @@
       {
         "trait_type": "Hats",
         "value": "Backwards Black Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Yellow Laser Eyes"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "39ea621950637a02d531d061c39cc8526f5be005",
-    "name": "#38",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/38.png",
-    "edition": 38,
-    "date": 1632115446317,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Crypto Teal"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Pale Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Old Mario Bros Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Pink Lens"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "d34a56f011a6516e1d9bc4b39773c53741a3919b",
-    "name": "#39",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/39.png",
-    "edition": 39,
-    "date": 1632115446333,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "The Patriot"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Pale Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Backwards White Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Blue Laser Eyes"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "bf59f82f2dfe3317cb991f86b2d2cde22a2c4e01",
-    "name": "#40",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/40.png",
-    "edition": 40,
-    "date": 1632115446340,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Crypto Teal"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Pale Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Black Hat"
       },
       {
         "trait_type": "Eyes",
@@ -1080,47 +4309,24 @@
     "compiler": "HashLips Art Engine"
   },
   {
-    "dna": "7e7a71cd45618c4d4e4a97a922a962f7d303cf04",
-    "name": "#41",
+    "dna": "8fa07946af384d1fac3a9b91cba6d1c5ccdc8d1e",
+    "name": "#140",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/41.png",
-    "edition": 41,
-    "date": 1632115446391,
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/140.png",
+    "edition": 140,
+    "date": 1632289189026,
     "attributes": [
       {
         "trait_type": "Backgrounds",
         "value": "The Volcano"
       },
       {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
         "trait_type": "Skin",
         "value": "Pale Skin"
-      },
-      {
-        "trait_type": "Hats",
-        "value": "Black Hat"
-      },
-      {
-        "trait_type": "Eyes",
-        "value": "Yellow Lens"
-      }
-    ],
-    "compiler": "HashLips Art Engine"
-  },
-  {
-    "dna": "957cde0e5c1978ea634c1b7841b052d4ebd8d025",
-    "name": "#42",
-    "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/42.png",
-    "edition": 42,
-    "date": 1632115446459,
-    "attributes": [
-      {
-        "trait_type": "Backgrounds",
-        "value": "Bitcoin Beach"
-      },
-      {
-        "trait_type": "Skin",
-        "value": "Tan Skin"
       },
       {
         "trait_type": "Hats",
@@ -1134,20 +4340,24 @@
     "compiler": "HashLips Art Engine"
   },
   {
-    "dna": "8772b265fbd8cf68449d606de3088077568cdaab",
-    "name": "#43",
+    "dna": "7127b2ab026be9477ce3a490f7405baf8fe5450a",
+    "name": "#141",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/43.png",
-    "edition": 43,
-    "date": 1632115446484,
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/141.png",
+    "edition": 141,
+    "date": 1632289190308,
     "attributes": [
       {
         "trait_type": "Backgrounds",
-        "value": "Crypto Teal"
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
       },
       {
         "trait_type": "Skin",
-        "value": "The SimpsonsSkin"
+        "value": "Tan Skin"
       },
       {
         "trait_type": "Hats",
@@ -1155,22 +4365,212 @@
       },
       {
         "trait_type": "Eyes",
-        "value": "The Monocle"
+        "value": "3D Glasses"
       }
     ],
     "compiler": "HashLips Art Engine"
   },
   {
-    "dna": "cd0b46c48e87477e48baebbf5df0251943a4977d",
-    "name": "#44",
+    "dna": "88dcc99ab224d29b54309b5246406c1004dde855",
+    "name": "#142",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/44.png",
-    "edition": 44,
-    "date": 1632115446495,
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/142.png",
+    "edition": 142,
+    "date": 1632289191699,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Cyborg Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Cyclops"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "ec057dbc179ddd93ac0f953c3501d59ac187729e",
+    "name": "#143",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/143.png",
+    "edition": 143,
+    "date": 1632289193109,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Mario Bros Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "498ed7e656b0a598f4c5c41bc4dbd15f15b179cc",
+    "name": "#144",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/144.png",
+    "edition": 144,
+    "date": 1632289194802,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Volcano"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "3D Glasses"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "57d9e87925b8ef33631aaaf9eba5713c40a3b778",
+    "name": "#145",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/145.png",
+    "edition": 145,
+    "date": 1632289196122,
     "attributes": [
       {
         "trait_type": "Backgrounds",
         "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Cowboy Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "a80abefc44e17f8a82e8af74e8deabc123a23309",
+    "name": "#146",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/146.png",
+    "edition": 146,
+    "date": 1632289197407,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "fc95d0e4802dc3771563d36bb1489749b64185d5",
+    "name": "#147",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/147.png",
+    "edition": 147,
+    "date": 1632289198729,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "c57fffee95ce1d422d1b6f5a75131c17d9bd4883",
+    "name": "#148",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/148.png",
+    "edition": 148,
+    "date": 1632289200485,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
       },
       {
         "trait_type": "Skin",
@@ -1182,26 +4582,247 @@
       },
       {
         "trait_type": "Eyes",
-        "value": "Pink Lens"
+        "value": "Blue Lens"
       }
     ],
     "compiler": "HashLips Art Engine"
   },
   {
-    "dna": "fd65c2a383cb345b764cdaac143ac3c9c71b47a8",
-    "name": "#45",
+    "dna": "ffc6c57f4097035db3f2e44875d7bf1ad2af55c5",
+    "name": "#149",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/45.png",
-    "edition": 45,
-    "date": 1632115446566,
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/149.png",
+    "edition": 149,
+    "date": 1632289201909,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Volcano"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Cowboy Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "06680f047289164a748478edbd465b1a7ccb37b5",
+    "name": "#150",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/150.png",
+    "edition": 150,
+    "date": 1632289203357,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Alien Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Christmas Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "7be7f4a61ea1aa934dcc3cdb644bfde0f35573b0",
+    "name": "#151",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/151.png",
+    "edition": 151,
+    "date": 1632289204702,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Christmas Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "3cc64b0877c74b893c6908cb5c005156fd4ee842",
+    "name": "#152",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/152.png",
+    "edition": 152,
+    "date": 1632289205934,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "ad8e8ee3224f28262bb6d255553dd306cc4e6c15",
+    "name": "#153",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/153.png",
+    "edition": 153,
+    "date": 1632289207452,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Cyclops"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "414221a316a18990a600a967e34797f67f5b1944",
+    "name": "#154",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/154.png",
+    "edition": 154,
+    "date": 1632289208834,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "a47f65c45c54fbed0b891ce93de934eebd4550ae",
+    "name": "#155",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/155.png",
+    "edition": 155,
+    "date": 1632289210296,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Moon"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "525372f181015c1ef412c5a211f58c082f368030",
+    "name": "#156",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/156.png",
+    "edition": 156,
+    "date": 1632289211602,
     "attributes": [
       {
         "trait_type": "Backgrounds",
         "value": "Crypto Teal"
       },
       {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
         "trait_type": "Skin",
-        "value": "The SimpsonsSkin"
+        "value": "Pale Skin"
       },
       {
         "trait_type": "Hats",
@@ -1215,16 +4836,82 @@
     "compiler": "HashLips Art Engine"
   },
   {
-    "dna": "267cf97d6f7ce5fc3968b6b80492497ab8199839",
-    "name": "#46",
+    "dna": "07bfa47f8ebf83e212e183413e650b34b259e8c4",
+    "name": "#157",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/46.png",
-    "edition": 46,
-    "date": 1632115446593,
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/157.png",
+    "edition": 157,
+    "date": 1632289213037,
     "attributes": [
       {
         "trait_type": "Backgrounds",
         "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "fb0607f676b43d73506a9d0b0c5540fa52c118e8",
+    "name": "#158",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/158.png",
+    "edition": 158,
+    "date": 1632289214533,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Alien Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Pink Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "a00d05a9a03e92a1e84f383bbd3a994859a44a86",
+    "name": "#159",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/159.png",
+    "edition": 159,
+    "date": 1632289215940,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
       },
       {
         "trait_type": "Skin",
@@ -1232,7 +4919,69 @@
       },
       {
         "trait_type": "Hats",
-        "value": "Backwards Black Hat"
+        "value": "Magician Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "544f1f0350be875e225d09d1aa34b5d04d170237",
+    "name": "#160",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/160.png",
+    "edition": 160,
+    "date": 1632289217124,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Christmas Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Cyclops"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "9674089d07a9ef2e485ab8a89ca4c0377c707a31",
+    "name": "#161",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/161.png",
+    "edition": 161,
+    "date": 1632289218546,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Old Mario Bros Hat"
       },
       {
         "trait_type": "Eyes",
@@ -1242,16 +4991,51 @@
     "compiler": "HashLips Art Engine"
   },
   {
-    "dna": "33f89b42a224fe94817ab502520ffebca471efe5",
-    "name": "#47",
+    "dna": "bc53c63944f0c6ae24f9ac0aabfcb3a756328dd0",
+    "name": "#162",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/47.png",
-    "edition": 47,
-    "date": 1632115446643,
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/162.png",
+    "edition": 162,
+    "date": 1632289219871,
     "attributes": [
       {
         "trait_type": "Backgrounds",
-        "value": "The Patriot"
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Magician Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "5f17c061721b601cf0890171275a2d835087f104",
+    "name": "#163",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/163.png",
+    "edition": 163,
+    "date": 1632289221314,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
       },
       {
         "trait_type": "Skin",
@@ -1259,7 +5043,193 @@
       },
       {
         "trait_type": "Hats",
-        "value": "Cowboy Hat"
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "04cd8ca97b70ad753eab8ecb87353dcb1968c438",
+    "name": "#164",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/164.png",
+    "edition": 164,
+    "date": 1632289222983,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Volcano"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "08007b925b14e95eab6561e55a394ffb37482613",
+    "name": "#165",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/165.png",
+    "edition": 165,
+    "date": 1632289224296,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Cyborg Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Black Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Lens"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "0f5cd9c80a0a50be02d538a5800d5158ada7fd99",
+    "name": "#166",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/166.png",
+    "edition": 166,
+    "date": 1632289225573,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Old Mario Bros Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "cc2aa9ac42fe76269d609aed65c47ddc35f8b57f",
+    "name": "#167",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/167.png",
+    "edition": 167,
+    "date": 1632289226849,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Old Mario Bros Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "24c134850c82d2742d78f743ca29cefbdc60ca75",
+    "name": "#168",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/168.png",
+    "edition": 168,
+    "date": 1632289228350,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Wizard Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "The Monocle"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "6fb2fdbc85898788fb2f289f9bccaa1df7ba107c",
+    "name": "#169",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/169.png",
+    "edition": 169,
+    "date": 1632289229749,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Cyborg Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Magician Hat"
       },
       {
         "trait_type": "Eyes",
@@ -1269,16 +5239,51 @@
     "compiler": "HashLips Art Engine"
   },
   {
-    "dna": "85bd0f577baed08521ed0ba9b9d7f6bbb8a575da",
-    "name": "#48",
+    "dna": "6b2af2003f168057b84af80247ffc4036c941354",
+    "name": "#170",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/48.png",
-    "edition": 48,
-    "date": 1632115446651,
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/170.png",
+    "edition": 170,
+    "date": 1632289231060,
     "attributes": [
       {
         "trait_type": "Backgrounds",
-        "value": "The Patriot"
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Tan Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Cyclops"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "0196f508d5467749c8a5f9da889f4b2d7ae64950",
+    "name": "#171",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/171.png",
+    "edition": 171,
+    "date": 1632289232306,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
       },
       {
         "trait_type": "Skin",
@@ -1290,30 +5295,189 @@
       },
       {
         "trait_type": "Eyes",
-        "value": "Black Frames"
+        "value": "Men in Black"
       }
     ],
     "compiler": "HashLips Art Engine"
   },
   {
-    "dna": "0d7ba839083407eb863c319d97b483f835a89213",
-    "name": "#49",
+    "dna": "25600664aad608abbecda006c4cd2e8218d0ed3c",
+    "name": "#172",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/49.png",
-    "edition": 49,
-    "date": 1632115446691,
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/172.png",
+    "edition": 172,
+    "date": 1632289233709,
     "attributes": [
       {
         "trait_type": "Backgrounds",
-        "value": "The Volcano"
+        "value": "Crypto Teal"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
       },
       {
         "trait_type": "Skin",
-        "value": "Tan Skin"
+        "value": "Pale Skin"
       },
       {
         "trait_type": "Hats",
-        "value": "Cowboy Hat"
+        "value": "Hoodie"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "bb97fd32f931e1bc9d3d44277cd86792bc9bdd3a",
+    "name": "#173",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/173.png",
+    "edition": 173,
+    "date": 1632289235401,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Cyborg Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Cyclops"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "ab41be6bfcfc4f59ebf3376c838f325ad2680931",
+    "name": "#174",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/174.png",
+    "edition": 174,
+    "date": 1632289236805,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Old Mario Bros Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "The Monocle"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "ea3a487b931846c8b81cbf019799c2680e85d799",
+    "name": "#175",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/175.png",
+    "edition": 175,
+    "date": 1632289238288,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Cyborg Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Mario Bros Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "d527e469d22a33d155e6d8667e37aacaa86ab435",
+    "name": "#176",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/176.png",
+    "edition": 176,
+    "date": 1632289239641,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Magician Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "8c40e235132eca81f724d23931f53909706e9f60",
+    "name": "#177",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/177.png",
+    "edition": 177,
+    "date": 1632289241419,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards Black Hat"
       },
       {
         "trait_type": "Eyes",
@@ -1323,16 +5487,20 @@
     "compiler": "HashLips Art Engine"
   },
   {
-    "dna": "89faabaa483a40689bbde8e7996956a4e5023e52",
-    "name": "#50",
+    "dna": "79912f9a92e06520dff415d199407d36f8b627f8",
+    "name": "#178",
     "description": "This is the description of your NFT project, remember to replace this",
-    "image": "ipfs://REPLACE_WITH_IPFS_CID/50.png",
-    "edition": 50,
-    "date": 1632115446701,
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/178.png",
+    "edition": 178,
+    "date": 1632289242871,
     "attributes": [
       {
         "trait_type": "Backgrounds",
-        "value": "Crypto Teal"
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
       },
       {
         "trait_type": "Skin",
@@ -1340,11 +5508,135 @@
       },
       {
         "trait_type": "Hats",
-        "value": "Space Hat"
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "2bee053d5ebf8b43d955b7208cdcdb6a1fc8e935",
+    "name": "#179",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/179.png",
+    "edition": 179,
+    "date": 1632289244290,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin Beach"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "The SimpsonsSkin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "d2f31d29cd97614947823e3e8f61d189a9d8825a",
+    "name": "#180",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/180.png",
+    "edition": 180,
+    "date": 1632289246143,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Bitcoin"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Cowboy Hat"
       },
       {
         "trait_type": "Eyes",
         "value": "Men in Black"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "89d7a72b230d7d39d9f02f14577a75ebf4cb02a9",
+    "name": "#181",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/181.png",
+    "edition": 181,
+    "date": 1632289247780,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "Patriot Blue"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Cyborg Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Cowboy Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Normal Eyes"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "694cf437f96ccbb9be57982bd2546e8860ffd41e",
+    "name": "#182",
+    "description": "This is the description of your NFT project, remember to replace this",
+    "image": "ipfs://REPLACE_WITH_IPFS_CID/182.png",
+    "edition": 182,
+    "date": 1632289249315,
+    "attributes": [
+      {
+        "trait_type": "Backgrounds",
+        "value": "The Patriot"
+      },
+      {
+        "trait_type": "Base",
+        "value": "Base"
+      },
+      {
+        "trait_type": "Skin",
+        "value": "Pale Skin"
+      },
+      {
+        "trait_type": "Hats",
+        "value": "Backwards White Hat"
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Yellow Laser Eyes"
       }
     ],
     "compiler": "HashLips Art Engine"

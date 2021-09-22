@@ -1,14 +1,18 @@
 {
-  "dna": "2d535427b7ab5b82731f0ccbc75baf1918e34a18",
+  "dna": "026ef3adefbc548f5f28cd0c281eab40a1ffafb9",
   "name": "#30",
   "description": "This is the description of your NFT project, remember to replace this",
   "image": "ipfs://REPLACE_WITH_IPFS_CID/30.png",
   "edition": 30,
-  "date": 1632115446089,
+  "date": 1632289020850,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Bitcoin"
+      "value": "Crypto Teal"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Base"
     },
     {
       "trait_type": "Skin",
@@ -16,7 +20,7 @@
     },
     {
       "trait_type": "Hats",
-      "value": "Mario Bros Hat"
+      "value": "Space Hat"
     },
     {
       "trait_type": "Eyes",

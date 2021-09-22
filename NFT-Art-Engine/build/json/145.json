@@ -1,0 +1,31 @@
+{
+  "dna": "57d9e87925b8ef33631aaaf9eba5713c40a3b778",
+  "name": "#145",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://REPLACE_WITH_IPFS_CID/145.png",
+  "edition": 145,
+  "date": 1632289196122,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Bitcoin Beach"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Base"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "The SimpsonsSkin"
+    },
+    {
+      "trait_type": "Hats",
+      "value": "Cowboy Hat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Men in Black"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

@@ -1,14 +1,18 @@
 {
-  "dna": "88a2701c20fdaac0b14a6449619b828358179bfd",
+  "dna": "6caf06449110eff8ccd2c939af3be5199b48c594",
   "name": "#31",
   "description": "This is the description of your NFT project, remember to replace this",
   "image": "ipfs://REPLACE_WITH_IPFS_CID/31.png",
   "edition": 31,
-  "date": 1632115446139,
+  "date": 1632289022410,
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Bitcoin"
+      "value": "Bitcoin Beach"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Base"
     },
     {
       "trait_type": "Skin",
@@ -16,11 +20,11 @@
     },
     {
       "trait_type": "Hats",
-      "value": "Backwards Black Hat"
+      "value": "Magician Hat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue Lens"
+      "value": "Blue Laser Eyes"
     }
   ],
   "compiler": "HashLips Art Engine"

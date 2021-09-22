@@ -1,0 +1,31 @@
+{
+  "dna": "4bb5e0b549e0e4cfd3def6ef0d789ced176a3107",
+  "name": "#72",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://REPLACE_WITH_IPFS_CID/72.png",
+  "edition": 72,
+  "date": 1632289079618,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Patriot Blue"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Base"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Pale Skin"
+    },
+    {
+      "trait_type": "Hats",
+      "value": "White Hat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "The Monocle"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

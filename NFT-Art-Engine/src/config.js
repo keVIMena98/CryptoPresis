@@ -5,9 +5,10 @@ const baseUri = "ipfs://REPLACE_WITH_IPFS_CID";
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 50,
+    growEditionSizeTo: 182,
     layersOrder: [
       { name: "Backgrounds" },
+      { name: "Base" },
       { name: "Skin" },
       { name: "Hats" },
       { name: "Eyes" },
@@ -16,8 +17,8 @@ const layerConfigurations = [
 ];
 
 const format = {
-  width: 24,
-  height: 24,
+  width: 512,
+  height: 512,
 };
 
 const background = {
@@ -26,8 +27,8 @@ const background = {
 };
 
 const preview = {
-  thumbPerRow: 5,
-  thumbWidth: 50,
+  thumbPerRow: 45,
+  thumbWidth: 91,
   imageRatio: format.width / format.height,
   imageName: "preview.png",
 };

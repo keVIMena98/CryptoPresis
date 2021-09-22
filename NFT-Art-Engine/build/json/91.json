@@ -1,0 +1,31 @@
+{
+  "dna": "0c1042555b39a68af9e8809aa1b060602db42d80",
+  "name": "#91",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://REPLACE_WITH_IPFS_CID/91.png",
+  "edition": 91,
+  "date": 1632289109424,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "The Patriot"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Base"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Tan Skin"
+    },
+    {
+      "trait_type": "Hats",
+      "value": "Christmas Hat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue Lens"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

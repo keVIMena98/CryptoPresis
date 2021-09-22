@@ -1,0 +1,31 @@
+{
+  "dna": "f66065295dbca0764d270dee2fe76cb38d8c69df",
+  "name": "#81",
+  "description": "This is the description of your NFT project, remember to replace this",
+  "image": "ipfs://REPLACE_WITH_IPFS_CID/81.png",
+  "edition": 81,
+  "date": 1632289093837,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Crypto Teal"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Base"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Pale Skin"
+    },
+    {
+      "trait_type": "Hats",
+      "value": "Cowboy Hat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "The Monocle"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}
