@@ -1,0 +1,15 @@
+*{
+    border: 1px solid red;
+}
+
+div.roadmap-section#roadmap{
+    background-color: cyan;
+}
+
+div.faq-section#faq{
+    background: #fff;
+}
+
+.navigation a{
+    padding-inline: 10px;
+}
