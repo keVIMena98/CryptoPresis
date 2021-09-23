@@ -12,6 +12,7 @@ const layerConfigurations = [
       { name: "Skin" },
       { name: "Hats" },
       { name: "Eyes" },
+      { name: "Hair & Beard"}
     ],
   },
 ];
@@ -22,13 +23,13 @@ const format = {
 };
 
 const background = {
-  generate: true,
+  generate: false,
   brightness: "80%",
 };
 
 const preview = {
-  thumbPerRow: 20,
-  thumbWidth: 100,
+  thumbPerRow: 140,
+  thumbWidth: 140,
   imageRatio: format.width / format.height,
   imageName: "preview.png",
 };
