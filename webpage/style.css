@@ -17,6 +17,7 @@ p{
     font-family: "Roboto Mono Regular", sans-serif;
 }
 
+/* Navigation bar */
 .navigation{
     padding: auto;
 }
@@ -52,6 +53,12 @@ p{
     display: block;
 }
 
+/* Overview */
+.overview{
+
+}
+
+/* Roadmap */
 .roadmap-section{
     display: block;
     background: cyan;
@@ -62,6 +69,7 @@ p{
     text-align: center;
 }
 
+/* FAQ */
 .faq-and-media{
     display: block;
     background: #fff;
