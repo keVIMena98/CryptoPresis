@@ -2,12 +2,14 @@
     border: 1px solid red;
 }
 
-div.roadmap-section#roadmap{
-    background: cyan;
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
-div.faq-section#faq{
-    background: #fff;
+.navigation{
+    padding: auto;
 }
 
 .navigation a{
@@ -21,7 +23,7 @@ div.faq-section#faq{
 }
 
 .dropdown{
-    position: relative;
+    padding 0;
     display: inline-block;
 }
 
@@ -31,12 +33,32 @@ div.faq-section#faq{
     box-shadow: 0px 8px 16px 0px white;
 }
 
+/* Dropdown links */
 .dropdown-content a{
     color: black;
-    padding: 12px 15px;
     display: block;
 }
 
 .dropdown:hover .dropdown-content{
     display: block;
+}
+
+.roadmap-section{
+    display: block;
+    background: cyan;
+}
+
+.roadmap-section #roadmap{
+    margin-top: 10px;
+    margin-left: 50%;
+}
+
+.faq-section{
+    display: block;
+    background: #fff;
+}
+
+.faq-section h3#faq{
+    margin-top: 10px;
+    margin-right: 50%;
 }
