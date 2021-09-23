@@ -4,8 +4,17 @@
 
 body{
     background-color: #fff;
+    font-family: "Roboto",sans-serif;
     margin: 0;
     padding: 0;
+}
+
+h2{
+    font-family: "Roboto", sans-serif;
+}
+
+p{
+    font-family: "Roboto Mono Regular", sans-serif;
 }
 
 .navigation{
@@ -23,7 +32,7 @@ body{
 }
 
 .dropdown{
-    padding 0;
+    padding: 0;
     display: inline-block;
 }
 
@@ -46,19 +55,25 @@ body{
 .roadmap-section{
     display: block;
     background: cyan;
+    position: relative;
 }
 
 .roadmap-section #roadmap{
-    margin-top: 10px;
-    margin-left: 50%;
+    text-align: center;
+}
+
+.faq-and-media{
+    display: block;
+    background: #fff;
+    position: relative;
 }
 
 .faq-section{
-    display: block;
-    background: #fff;
-}
-
-.faq-section h3#faq{
     margin-top: 10px;
     margin-right: 50%;
+    margin-left: 10%;
+}
+
+.faq-section p {
+    text-align: left;
 }
