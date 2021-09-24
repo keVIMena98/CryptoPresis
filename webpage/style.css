@@ -24,6 +24,7 @@ span{
 /* Navigation bar */
 .navigation{
     padding: auto;
+    display: block;
 }
 
 .navigation a{
@@ -51,6 +52,7 @@ span{
     color: black;
     display: block;
     text-align: center;
+    background-color: blue;
 }
 
 .dropdown:hover .dropdown-content{
@@ -60,22 +62,25 @@ span{
 /* Overview */
 .overview{
     background-color: cyan;
-    position: relative;
+    border: 1px solid cyan;
 }
 
 .overview-txt{
     margin-right: 10%;
     margin-left: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 a #discord-btn{
     background-color: black;
     color: #fff;
     cursor: pointer;
+    margin-left: 10%;
 }
 
 /* Story */
-.story{
+.story-txt{
     margin-top: 10px;
     margin-right: 50%;
     margin-left: 10%;
@@ -85,7 +90,6 @@ a #discord-btn{
 .roadmap-section{
     display: block;
     background: cyan;
-    position: relative;
 }
 
 .roadmap-section #roadmap{
@@ -96,7 +100,6 @@ a #discord-btn{
 .faq-and-media{
     display: block;
     background: #fff;
-    position: relative;
 }
 
 .faq-section{
@@ -113,7 +116,6 @@ a #discord-btn{
 footer{
     background-color: cyan;
     text-align: center;
-    position: relative;
     border: 1px solid cyan;
 }
 
