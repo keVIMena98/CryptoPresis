@@ -4,7 +4,6 @@
 
 body{
     background-color: #fff;
-    font-family: "Roboto",sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -19,7 +18,7 @@ p{
 
 span{
     color: red;
-    font: bold;
+    background-color: yellow;
 }
 
 /* Navigation bar */
@@ -60,7 +59,26 @@ span{
 
 /* Overview */
 .overview{
+    background-color: cyan;
+    position: relative;
+}
 
+.overview-txt{
+    margin-right: 10%;
+    margin-left: 50%;
+}
+
+a #discord-btn{
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Story */
+.story{
+    margin-top: 10px;
+    margin-right: 50%;
+    margin-left: 10%;
 }
 
 /* Roadmap */
@@ -89,4 +107,38 @@ span{
 
 .faq-section p {
     text-align: left;
+}
+
+/* Footer */
+footer{
+    background-color: cyan;
+    text-align: center;
+    position: relative;
+    border: 1px solid cyan;
+}
+
+footer h1{
+    padding: 0;
+    margin: 5% 25%;
+}
+
+footer p{
+    padding: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+footer a{
+    display: block;
+    margin-bottom: 2%;
+}
+
+footer button#discord{
+    margin: 5%;
+}
+
+.footer-social li{
+    display: inline-block;
+    margin: 1% 0%;
+    padding: 0%;
 }
