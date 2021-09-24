@@ -8,7 +8,7 @@ body{
     padding: 0;
 }
 
-h2{
+h1, h2{
     font-family: "Roboto", sans-serif;
 }
 
@@ -52,11 +52,13 @@ span{
     color: black;
     display: block;
     text-align: center;
-    background-color: blue;
+    border-radius: 5px;
+    border: 1px solid black;
 }
 
 .dropdown:hover .dropdown-content{
     display: block;
+    background-color: blue;
 }
 
 /* Overview */
@@ -87,13 +89,24 @@ a #discord-btn{
 }
 
 /* Roadmap */
-.roadmap-section{
+.roadmap{
     display: block;
     background: cyan;
+    border: 1px solid cyan;
 }
 
-.roadmap-section #roadmap{
+h1#roadmap{
     text-align: center;
+}
+
+.roadmap-content{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.row .column{
+    display: inline-block;
+    border: 2px solid black;
 }
 
 /* FAQ */
