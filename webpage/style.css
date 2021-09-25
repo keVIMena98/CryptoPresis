@@ -25,16 +25,15 @@ span{
 .navigation{
     padding: auto;
     display: block;
+    position: relative;
 }
 
 .navigation a{
     padding-inline: 10px 10px;
 }
 
-#dropbtn{
-    background-color: white;
+#drop{
     cursor: pointer;
-    padding-inline: 10px 10px;
 }
 
 .dropdown{
