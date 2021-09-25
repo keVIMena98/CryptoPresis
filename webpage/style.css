@@ -1,5 +1,5 @@
 *{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 body{
@@ -23,30 +23,37 @@ span{
 
 /* Navigation bar */
 .navigation{
-    padding: auto;
-    display: block;
-    position: relative;
+    padding: 50px 0 50px 50px;
+    background-color: aqua;
+    
 }
 
 .navigation a{
     padding-inline: 10px 10px;
 }
 
+/* Dropdown button */
 #drop{
     cursor: pointer;
+    margin: auto;
 }
 
+/* Container */
 .dropdown{
-    padding: 0;
+    position: relative;
     display: inline-block;
 }
 
+/* Dropdown content (Hidden) */
 .dropdown-content{
     display: none;
     position: absolute;
+    background-color: aqua;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
-/* Dropdown links */
+/* Links inside dropdown*/
 .dropdown-content a{
     color: black;
     display: block;
@@ -57,20 +64,18 @@ span{
 
 .dropdown:hover .dropdown-content{
     display: block;
-    background-color: blue;
+    background-color: aqua;
 }
 
 /* Overview */
 .overview{
     background-color: cyan;
-    border: 1px solid cyan;
+    padding: 50px 0 75px 0;
 }
 
 .overview-txt{
     margin-right: 10%;
     margin-left: 50%;
-    margin-top: 5%;
-    margin-bottom: 5%;
 }
 
 a #discord-btn{
@@ -81,6 +86,9 @@ a #discord-btn{
 }
 
 /* Story */
+.story{
+    padding: 50px 0 75px 0;
+}
 .story-txt{
     margin-top: 10px;
     margin-right: 50%;
@@ -91,7 +99,7 @@ a #discord-btn{
 .roadmap{
     display: block;
     background: cyan;
-    border: 1px solid cyan;
+    padding: 50px 0px 75px 0px;
 }
 
 h1#roadmap{
@@ -103,15 +111,39 @@ h1#roadmap{
     margin-right: 5%;
 }
 
-.row .column{
-    display: inline-block;
-    border: 2px solid black;
+div.phase{
+    margin: 25px auto;
+}
+
+.table-head{
+    text-align: center;
+    margin: auto 25%;
+}
+
+table{
+    max-width: 700px;
+    margin-left: 18%;
+}
+
+table, td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    height: 100px;
+    padding: 10px;
+}
+
+td.phase{
+    font-weight: 900;
+    width: 200px;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 /* FAQ */
 .faq-and-media{
     display: block;
-    background: #fff;
+    padding: 50px 0 75px 0;
 }
 
 .faq-section{
@@ -128,31 +160,38 @@ h1#roadmap{
 footer{
     background-color: cyan;
     text-align: center;
-    border: 1px solid cyan;
+    padding-top: 50px;
+    padding-bottom: 1px;
 }
 
 footer h1{
-    padding: 0;
-    margin: 5% 25%;
+    margin: auto 25%;
 }
 
 footer p{
-    padding: 0;
+    margin: 25px 25%;
+}
+
+footer a{
+    margin: auto;
+    padding: 10px;
+}
+
+footer a button#discord-btn{
+    margin: auto;
+}
+
+footer button#discord{
+    margin: auto;
+}
+
+ul.footer-social{
+    padding: 0%;
     margin-left: 25%;
     margin-right: 25%;
 }
 
-footer a{
-    display: block;
-    margin-bottom: 2%;
-}
-
-footer button#discord{
-    margin: 5%;
-}
-
-.footer-social li{
+ul.footer-social li{
     display: inline-block;
-    margin: 1% 0%;
-    padding: 0%;
+    margin: auto;
 }
