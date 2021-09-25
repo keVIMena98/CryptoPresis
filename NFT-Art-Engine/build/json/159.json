@@ -1,14 +1,16 @@
 {
-  "dna": "a00d05a9a03e92a1e84f383bbd3a994859a44a86",
+  "dna": "3a08b5a3129208e87139cfb22e4ee6af9044682a",
   "name": "#159",
-  "description": "This is the description of your NFT project, remember to replace this",
-  "image": "ipfs://QmbUWfjfBkghsS9vLtp3Hs2WQPDAxk6h8xL659DY33ueYQ/159.png",
+  "description": "CryptoPresis is a collection of 1821 algorithmically generated art pieces inspired by the President of El Salvador, Nayib Bukele. The first NFT project made with love from El Salvador to the world.",
+  "image": "ipfs://baseUrigoeshere/159.png",
   "edition": 159,
-  "date": 1632289215940,
+  "date": 1632551589465,
+  "creators": "ackermann.eth (twitter: @ackermann_eth), Capitan Capibara (twitter: @capitancapibara)",
+  "artist": "Pxl Plnktn (twitter: @PxlPlnktn)",
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "The Patriot"
+      "value": "Crypto Teal"
     },
     {
       "trait_type": "Base",
@@ -16,16 +18,20 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Tan Skin"
+      "value": "Pale Skin"
+    },
+    {
+      "trait_type": "Haircolor",
+      "value": "Normal Black"
     },
     {
       "trait_type": "Hats",
-      "value": "Magician Hat"
+      "value": "No Hat"
     },
     {
       "trait_type": "Eyes",
-      "value": "Men in Black"
+      "value": "Purple Lens"
     }
   ],
-  "compiler": "HashLips Art Engine"
+  "compiler": "Ackermann Art Engine"
 }

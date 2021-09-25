@@ -1,21 +1,30 @@
-const { MODE } = require("./blendMode.js");
+"use strict";
+
+const path = require("path");
+const isLocal = typeof process.pkg === "undefined";
+const basePath = isLocal ? process.cwd() : path.dirname(process.execPath);
+const { MODE } = require(path.join(basePath, "src/blendMode.js"));
 const description =
-  "This is the description of your NFT project, remember to replace this";
-const baseUri = "ipfs://QmbUWfjfBkghsS9vLtp3Hs2WQPDAxk6h8xL659DY33ueYQ";
+  "CryptoPresis is a collection of 1821 algorithmically generated art pieces inspired by the President of El Salvador, Nayib Bukele. The first NFT project made with love from El Salvador to the world.";
+const baseUri = "ipfs://baseUrigoeshere";
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 182,
+    growEditionSizeTo: 1811,
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Base" },
       { name: "Skin" },
+      { name: "Haircolor"},
       { name: "Hats" },
-      { name: "Eyes" },
-      { name: "Hair & Beard"}
+      { name: "Eyes" }
     ],
   },
 ];
+
+const shuffleLayerConfigurations = false;
+
+const debugLogs = false;
 
 const format = {
   width: 512,
@@ -27,16 +36,21 @@ const background = {
   brightness: "80%",
 };
 
-const preview = {
-  thumbPerRow: 140,
-  thumbWidth: 140,
-  imageRatio: format.width / format.height,
-  imageName: "preview.png",
+const extraMetadata = {
+  creators: "ackermann.eth (twitter: @ackermann_eth), Capitan Capibara (twitter: @capitancapibara)",
+  artist: "Pxl Plnktn (twitter: @PxlPlnktn)"
 };
 
 const rarityDelimiter = "#";
 
 const uniqueDnaTorrance = 10000;
+
+const preview = {
+  thumbPerRow: 150,
+  thumbWidth: 150,
+  imageRatio: format.width / format.height,
+  imageName: "preview.png",
+};
 
 module.exports = {
   format,
@@ -47,4 +61,7 @@ module.exports = {
   layerConfigurations,
   rarityDelimiter,
   preview,
+  shuffleLayerConfigurations,
+  debugLogs,
+  extraMetadata,
 };
