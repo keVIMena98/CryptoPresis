@@ -6,11 +6,23 @@ const basePath = isLocal ? process.cwd() : path.dirname(process.execPath);
 const { MODE } = require(path.join(basePath, "src/blendMode.js"));
 const description =
   "CryptoPresis is a collection of 1821 algorithmically generated art pieces inspired by the President of El Salvador, Nayib Bukele. The first NFT project made with love from El Salvador to the world.";
-const baseUri = "ipfs://baseUrigoeshere";
+const baseUri = "ipfs://Qmdxo123SeNPV1zybP8WSfvLHgy8EpH8f9KTFt6SV44CJW";
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 1811,
+    growEditionSizeTo: 1756,
+    layersOrder: [
+      { name: "Backgrounds" },
+      { name: "Base" },
+      { name: "Skin" },
+      { name: "Haircolor"},
+      { name: "Hats" },
+      { name: "Eyes" }
+    ],
+  },
+
+  {
+    growEditionSizeTo: 55,
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Base" },
@@ -22,7 +34,7 @@ const layerConfigurations = [
   },
 ];
 
-const shuffleLayerConfigurations = false;
+const shuffleLayerConfigurations = true;
 
 const debugLogs = false;
 
