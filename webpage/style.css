@@ -9,14 +9,27 @@
   }
 
 body{
-    background-color: #fff;
+    background-color: black;
     margin: 0;
     font-family: "coder";
+    font-size: 15px;
     padding: 0;
 }
 
 h1, h2{
-    font-family: "Roboto", "coder", sans-serif;
+    color:black;
+    font-family: "coder", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.white-bkgrnd{
+    color: black;
+}
+
+.black-bkgrnd{
+    color: white;
 }
 
 p{
@@ -24,19 +37,25 @@ p{
 }
 
 span{
-    color: red;
-    background-color: yellow;
+    outline: red;
+    color: yellow;
+    background-color: black;
 }
 
 /* Navigation bar */
 .navigation{
     padding: 50px 0 50px 50px;
-    background-color: aqua;
-    
+    background-color: #fff;
 }
 
 .navigation a{
     padding-inline: 10px 10px;
+    float: left;
+}
+
+.navigation-right{
+    padding-inline: 10px 10px;
+    float: right;
 }
 
 /* Dropdown button */
@@ -55,7 +74,7 @@ span{
 .dropdown-content{
     display: none;
     position: absolute;
-    background-color: aqua;
+    background-color: #fff;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -71,25 +90,29 @@ span{
 
 .dropdown:hover .dropdown-content{
     display: block;
-    background-color: aqua;
+    background-color: #fff;
 }
 
 /* Overview */
 .overview{
-    background-color: cyan;
+    background-color: #fff;
     padding: 50px 0 75px 0;
 }
 
 .overview-txt{
+    color:black;
     margin-right: 10%;
     margin-left: 50%;
 }
 
 a #discord-btn{
     background-color: black;
-    color: #fff;
+    color: white;
+    font-family: "coder";
     cursor: pointer;
+    margin-right: 50%;
     margin-left: 10%;
+    padding: 10px 0 5px 0;
 }
 
 /* Story */
@@ -97,6 +120,7 @@ a #discord-btn{
     padding: 50px 0 75px 0;
 }
 .story-txt{
+    color: #fff; 
     margin-top: 10px;
     margin-right: 50%;
     margin-left: 10%;
@@ -105,7 +129,7 @@ a #discord-btn{
 /* Roadmap */
 .roadmap{
     display: block;
-    background: cyan;
+    background: #fff;
     padding: 50px 0px 75px 0px;
 }
 
@@ -154,6 +178,7 @@ td.phase{
 }
 
 .faq-section{
+    color:#fff;
     margin-top: 10px;
     margin-right: 50%;
     margin-left: 10%;
@@ -165,7 +190,7 @@ td.phase{
 
 /* Footer */
 footer{
-    background-color: cyan;
+    background-color: #fff;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 1px;
@@ -173,10 +198,12 @@ footer{
 
 footer h1{
     margin: auto 25%;
+    font-family: "coder";
 }
 
 footer p{
     margin: 25px 25%;
+    font-family: "coder";
 }
 
 footer a{
@@ -186,10 +213,12 @@ footer a{
 
 footer a button#discord-btn{
     margin: auto;
+    font-family: "coder";
 }
 
 footer button#discord{
     margin: auto;
+    font-family: "coder";
 }
 
 ul.footer-social{
