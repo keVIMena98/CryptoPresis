@@ -1,36 +1,15 @@
-*{
-    border: 1px solid red;
-}
-
-body{
-    background-color: #fff;
-    margin: 0;
-    padding: 0;
-}
-
-h1, h2{
-    font-family: "Roboto", sans-serif;
-}
-
-p{
-    font-family: "Roboto Mono Regular", sans-serif;
-    font-size: larger;
-}
-
-span{
-    color: red;
-    background-color: yellow;
-}
-
 /* Navigation bar */
 .navigation{
     padding: 50px 0 50px 50px;
     background-color: aqua;
-    
+    text-align: right;
+    padding-right: 5%;
+    font-size: x-large;
 }
 
 .navigation a{
     padding-inline: 10px 10px;
+    text-decoration: none;
 }
 
 /* Dropdown button */
@@ -66,6 +45,10 @@ span{
 .dropdown:hover .dropdown-content{
     display: block;
     background-color: aqua;
+}
+
+#main{
+    font-size: larger;
 }
 
 /* Overview */
