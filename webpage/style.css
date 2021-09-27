@@ -9,14 +9,17 @@
   }
 
 body{
-    background-color: #fff;
+    background-color: aqua;
     margin: 0;
     font-family: "coder";
     padding: 0;
 }
 
 h1, h2{
-    font-family: "Roboto", "coder", sans-serif;
+    font-family: "coder", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 p{
@@ -31,12 +34,17 @@ span{
 /* Navigation bar */
 .navigation{
     padding: 50px 0 50px 50px;
-    background-color: aqua;
-    
+    background-color: #fff;
 }
 
 .navigation a{
     padding-inline: 10px 10px;
+    float: left;
+}
+
+.navigation-right{
+    padding-inline: 10px 10px;
+    float: right;
 }
 
 /* Dropdown button */
@@ -55,7 +63,7 @@ span{
 .dropdown-content{
     display: none;
     position: absolute;
-    background-color: aqua;
+    background-color: #fff;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -71,12 +79,12 @@ span{
 
 .dropdown:hover .dropdown-content{
     display: block;
-    background-color: aqua;
+    background-color: #fff;
 }
 
 /* Overview */
 .overview{
-    background-color: cyan;
+    background-color: #fff;
     padding: 50px 0 75px 0;
 }
 
@@ -87,9 +95,12 @@ span{
 
 a #discord-btn{
     background-color: black;
-    color: #fff;
+    color: aqua;
+    font-family: "coder";
     cursor: pointer;
+    margin-right: 50%;
     margin-left: 10%;
+    padding: 10px 0 5px 0;
 }
 
 /* Story */
@@ -105,7 +116,7 @@ a #discord-btn{
 /* Roadmap */
 .roadmap{
     display: block;
-    background: cyan;
+    background: #fff;
     padding: 50px 0px 75px 0px;
 }
 
@@ -142,7 +153,7 @@ table, td{
 td.phase{
     font-weight: 900;
     width: 200px;
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
     vertical-align: middle;
 }
@@ -165,7 +176,7 @@ td.phase{
 
 /* Footer */
 footer{
-    background-color: cyan;
+    background-color: #fff;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 1px;
@@ -173,10 +184,12 @@ footer{
 
 footer h1{
     margin: auto 25%;
+    font-family: "coder";
 }
 
 footer p{
     margin: 25px 25%;
+    font-family: "coder";
 }
 
 footer a{
@@ -186,10 +199,12 @@ footer a{
 
 footer a button#discord-btn{
     margin: auto;
+    font-family: "coder";
 }
 
 footer button#discord{
     margin: auto;
+    font-family: "coder";
 }
 
 ul.footer-social{
