@@ -3,12 +3,12 @@
     padding: 50px 0 50px 50px;
     background-color: aqua;
     text-align: right;
-    padding-right: 5%;
-    font-size: x-large;
+    padding-right: 150px;
+    font-size: 0.8em;
 }
 
 .navigation a{
-    padding-inline: 10px 10px;
+    padding: 5px 10px 5px 10px;
     text-decoration: none;
 }
 
@@ -28,9 +28,10 @@
 .dropdown-content{
     display: none;
     position: absolute;
-    background-color: aqua;
+    min-width: 170px;
+    background-color: transparent;
+    padding: 10px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
 }
 
 /* Links inside dropdown*/
@@ -38,13 +39,26 @@
     color: black;
     display: block;
     text-align: center;
-    border-radius: 5px;
-    border: 1px solid black;
+    width: max-content;
+    padding: 5%;
+}
+
+.dropdown-content a .box-arrow-up-right{
+    visibility: hidden;
 }
 
 .dropdown:hover .dropdown-content{
     display: block;
     background-color: aqua;
+}
+
+.dropdown-content a:hover{
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.dropdown-content a:hover .box-arrow-up-right{
+    visibility: visible;
 }
 
 #main{
