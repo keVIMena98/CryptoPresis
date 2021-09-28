@@ -43,7 +43,7 @@ span{
 
 /* Navigation bar */
 .navigation{
-    padding: 50px 0 50px 50px;
+    padding: 0px 50px 50px 50px;
     background-color: #fff;
 }
 
@@ -53,7 +53,8 @@ span{
 }
 
 .nav-right{
-    margin-right: 150px;
+    margin-right: 100px;
+    padding: 50px 0px 50px 0px;
     padding-inline: 10px 10px;
     float: right;
     text-align: right;
@@ -102,7 +103,7 @@ span{
 /* Overview */
 .overview{
     background-color: #fff;
-    padding: 50px 0 75px 0;
+    padding: 150px 0 75px 0px;
 }
 
 .overview-txt{
@@ -195,6 +196,10 @@ td.phase{
 
 .faq-section p {
     text-align: left;
+}
+
+.discord{
+    color: cyan;
 }
 
 /* Footer */
