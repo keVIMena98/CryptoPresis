@@ -52,9 +52,16 @@ span{
     float: left;
 }
 
-.navigation-right{
+.nav-right{
+    margin-right: 150px;
     padding-inline: 10px 10px;
     float: right;
+    text-align: right;
+}
+
+.logo{ 
+    vertical-align: top;
+    margin: 0px 150px;
 }
 
 /* Dropdown button */
@@ -108,10 +115,11 @@ a #discord-btn{
     background-color: black;
     color: white;
     font-family: "coder";
+    font-size: 30px;
     cursor: pointer;
     margin-right: 50%;
     margin-left: 10%;
-    padding: 10px 0 5px 0;
+    padding: 10px 5px 10px 5px;
 }
 
 /* Story */
@@ -137,8 +145,9 @@ h1#roadmap{
 }
 
 .roadmap-content{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 10%;
+    margin-left: 50%;
+    padding: 50px 0px 75px 0px;
 }
 
 div.phase{
@@ -146,13 +155,14 @@ div.phase{
 }
 
 .table-head{
-    text-align: center;
-    margin: auto 25%;
+    text-align: left;
+    margin: auto 0%;
+    margin-bottom: 5%;
 }
 
 table{
     max-width: 700px;
-    margin-left: 18%;
+    margin-left: 0%;
 }
 
 table, td{
@@ -211,8 +221,10 @@ footer a{
 }
 
 footer a button#discord-btn{
+    font-size: 25px;
     margin: auto;
     font-family: "coder";
+    padding: 10px 5px 10px 5px;
 }
 
 footer button#discord{
