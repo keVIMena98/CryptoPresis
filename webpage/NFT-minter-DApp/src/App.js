@@ -68,7 +68,7 @@ function App() {
         gasLimit: "285000",
         to: "0x3a65373e354ad8f3c90ed830a403f487652632e2",
         from: blockchain.account,
-        value: blockchain.web3.utils.toWei((100 * _amount).toString(), "ether"),
+        value: blockchain.web3.utils.toWei((0.04 * _amount).toString(), "ether"),
       })
       .once("error", (err) => {
         console.log(err);
@@ -91,7 +91,7 @@ function App() {
   };
 
   useEffect(() => {
-    getData();
+    // getData();
   }, [blockchain.account]);
 
   return (
@@ -120,7 +120,7 @@ function App() {
             ai={"center"}
             style={{ backgroundColor: "#383838", padding: 24 }}
           >
-            {Number(data.totalSupply) == 1821 ? (
+            {Number(data.totalSupply) === 1821 ? (
               <>
                 <s.TextTitle style={{ textAlign: "center" }}>
                   The sale has ended.
@@ -136,7 +136,7 @@ function App() {
             ) : (
               <>
                 <s.TextTitle style={{ textAlign: "center" }}>
-                  1 CRPR costs 0.04 ETH.
+                  1 CryptoPresi costs 0.04 ETH.
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription style={{ textAlign: "center" }}>
@@ -158,7 +158,7 @@ function App() {
                       onClick={(e) => {
                         e.preventDefault();
                         dispatch(connect());
-                        getData();
+                        // getData();
                       }}
                     >
                       CONNECT
