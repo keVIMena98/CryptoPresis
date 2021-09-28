@@ -2,19 +2,29 @@
     /* border: 1px solid red; */
 }
 
+@font-face {
+    font-family: coder;
+    src: url(../assets/fonts/PressStart2P-Regular.woff) format("woff");
+  }
+
 body{
     background-color: #fff;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "coder", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2{
-    font-family: "Roboto", sans-serif;
+button{
+    font-family: "coder", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
-p{
-    font-family: "Roboto Mono Regular", sans-serif;
+a, a:visited{
+    color: black;
 }
 
 span{
