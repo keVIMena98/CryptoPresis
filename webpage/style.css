@@ -5,14 +5,14 @@
 @font-face {
     font-family: "coder";
     src: local("coder"),
-      url(../webpage/assets/fonts/PressStart2P-Regular.woff) format("woff");
+      url(../webpage/assets/fonts/NintendoDSBIOS.ttf) format("woff");
   }
 
 body{
     background-color: black;
     margin: 0;
     font-family: "coder";
-    font-size: 15px;
+    font-size: 30px;
     padding: 0;
 }
 
@@ -37,8 +37,7 @@ p{
 }
 
 span{
-    outline: red;
-    color: yellow;
+    color: cyan;
     background-color: black;
 }
 
