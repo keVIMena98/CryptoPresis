@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="utf-8">
         <title>CryptoPresis</title>
         <meta name="description" content="The official website of CryptoPresis">
         <meta name="viewport" content="width=device-width,initial-scale=1user-scalable=no">
-        <link rel="stylesheet" href="./styles/global.css" type="text/css">
-        <link href="./styles/style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="/styles/global.css" type="text/css">
+        <link href="/styles/style.css" rel="stylesheet" type="text/css">
     </head>
+
     <body>
+        <!-- navigation bar -->
         <div class="navigation">
-            <a id="head" href="./home.html">CryptoPresis</a>
+            <a id="head" href="/home.html">CryptoPresis</a>
             <a href="">Collection</a>
             <a href="#roadmap">Roadmap</a>
             <a href="#faq">FAQ</a>
@@ -20,8 +23,10 @@
                     <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"></path>
                 </svg>
             </a>
+            <!-- dropdown menu -->
             <div class="dropdown">
                 <p id="drop">Social</p>
+                <!-- content in dropdown menu -->
                 <div class="dropdown-content">
                     <a id="twitter" href="https://twitter.com/CryptoPresis" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-twitter" viewBox="0 0 16 16">
@@ -47,8 +52,13 @@
                 </div>
             </div>
         </div>
+        <!-- navigation bar end -->
+
+        <!-- main content -->
         <div id="main" class="contents">
+            <!-- overview section-->
             <div class="overview">
+                <img id="overview-presi" src="./assets/collection images/23.png">
                 <div class="overview-txt">
                     <h1>Overview</h1>
                     <p>
@@ -66,7 +76,11 @@
                     </a>
                 </div>
             </div>
+            <!-- overview section end -->
+
+            <!-- our story section -->
             <div class="story">
+                <!-- story -->
                 <div class="story-txt">
                     <h1>Our Story</h1>
                     <p>
@@ -99,10 +113,52 @@
                         something truly remarkable. 
                     </p>
                 </div>
+                <!-- story end -->
+
+                <!-- image slider -->
+                <div class="slider">
+                    <div class="slides">
+                        <!-- radio buttons -->
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <!-- radio buttons end -->
+                        <!-- slide images -->
+                        <div class="slide first">
+                            <img src="/assets/collection images/11.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="/assets/collection images/12.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="/assets/collection images/13.png" alt="">
+                        </div>
+                        <!-- slide images end -->
+                        <!-- automatic nav -->
+                        <div class="auto-navigation">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                        </div>
+                        <!-- automatic nav end -->
+                    </div>
+                    <!-- manual navigation -->
+                    <div class="manual-navigation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                    </div>
+                    <!-- manual navigation end -->
+                </div>
+                <!-- image slider end -->
             </div>
+            <!-- Our Story Section End -->
+
+            <!-- Roadmap Section -->
             <div class="roadmap">
                 <h1 id="roadmap">Roadmap</h1>
                 <div class="roadmap-content">
+                    <!-- Launch -->
                     <div class="launch">
                         <h2>Launch</h2>
                         <h3>FIRST 100 DISCORD MEMBERS</h3>
@@ -125,6 +181,7 @@
                             (his brother is big on NFTs😶).
                         </p>
                     </div>
+                    <!-- Phase 1 -->
                     <div class="phase">
                             <table>
                                 <thead>
@@ -149,6 +206,7 @@
                                 </tbody>
                             </table>
                         </div>
+                        <!-- Phase 2 -->
                         <div class="phase">
                             <table>
                                 <thead>
@@ -167,6 +225,7 @@
                                 </tbody>
                             </table>
                         </div>
+                        <!-- Phase 3 -->
                         <div class="phase">
                             <table>
                                 <thead>
@@ -193,6 +252,7 @@
                     </div>
                 </div>
             </div>
+            <!-- FAQ and Media section -->
             <div class="faq-and-media" id="faq">
                 <div class="faq-section">
                     <h2>F. A. Q.</h2>
@@ -203,28 +263,28 @@
                         some time to finalize all the attributes and 
                         determining the rarity of the individual 
                         attributes.
-                    </p>
+                    </p><br>
                     <p>What is the total supply?</p>
                     <p>
                         A total of 1821 unique CryptoPresis NFTs will 
                         be created. The total supply of the NFTs was 
                         inspired by the year of independence of 
                         El Salvador.
-                    </p>
+                    </p><br>
                     <p>When is the launch?</p>
                     <p>
                         We will announce the date of the drop in a 
                         future announcement. Stay tuned!
-                    </p>
+                    </p><br>
                     <p>How much does it cost to mint an NFT?</p>
                     <p>
                         0.04 ETH + gas. We will develop a mint mechanism 
                         to protect our community from paying high gas 
                         fees to mint our collection. Stay tuned for 
                         more information.
-                    </p>
+                    </p><br>
                     <p>How many can I mint during the sale?</p>
-                    <p>TBD</p>
+                    <p>TBD</p><br>
                     <P>
                         Have more questions? Follow us on 
                         <a href="https://discord.gg/AXqxaQKHjJ" target="_blank">Discord</a> 
@@ -233,6 +293,7 @@
                 </div>
             </div>
         </div>
+        <!-- Page Footer -->
         <footer>
             <h1>Join the community</h1>
             <p>Have any questions? Join our Discord for more information</p>

@@ -1,4 +1,6 @@
+
 /* Navigation bar */
+
 .navigation{
     padding: 50px 0 50px 50px;
     background-color: aqua;
@@ -16,9 +18,9 @@
 #drop{
     cursor: pointer;
     margin: auto;
+    padding: 5px 10px 5px 10px;
 }
 
-/* Container */
 .dropdown{
     position: relative;
     display: inline-block;
@@ -31,10 +33,9 @@
     min-width: 170px;
     background-color: transparent;
     padding: 10px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 5px 8px 26px rgba(0,0,0,0.2);
 }
 
-/* Links inside dropdown*/
 .dropdown-content a{
     color: black;
     display: block;
@@ -53,47 +54,132 @@
 }
 
 .dropdown-content a:hover{
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid black;
+    background-color: #00b1b1;
 }
 
 .dropdown-content a:hover .box-arrow-up-right{
     visibility: visible;
 }
 
+/* Content body */
+
 #main{
     font-size: larger;
 }
 
-/* Overview */
+/* Overview section*/
+
 .overview{
     background-color: cyan;
-    padding: 50px 0 75px 0;
+    padding: 50px 50px 75px 50px;
+}
+
+.overview #overview-presi{
+
 }
 
 .overview-txt{
+    padding: 0 10px 10px 10px;
     margin-right: 10%;
-    margin-left: 50%;
+    margin-left: auto;
+    max-width: 1000px;
+    vertical-align: -webkit-baseline-middle;
+    display: inline-block;
+}
+
+.overview a{
+    margin-left: 33.3%;
 }
 
 a #discord-btn{
     background-color: black;
     color: #fff;
     cursor: pointer;
-    margin-left: 10%;
 }
 
-/* Story */
+/* Story section*/
+
 .story{
-    padding: 50px 0 75px 0;
-}
-.story-txt{
-    margin-top: 10px;
-    margin-right: 50%;
-    margin-left: 10%;
+    padding: 50px 0 50px 50px;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: yellow;
 }
 
-/* Roadmap */
+.story-txt{
+    max-width: 1000px;
+}
+
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img{
+    width: 600px;
+    height: 500px;
+}
+
+/* manual slide navigation */
+.manual-navigation{
+    position: absolute;
+    width: 600px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid green;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 10px;
+}
+
+.manual-btn:hover{
+    background: green;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+/* Roadmap section*/
+
 .roadmap{
     display: block;
     background: cyan;
@@ -138,23 +224,31 @@ td.phase{
     vertical-align: middle;
 }
 
-/* FAQ */
+/* FAQ section*/
+
 .faq-and-media{
     display: block;
     padding: 50px 0 75px 0;
 }
 
 .faq-section{
+    border: 2px solid black;
+    padding: 20px;
     margin-top: 10px;
     margin-right: 50%;
     margin-left: 10%;
 }
 
-.faq-section p {
+.faq-section p{
     text-align: left;
 }
 
+.faq-section a{
+    color: darkblue;
+}
+
 /* Footer */
+
 footer{
     background-color: cyan;
     text-align: center;
@@ -180,16 +274,5 @@ footer a button#discord-btn{
 }
 
 footer button#discord{
-    margin: auto;
-}
-
-ul.footer-social{
-    padding: 0%;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-ul.footer-social li{
-    display: inline-block;
     margin: auto;
 }
