@@ -7,18 +7,19 @@
     text-align: right;
     padding-right: 150px;
     font-size: 0.8em;
+    width: 100%;
 }
 
 .navigation a{
-    padding: 5px 10px 5px 10px;
+    padding: auto;
     text-decoration: none;
+    margin: 5px;
 }
 
 /* Dropdown button */
 #drop{
     cursor: pointer;
     margin: auto;
-    padding: 5px 10px 5px 10px;
 }
 
 .dropdown{
@@ -30,7 +31,7 @@
 .dropdown-content{
     display: none;
     position: absolute;
-    min-width: 170px;
+    min-width: 200px;
     background-color: transparent;
     padding: 10px;
     box-shadow: 5px 8px 26px rgba(0,0,0,0.2);
@@ -74,11 +75,12 @@
 .overview{
     background-color: cyan;
     padding: 50px 50px 75px 50px;
+    width: 100%;
 }
 
-.overview #overview-presi{
+/* .overview #overview-presi{
 
-}
+} */
 
 .overview-txt{
     padding: 0 10px 10px 10px;
@@ -102,18 +104,21 @@ a #discord-btn{
 /* Story section*/
 
 .story{
-    padding: 50px 0 50px 50px;
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    background: yellow;
+    padding: 50px 0 50px 0;
 }
 
 .story-txt{
     max-width: 1000px;
 }
 
+.slider-container{
+
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background: yellow;
+}
 .slider{
     width: 800px;
     height: 500px;
@@ -151,7 +156,7 @@ a #discord-btn{
 }
 
 .manual-btn{
-    border: 2px solid green;
+    border: 2px solid black;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -163,7 +168,7 @@ a #discord-btn{
 }
 
 .manual-btn:hover{
-    background: green;
+    background: black;
 }
 
 #radio1:checked ~ .first{
