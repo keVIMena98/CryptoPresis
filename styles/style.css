@@ -2,19 +2,36 @@
 /* Navigation bar */
 
 .navigation{
-    padding: 50px 150px 50px 100px;
     background-color: aqua;
-    text-align: right;
     font-size: 0.8em;
     width: 100%;
-    height: fit-content;
+    height: 200px;
+    display: flex;
+    align-items: center;
 }
+
 
 .navigation a{
     text-decoration: none;
     margin: 5px;
 }
 
+.logo{
+    float: left;
+    margin: 10px;
+}
+
+#head img{
+    height: 100px;
+    width: 200px;
+    margin: auto;
+}
+
+.nav-panel{
+    float: right;
+    margin: auto;
+    margin-right: 150px;
+}
 /* Dropdown button */
 #drop{
     cursor: pointer;
@@ -73,38 +90,50 @@
 
 .overview{
     background-color: cyan;
-    padding: 50px 50px 75px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
+    min-height: 600px;
 }
 
-/* .overview #overview-presi{
-
-} */
+.overview #overview-presi{
+    margin: 50px;
+    width: 500px;
+    height: 500px;
+}
 
 .overview-txt{
-    padding: 0 10px 10px 10px;
-    margin-right: 10%;
-    margin-left: auto;
-    max-width: 1000px;
-    vertical-align: -webkit-baseline-middle;
-    display: inline-block;
+    max-width: 50%;
+    min-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.overview a{
-    margin-left: 33.3%;
+.overview-txt h1{
+    margin-bottom: 25px;
+}
+
+.overview-txt a{
+    margin-top: 25px;
+    flex: 0 1 260px;
 }
 
 a #discord-btn{
     background-color: black;
     color: #fff;
     cursor: pointer;
+    padding: 8px;
 }
 
 /* Story section*/
 
 .story{
     padding: 50px 0 50px 0;
-    background: white;
+    display: flex;
 }
 
 .story-txt{
@@ -186,7 +215,10 @@ a #discord-btn{
 /* Roadmap section*/
 
 .roadmap{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     background: cyan;
     padding: 50px 0px 75px 0px;
 }
@@ -200,7 +232,7 @@ h1#roadmap{
     margin-right: 5%;
 }
 
-div.phase{
+.phase{
     margin: 25px auto;
 }
 
@@ -210,8 +242,9 @@ div.phase{
 }
 
 table{
-    max-width: 700px;
-    margin-left: 18%;
+    flex: 0 0 700px;
+    max-width: 1000px;
+    margin: auto 18%;
 }
 
 table, td{
