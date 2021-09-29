@@ -62,14 +62,17 @@ function App() {
     }
     setFeedback("Minting your CryptoPresi...");
     setClaimingNft(true);
-    blockchain.smartContract.methods
-      .mint(blockchain.account, _amount)
+     blockchain.smartContract.methods
+      .mint(_amount)
       .send({
-        gasLimit: "285000",
-        to: "0x3a65373e354ad8f3c90ed830a403f487652632e2",
+        // gasLimit: "285000",
+        // to: "0x3a65373e354ad8f3c90ed830a403f487652632e2",
         from: blockchain.account,
-        value: blockchain.web3.utils.toWei((0.04 * _amount).toString(), "ether"),
-      })
+        value: blockchain.web3.utils.toWei(
+          ((Number(data.cost) / 1e18) * _amount).toString(),
+          "ether"
+        ),
+      }) 
       .once("error", (err) => {
         console.log(err);
         setFeedback("Sorry, something went wrong please try again later.");
@@ -91,7 +94,7 @@ function App() {
   };
 
   useEffect(() => {
-    // getData();
+    getData();
   }, [blockchain.account]);
 
   return (
@@ -120,7 +123,7 @@ function App() {
             ai={"center"}
             style={{ backgroundColor: "#383838", padding: 24 }}
           >
-            {Number(data.totalSupply) === 1821 ? (
+            {Number(data.totalSupply) == 1821 ? (
               <>
                 <s.TextTitle style={{ textAlign: "center" }}>
                   The sale has ended.
@@ -158,7 +161,7 @@ function App() {
                       onClick={(e) => {
                         e.preventDefault();
                         dispatch(connect());
-                        // getData();
+                        getData();
                       }}
                     >
                       CONNECT
@@ -197,11 +200,11 @@ function App() {
             Mainnet) and the correct address. Please note: Once you make the
             purchase, you cannot undo this action.
           </s.TextDescription>
-          <s.SpacerSmall />
+         {/* <s.SpacerSmall />
           <s.TextDescription style={{ textAlign: "center", fontSize: 9 }}>
             We have set the gas limit to 285000 for the contract to successfully
             mint your NFT. We recommend that you don't change the gas limit.
-          </s.TextDescription>
+          </s.TextDescription>*/}
         </s.Container>
       </s.Container>
     </s.Screen>
