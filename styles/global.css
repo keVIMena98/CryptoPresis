@@ -2,25 +2,26 @@
     border: 1px solid red;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 @font-face {
     font-family: coder;
     src: url(../assets/fonts/PressStart2P-Regular.woff) format("woff");
-  }
+}
 
 body{
-    background-color: white;
+    background: white;
+    /* background: cyan; */
 
     display: flex;
     justify-content: center;
     align-items: center;
+    /* align-items: flex-start; */
     flex-wrap: wrap;
+    flex-direction: column;
     
     margin: 0;
     padding: 0;
-    min-width: 500px;
 
     font-family: "coder", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
