@@ -15,13 +15,14 @@ contract NFT is ERC721Enumerable, Ownable {
   string public notRevealedUri;
   uint256 public cost = 0.04 ether;
   uint256 public maxSupply = 1821;
-  uint256 public maxMintAmount = 1;
-  uint256 public nftPerAddressLimit = 2;
+  uint256 public maxMintAmount = 5;
+  uint256 public nftPerAddressLimit = 3;
   bool public paused = false;
   bool public revealed = false;
   bool public onlyWhitelisted = true;
-  address payable commissions = payable("Gnosis_Safe_Wallet_Address");
+  address payable commissions = payable(0x0322B265355b1C66F2a37E1E1F678ba2de641e9c);
   address[] public whitelistedAddresses;
+  mapping(address => uint256) public addressesMintedBalance;
 
   constructor(
     string memory _name,
@@ -49,13 +50,14 @@ contract NFT is ERC721Enumerable, Ownable {
     if (msg.sender != owner()) {
         if(onlyWhitelisted == true) {
             require(isWhitelisted(msg.sender), "user is not whitelisted");
-            uint256 ownerTokenCount = balanceOf(msg.sender);
-            require(ownerTokenCount < nftPerAddressLimit, "max NFT per address exceeded");
+            uint256 ownerMintedCount = addressesMintedBalance[msg.sender];
+            require(ownerMintedCount <= nftPerAddressLimit, "max NFT per address exceeded");
         }
         require(msg.value >= cost * _mintAmount, "insufficient funds");
     }
 
     for (uint256 i = 1; i <= _mintAmount; i++) {
+        addressesMintedBalance[msg.sender]++;
       _safeMint(msg.sender, supply + i);
     }
     
@@ -160,4 +162,5 @@ contract NFT is ERC721Enumerable, Ownable {
 "address",
 "address",
 "address"...]
+[""]
  */ 
