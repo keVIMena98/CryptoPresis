@@ -1,11 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0
 
-// Created by HashLips
-/**
-    These contracts have been used to create tutorials, 
-    please review them on your own before using any of
-    the following code for production.
-*/
+// Created by ackermann.eth
 
 pragma solidity >=0.7.0 <0.9.0;
 
