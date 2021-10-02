@@ -144,6 +144,11 @@
 
 .contents{
     color: hsl(0, 1%, 15%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
 }
 
 /* Overview section*/
@@ -157,6 +162,7 @@
     flex-wrap: wrap;
     width: 100%;
     min-height: 900px;
+    overflow: scroll;
 }
 
 .overview .image{
@@ -404,11 +410,14 @@ footer{
 }
 
 footer h1{
-    margin: 100px auto 50px auto;
+    margin: 100px 50px 50px 50px;
+    text-align: center;
+    flex: 1 1;
 }
 
 footer p{
-    margin: 25px auto 50px auto;
+    margin: 25px 50px 50px 50px;
+    text-align: center;
 }
 
 footer a{
