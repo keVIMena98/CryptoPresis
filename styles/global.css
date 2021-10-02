@@ -1,12 +1,13 @@
 *{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0;
     padding: 0;
 }
 
 @font-face {
     font-family: coder;
-    src: url(../assets/fonts/PressStart2P-Regular.woff) format("woff");
+    /* src: url(../assets/fonts/PressStart2P-Regular.woff) format("woff"); */
+    src: url(../assets/fonts/NintendoDSBIOS.ttf) format("woff");
 }
 
 body{
@@ -25,6 +26,7 @@ body{
 
     font-family: "coder", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 40px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -45,4 +47,8 @@ a, a:visited{
 span{
     color: red;
     background-color: yellow;
+}
+
+img{
+    width: 100%;
 }

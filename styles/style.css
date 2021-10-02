@@ -16,12 +16,12 @@
     height: 200px;
     display: flex;
     display: -webkit-flex;
-    /* -webkit-flex-wrap: wrap-reverse; */
+    flex-wrap: wrap;
     align-items: center;
 }
 
 
-.navigation a{
+.menu a{
     text-decoration: none;
     margin: 5px;
     display: inline-block;
@@ -39,10 +39,14 @@
 }
 
 .nav-panel{
-    float: right;
-    margin: auto;
-    margin-right: 200px;
+    position: absolute;
+    right: 150px;
 }
+
+.hamburger-menu{
+    display: none;
+}
+
 /* Dropdown button */
 #drop{
     cursor: pointer;
@@ -58,8 +62,8 @@
 .dropdown-content{
     display: none;
     position: absolute;
-    min-width: 200px;
-    background-color: transparent;
+    min-width: 150px;
+    background: transparent;
     padding: 10px;
     box-shadow: 5px 8px 26px rgba(0,0,0,0.2);
 }
@@ -91,7 +95,49 @@
 }
 
 @media screen and (max-width: 1100px) {
-    
+    .nav-panel .menu{
+        display: none;
+    }
+
+    .hamburger-menu{
+        display: flex;
+        flex-wrap: wrap;
+        background: transparent;
+        width: 50px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    .hamburger-menu div{
+        width: 50px;
+        height: 7px;
+        background: black;
+        border-radius: 5px;
+    }
+
+    .hamburger-menu:active + .menu,
+    .hamburger-menu:focus + .menu{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        background: cyan;
+        box-shadow: 5px 8px 26px rgba(0,0,0,0.2);
+        padding: 20px;
+        width: 150px
+    }
+    .dropdown-content{
+        background: cyan;
+        right: 0px;
+    }
+
+    .menu a, .menu p{
+        padding-inline: 10px;
+    }
+
+    .menu a:hover{
+        background: #00b1b1;
+        border-radius: 5px;
+    }
 }
 
 /* Content body */
@@ -113,18 +159,15 @@
     min-height: 600px;
 }
 
-.presi{
-    
-}
-
-#overview-presi{
-    width: 100%;
+.overview .image{
+    flex: 1 250px;
+    max-width: 600px;
 }
 
 .overview-txt{
     max-width: 950px;
-    margin: 10px;
-    flex: 1 500px;
+    margin: 25px;
+    flex: 1 1 500px;
     display: flex;
     display: -webkit-flex;
     -webkit-flex-wrap: wrap;
@@ -134,7 +177,7 @@
 }
 
 .overview-txt h1{
-    font-size: 50px;
+    font-size: 60px;
     margin-bottom: 25px;
 }
 
@@ -145,6 +188,7 @@
 a #discord-btn{
     background-color: black;
     color: #fff;
+    font-size: 30px;
     cursor: pointer;
     padding: 8px;
 }
@@ -163,19 +207,19 @@ a #discord-btn{
 }
 
 .story-txt{
-    margin: 50px;
+    margin: 25px;
     flex: 2 2 700px;
 }
 
 .story-txt h1{
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     margin-bottom: 25px;
 }
 
 .slider-container{
 
-    margin: 0;
+    margin: 50px;
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -266,7 +310,7 @@ a #discord-btn{
 }
 
 .table-header{
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -277,6 +321,7 @@ a #discord-btn{
 
 .table-head{
     text-align: center;
+    font-size: 50px;
     margin: 15px 25%;
 }
 
@@ -300,7 +345,7 @@ td{
 td.phase{
     font-weight: 900;
     width: 250px;
-    font-size: 25px;
+    font-size: 50px;
     text-align: center;
     vertical-align: middle;
 }
@@ -322,17 +367,13 @@ td.phase{
     padding: 20px;
     flex: 1 600px;
     max-width: 750px;
-    margin: 10px;
+    margin: 25px;
 }
 
 .image{
     margin: 10px;
     flex: 1 500px;
     max-width: 700px;
-}
-
-#faq-media{
-    width: 100%;
 }
 
 .faq-section a{
@@ -359,13 +400,6 @@ footer p{
 
 footer a{
     margin: auto;
-    padding: 10px;
+    max-height: fit-content;
 }
 
-footer a button#discord-btn{
-    margin: auto;
-}
-
-footer button#discord{
-    margin: auto;
-}
