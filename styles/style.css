@@ -62,7 +62,7 @@
 .dropdown-content{
     display: none;
     position: absolute;
-    min-width: 150px;
+    min-width: 145px;
     background: transparent;
     padding: 10px;
     box-shadow: 5px 8px 26px rgba(0,0,0,0.2);
@@ -156,17 +156,18 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    min-height: 600px;
+    min-height: 900px;
 }
 
 .overview .image{
-    flex: 1 250px;
+    flex: 1 350px;
     max-width: 600px;
+    /* margin: 0; */
 }
 
 .overview-txt{
     max-width: 950px;
-    margin: 25px;
+    margin: 50px 50px 100px 50px;
     flex: 1 1 500px;
     display: flex;
     display: -webkit-flex;
@@ -207,7 +208,7 @@ a #discord-btn{
 }
 
 .story-txt{
-    margin: 25px;
+    margin: 100px 50px;
     flex: 2 2 700px;
 }
 
@@ -302,7 +303,7 @@ a #discord-btn{
 }
 
 .roadmap-content{
-    margin: 50px 5% 50px 5%;
+    margin: 100px 5% 100px 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -339,7 +340,7 @@ table, td{
 }
 
 td{ 
-    line-height: 30px;
+    line-height: 40px;
 }
 
 td.phase{
@@ -359,7 +360,7 @@ td.phase{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap-reverse;
-    min-height: 1000px;
+    min-height: 1300px;
 }
 
 .faq-section{
@@ -367,13 +368,21 @@ td.phase{
     padding: 20px;
     flex: 1 600px;
     max-width: 750px;
-    margin: 25px;
+    margin: 100px 50px 100px 50px;
 }
 
 .image{
-    margin: 10px;
+    margin: 100px 50px 0 50px;
     flex: 1 500px;
     max-width: 700px;
+}
+
+.faq-section h1{
+    margin-bottom: 50px;
+}
+
+.faq-section p{
+    margin-top: 10px;
 }
 
 .faq-section a{
@@ -383,23 +392,36 @@ td.phase{
 /* Footer */
 
 footer{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 1px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
     min-height: 300px;
 }
 
 footer h1{
-    margin: auto 25%;
+    margin: 100px auto 50px auto;
 }
 
 footer p{
-    margin: 25px 25%;
+    margin: 25px auto 50px auto;
 }
 
 footer a{
-    margin: auto;
-    max-height: fit-content;
+    margin: 25px;
+}
+
+.bottom-list{
+    margin: 25px;
+    margin-bottom: 50px;
+}
+
+.bottom-list svg{
+    width: 25px;
+    height: 25px;
 }
 
