@@ -18,7 +18,7 @@ body{
 
     font-family: "coder", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -37,8 +37,7 @@ a, a:visited{
 }
 
 span{
-    color: red;
-    background-color: yellow;
+    color: #0ff;
 }
 
 img{
@@ -46,5 +45,5 @@ img{
 }
 
 svg{
-    fill: #fff;
+    fill: #000;
 }

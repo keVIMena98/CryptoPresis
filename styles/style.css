@@ -1,16 +1,16 @@
 /* Background */
 
 .dark-background{
-    background: #000;
+    background: #fff;
 }
 
 .dark-background, .menu, .menu a{
-    color: #fff;
+    color: #000;
 }
 
 .light-background{
-    background: white;
-    color: #000;
+    background: #000;
+    color: #fff;
 }
 
 /* Navigation bar */
@@ -68,7 +68,7 @@
     background: transparent;
     padding: 10px;
     border-radius: 15px;
-    box-shadow: 5px 8px 26px 5px rgba(0,122,122,1);
+    box-shadow: 5px 8px 26px 5px rgba(0,180,180,1);
 }
 
 .dropdown-content a{
@@ -90,7 +90,7 @@
 }
 
 .dropdown-content a:hover{
-    background: rgb(0, 122, 122);
+    background: rgb(0, 255, 255);
 }
 
 .dropdown-content a:hover .box-arrow-up-right{
@@ -116,7 +116,7 @@
     .hamburger-menu div{
         width: 50px;
         height: 7px;
-        background: #fff;
+        background: #000;
         border-radius: 5px;
         
     }
@@ -126,14 +126,14 @@
         display: flex;
         position: absolute;
         flex-direction: column;
-        background: #000;
-        box-shadow: 5px 8px 26px rgba(0,122,122,1);
+        background: #fff;
+        box-shadow: 5px 8px 26px rgba(0,180,180,1);
         padding: 20px;
         width: 150px;
     }
     
     .dropdown-content{
-        background: #000;
+        background: #fff;
         right: 0px;
     }
 
@@ -142,7 +142,7 @@
     }
 
     .menu a:hover{
-        background: #00b1b1;
+        background: #0ff;
         border-radius: 5px;
     }
 
@@ -202,8 +202,8 @@
 }
 
 a #discord-btn{
-    background-color: black;
-    color: #fff;
+    background-color: #0ff;
+    color: #000;
     font-size: 30px;
     cursor: pointer;
     padding: 8px;
@@ -382,7 +382,7 @@ table{
 }
 
 table, td{
-    border: 3px solid #fff;
+    border: 3px solid #000;
     border-collapse: collapse;
     height: 100px;
     padding: 10px 20px;
@@ -390,6 +390,10 @@ table, td{
 
 td{ 
     line-height: 40px;
+}
+
+.launch{
+    width: 1500px;
 }
 
 td.phase{
@@ -414,7 +418,7 @@ td.phase{
 }
 
 .faq-section{
-    border: 2px solid black;
+    border: 2px solid #fff;
     padding: 20px;
     flex: 1 600px;
     max-width: 750px;
@@ -436,7 +440,7 @@ td.phase{
 }
 
 .faq-section a{
-    color: darkblue;
+    color: #0ff;
 }
 
 /* Footer */
