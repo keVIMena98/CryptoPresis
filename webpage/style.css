@@ -1,68 +1,46 @@
-*{
-    /* border: 1px solid red; */
+/* Background */
+
+.dark-background{
+    background: #000;
 }
 
-@font-face {
-    font-family: "coder";
-    src: local("coder"),
-      url(../webpage/assets/fonts/NintendoDSBIOS.ttf) format("woff");
-  }
-
-body{
-    background-color: black;
-    margin: 0;
-    font-family: "coder";
-    font-size: 30px;
-    padding: 0;
+.dark-background, .menu, .menu a{
+    color: #fff;
 }
 
-h1, h2{
-    color:black;
-    font-family: "coder", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.white-bkgrnd{
-    color: black;
-}
-
-.black-bkgrnd{
-    color: white;
-}
-
-p{
-    font-family: "Roboto Mono Regular", "coder", sans-serif;
-}
-
-span{
-    color: cyan;
-    background-color: black;
+.light-background{
+    background: white;
+    color: #000;
 }
 
 /* Navigation bar */
+
 .navigation{
-    padding: 0px 50px 50px 50px;
-    background-color: #fff;
+    font-size: 0.8em;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.navigation a{
-    padding-inline: 10px 10px;
-    float: left;
+
+.menu a{
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
 }
 
-.nav-right{
-    margin-right: 100px;
-    padding: 50px 0px 50px 0px;
-    padding-inline: 10px 10px;
-    float: right;
-    text-align: right;
+#head img{
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
 }
 
-.logo{ 
-    vertical-align: top;
-    margin: 0px 150px;
+.hamburger-menu{
+    display: none;
 }
 
 /* Dropdown button */
@@ -71,179 +49,429 @@ span{
     margin: auto;
 }
 
-/* Container */
+#drop svg{
+    width: 20px;
+    height: 20px;
+}
+
 .dropdown{
     position: relative;
     display: inline-block;
+    margin-inline: 10px;
 }
 
 /* Dropdown content (Hidden) */
 .dropdown-content{
     display: none;
     position: absolute;
-    background-color: #fff;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    min-width: 145px;
+    background: transparent;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 8px 26px 5px rgba(0,122,122,1);
 }
 
-/* Links inside dropdown*/
 .dropdown-content a{
-    color: black;
     display: block;
     text-align: center;
-    border-radius: 5px;
-    border: 1px solid black;
+    width: max-content;
+    padding: 5%;
+    transition: background 0.5s;
+    border-radius: 10px;
+}
+
+.dropdown-content a .box-arrow-up-right{
+    visibility: hidden;
 }
 
 .dropdown:hover .dropdown-content{
     display: block;
-    background-color: #fff;
+    height: auto;
 }
 
-/* Overview */
+.dropdown-content a:hover{
+    background: rgb(0, 122, 122);
+}
+
+.dropdown-content a:hover .box-arrow-up-right{
+    visibility: visible;
+}
+
+@media screen and (max-width: 1100px) {
+    .nav-panel .menu{
+        display: none;
+    }
+
+    .hamburger-menu{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px 50px 0 50px;
+        background: transparent;
+        border: transparent;
+        width: 50px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    .hamburger-menu div{
+        width: 50px;
+        height: 7px;
+        background: #fff;
+        border-radius: 5px;
+        
+    }
+
+    .hamburger-menu:active + .menu,
+    .hamburger-menu:focus + .menu{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        background: #000;
+        box-shadow: 5px 8px 26px rgba(0,122,122,1);
+        padding: 20px;
+        width: 150px;
+    }
+    
+    .dropdown-content{
+        background: #000;
+        right: 0px;
+    }
+
+    .menu a, .menu p{
+        padding-inline: 10px;
+    }
+
+    .menu a:hover{
+        background: #00b1b1;
+        border-radius: 5px;
+    }
+
+    .dropdown-content{
+        display: block;
+        left: -17px;
+    }
+}
+
+/* Content body */
+
+.contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Overview section*/
+
 .overview{
-    background-color: #fff;
-    padding: 150px 0 75px 0px;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 1000px;
+}
+
+.overview .image{
+    flex: 1 350px;
+    max-width: 600px;
+    margin: 50px;
 }
 
 .overview-txt{
-    color:black;
-    margin-right: 10%;
-    margin-left: 50%;
+    max-width: 950px;
+    margin: 50px 50px 100px 50px;
+    flex: 1 1 500px;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.overview-txt h1{
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.overview-txt a{
+    margin-top: 25px;
 }
 
 a #discord-btn{
     background-color: black;
-    color: white;
-    font-family: "coder";
+    color: #fff;
     font-size: 30px;
     cursor: pointer;
-    margin-right: 50%;
-    margin-left: 10%;
-    padding: 10px 5px 10px 5px;
+    padding: 8px;
 }
 
-/* Story */
+/* Story section*/
+
 .story{
-    padding: 50px 0 75px 0;
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 900px;
 }
+
 .story-txt{
-    color: #fff; 
-    margin-top: 10px;
-    margin-right: 50%;
-    margin-left: 10%;
+    margin: 100px 50px 100px 50px;
+    flex: 2 2 700px;
 }
 
-/* Roadmap */
-.roadmap{
-    display: block;
-    background: #fff;
-    padding: 50px 0px 75px 0px;
-}
-
-h1#roadmap{
+.story-txt h1{
+    font-size: 60px;
     text-align: center;
+    margin-bottom: 25px;
+}
+
+.slider-container{
+    margin: 0px 50px 100px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background: transparent;
+}
+.slider{
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 600px;
+    height: 600px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 100%;
+    transition: 2s;
+}
+
+.slide img{
+    width: 600px;
+    height: 600px;
+}
+
+/* manual slide navigation */
+.manual-navigation{
+    position: absolute;
+    width: 600px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 3px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 10px;
+}
+
+.manual-btn:hover{
+    background: #fff;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -600px;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -1200px;
+}
+
+/* automatic slide navigation */
+
+
+
+@media screen and (min-width: 900px) and (max-width: 1550px) {
+    .slider{
+        width: 800px;
+        height: 800px;
+    }
+    .slides{
+        width: 800px;
+        height: 800px;
+    }
+    .slide{
+        width: 100%;
+    }
+    .slide img{
+        width: 800px;
+        height: 800px;
+    }
+
+    .manual-navigation{
+        width: 800px;
+    }
+
+    #radio2:checked ~ .first{
+        margin-left: -800px;
+    }
+    
+    #radio3:checked ~ .first{
+        margin-left: -1600px;
+    }
+
+}
+
+/* Roadmap section*/
+
+.roadmap{
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 2000px;
 }
 
 .roadmap-content{
-    margin-right: 10%;
-    margin-left: 50%;
-    padding: 50px 0px 75px 0px;
+    margin: 100px 5% 100px 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-div.phase{
-    margin: 25px auto;
+.table-header{
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#development{
+    margin-top: 50px;
 }
 
 .table-head{
-    text-align: left;
-    margin: auto 0%;
-    margin-bottom: 5%;
+    text-align: center;
+    font-size: 50px;
+    margin: 15px 25%;
 }
 
 table{
-    max-width: 700px;
-    margin-left: 0%;
+    flex: 1 1 700px;
+    max-width: 75%;
+    margin: auto 12.5%;
 }
 
 table, td{
-    border: 3px solid black;
+    border: 3px solid #fff;
     border-collapse: collapse;
     height: 100px;
-    padding: 10px;
+    padding: 10px 20px;
+}
+
+td{ 
+    line-height: 40px;
 }
 
 td.phase{
     font-weight: 900;
-    width: 200px;
-    font-size: 25px;
+    width: 250px;
+    font-size: 50px;
     text-align: center;
     vertical-align: middle;
 }
 
-/* FAQ */
+/* FAQ section*/
+
 .faq-and-media{
-    display: block;
-    padding: 50px 0 75px 0;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    min-height: 1300px;
+    width: 100%;
 }
 
 .faq-section{
-    color:#fff;
+    border: 2px solid black;
+    padding: 20px;
+    flex: 1 600px;
+    max-width: 750px;
+    margin: 100px 50px 100px 50px;
+}
+
+.image{
+    margin: 100px 50px 0 50px;
+    flex: 1 500px;
+    max-width: 700px;
+}
+
+.faq-section h1{
+    margin-bottom: 50px;
+}
+
+.faq-section p{
     margin-top: 10px;
-    margin-right: 50%;
-    margin-left: 10%;
 }
 
-.faq-section p {
-    text-align: left;
-}
-
-.discord{
-    color: cyan;
+.faq-section a{
+    color: darkblue;
 }
 
 /* Footer */
+
 footer{
-    background-color: #fff;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 1px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 footer h1{
-    margin: auto 25%;
-    font-family: "coder";
+    margin: 75px 50px 25px 50px;
+    text-align: center;
+    flex: 1 1;
 }
 
 footer p{
-    margin: 25px 25%;
-    font-family: "coder";
+    margin: 25px 50px 25px 50px;
+    text-align: center;
 }
 
 footer a{
-    margin: auto;
-    padding: 10px;
+    margin: 25px;
 }
 
-footer a button#discord-btn{
-    font-size: 25px;
-    margin: auto;
-    font-family: "coder";
-    padding: 10px 5px 10px 5px;
+.bottom-list{
+    margin: 0 25px 50px;
 }
 
-footer button#discord{
-    margin: auto;
-    font-family: "coder";
-}
-
-ul.footer-social{
-    padding: 0%;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-ul.footer-social li{
-    display: inline-block;
-    margin: auto;
+.bottom-list svg{
+    width: 25px;
+    height: 25px;
 }
