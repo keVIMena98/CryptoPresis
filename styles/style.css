@@ -292,48 +292,20 @@ a #discord-btn{
     background: #fff;
 }
 
+.manual-btn:checked{
+    background: #fff;
+}
+
 #radio1:checked ~ .first{
     margin-left: 0;
 }
 
 #radio2:checked ~ .first{
-    margin-left: -600px;
+    margin-left: -100%;
 }
 
 #radio3:checked ~ .first{
-    margin-left: -1200px;
-}
-
-/* automatic slide navigation */
-.auto-navigation{
-    position: absolute;
-    display: flex;
-    width: 600px;
-    justify-content: center;
-    margin: 450px;
-}
-
-.auto-navigation div{
-    border: 2px solid #000;
-    padding: 5px;
-    border-radius: 10px;
-    transition: 2s;
-}
-
-.auto-navigation div:not(:last-child){
-    margin-right: 40px;
-}
-
-#radio1:checked ~ .auto-navigation .auto-btn1{
-    background: #000;
-}
-
-#radio2:checked ~ .auto-navigation .auto-btn2{
-    background: #000;
-}
-
-#radio2:checked ~ .auto-navigation .auto-btn3{
-    background: #000;
+    margin-left: -200%;
 }
 
 @media screen and (min-width: 900px) and (max-width: 1550px) {
@@ -356,15 +328,72 @@ a #discord-btn{
     .manual-navigation{
         width: 800px;
     }
+}
 
-    #radio2:checked ~ .first{
-        margin-left: -800px;
+@media screen and (max-width: 700px) {
+    .slider{
+        width: 500px;
+        height: 500px;
     }
-    
-    #radio3:checked ~ .first{
-        margin-left: -1600px;
+    .slides{
+        width: 500px;
+        height: 500px;
+    }
+    .slide{
+        width: 100%;
+    }
+    .slide img{
+        width: 500px;
+        height: 500px;
     }
 
+    .manual-navigation{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slider{
+        width: 400px;
+        height: 400px;
+    }
+    .slides{
+        width: 400px;
+        height: 400px;
+    }
+    .slide{
+        width: 100%;
+    }
+    .slide img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .manual-navigation{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .slider{
+        width: 300px;
+        height: 300px;
+    }
+    .slides{
+        width: 300px;
+        height: 300px;
+    }
+    .slide{
+        width: 100%;
+    }
+    .slide img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .manual-navigation{
+        width: 300px;
+    }
 }
 
 /* Roadmap section*/
@@ -412,12 +441,22 @@ table{
 table, td{
     border: 3px solid #000;
     border-collapse: collapse;
-    height: 100px;
+    min-height: 100px;
     padding: 10px 20px;
+}
+
+#development tr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 td{ 
     line-height: 40px;
+}
+
+#development .phase-descrp{
+    flex: 1 1 600px;
 }
 
 .launch{
@@ -425,11 +464,12 @@ td{
 }
 
 td.phase{
+    display: flex;
     font-weight: 900;
-    width: 250px;
-    font-size: 50px;
-    text-align: center;
-    vertical-align: middle;
+    flex: 1 1 250px;
+    font-size: 45px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* FAQ section*/
