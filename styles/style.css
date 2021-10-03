@@ -305,8 +305,36 @@ a #discord-btn{
 }
 
 /* automatic slide navigation */
+.auto-navigation{
+    position: absolute;
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    margin: 450px;
+}
 
+.auto-navigation div{
+    border: 2px solid #000;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 2s;
+}
 
+.auto-navigation div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .auto-navigation .auto-btn1{
+    background: #000;
+}
+
+#radio2:checked ~ .auto-navigation .auto-btn2{
+    background: #000;
+}
+
+#radio2:checked ~ .auto-navigation .auto-btn3{
+    background: #000;
+}
 
 @media screen and (min-width: 900px) and (max-width: 1550px) {
     .slider{
