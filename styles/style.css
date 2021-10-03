@@ -1,11 +1,16 @@
 /* Background */
 
-.navigation, .overview, .roadmap, footer{
-    background: cyan;
+.dark-background{
+    background: #000;
 }
 
-.story, .faq-and-media{
+.dark-background, .menu, .menu a{
+    color: #fff;
+}
+
+.light-background{
     background: white;
+    color: #000;
 }
 
 /* Navigation bar */
@@ -13,34 +18,25 @@
 .navigation{
     font-size: 0.8em;
     width: 100%;
-    height: 200px;
+    height: 300px;
     display: flex;
     display: -webkit-flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-around;
 }
 
 
 .menu a{
     text-decoration: none;
-    margin: 5px;
+    margin: 10px;
     display: inline-block;
-}
-
-.logo{
-    float: left;
-    margin: 10px 10px 10px 100px;
 }
 
 #head img{
     height: 100px;
-    width: 200px;
-    margin: auto;
-}
-
-.nav-panel{
-    position: absolute;
-    right: 150px;
+    width: 300px;
+    border-radius: 10px;
 }
 
 .hamburger-menu{
@@ -53,9 +49,15 @@
     margin: auto;
 }
 
+#drop svg{
+    width: 20px;
+    height: 20px;
+}
+
 .dropdown{
     position: relative;
     display: inline-block;
+    margin-inline: 10px;
 }
 
 /* Dropdown content (Hidden) */
@@ -65,15 +67,17 @@
     min-width: 145px;
     background: transparent;
     padding: 10px;
-    box-shadow: 5px 8px 26px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    box-shadow: 5px 8px 26px 5px rgba(0,122,122,1);
 }
 
 .dropdown-content a{
-    color: black;
     display: block;
     text-align: center;
     width: max-content;
     padding: 5%;
+    transition: background 0.5s;
+    border-radius: 10px;
 }
 
 .dropdown-content a .box-arrow-up-right{
@@ -82,12 +86,11 @@
 
 .dropdown:hover .dropdown-content{
     display: block;
+    height: auto;
 }
 
 .dropdown-content a:hover{
-    border-radius: 10px;
-    border: 1px solid black;
-    background-color: #00b1b1;
+    background: rgb(0, 122, 122);
 }
 
 .dropdown-content a:hover .box-arrow-up-right{
@@ -102,7 +105,9 @@
     .hamburger-menu{
         display: flex;
         flex-wrap: wrap;
+        margin: 50px 50px 0 50px;
         background: transparent;
+        border: transparent;
         width: 50px;
         height: 40px;
         cursor: pointer;
@@ -111,8 +116,9 @@
     .hamburger-menu div{
         width: 50px;
         height: 7px;
-        background: black;
+        background: #fff;
         border-radius: 5px;
+        
     }
 
     .hamburger-menu:active + .menu,
@@ -120,13 +126,14 @@
         display: flex;
         position: absolute;
         flex-direction: column;
-        background: cyan;
-        box-shadow: 5px 8px 26px rgba(0,0,0,0.2);
+        background: #000;
+        box-shadow: 5px 8px 26px rgba(0,122,122,1);
         padding: 20px;
-        width: 150px
+        width: 150px;
     }
+    
     .dropdown-content{
-        background: cyan;
+        background: #000;
         right: 0px;
     }
 
@@ -138,17 +145,20 @@
         background: #00b1b1;
         border-radius: 5px;
     }
+
+    .dropdown-content{
+        display: block;
+        left: -17px;
+    }
 }
 
 /* Content body */
 
 .contents{
-    color: hsl(0, 1%, 15%);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* flex-direction: column; */
 }
 
 /* Overview section*/
@@ -161,14 +171,13 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    min-height: 900px;
-    overflow: scroll;
+    min-height: 1000px;
 }
 
 .overview .image{
     flex: 1 350px;
     max-width: 600px;
-    /* margin: 0; */
+    margin: 50px;
 }
 
 .overview-txt{
@@ -214,7 +223,7 @@ a #discord-btn{
 }
 
 .story-txt{
-    margin: 100px 50px;
+    margin: 100px 50px 100px 50px;
     flex: 2 2 700px;
 }
 
@@ -225,23 +234,22 @@ a #discord-btn{
 }
 
 .slider-container{
-
-    margin: 50px;
+    margin: 0px 50px 100px 50px;
     display: flex;
     align-items: center;
     justify-content: center; 
-    background: yellow;
+    background: transparent;
 }
 .slider{
-    width: 800px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .slides{
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     display: flex;
 }
 
@@ -250,13 +258,13 @@ a #discord-btn{
 }
 
 .slide{
-    width: 20%;
+    width: 100%;
     transition: 2s;
 }
 
 .slide img{
     width: 600px;
-    height: 500px;
+    height: 600px;
 }
 
 /* manual slide navigation */
@@ -269,7 +277,7 @@ a #discord-btn{
 }
 
 .manual-btn{
-    border: 2px solid black;
+    border: 3px solid #fff;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -281,7 +289,7 @@ a #discord-btn{
 }
 
 .manual-btn:hover{
-    background: black;
+    background: #fff;
 }
 
 #radio1:checked ~ .first{
@@ -289,11 +297,46 @@ a #discord-btn{
 }
 
 #radio2:checked ~ .first{
-    margin-left: -20%;
+    margin-left: -600px;
 }
 
 #radio3:checked ~ .first{
-    margin-left: -40%;
+    margin-left: -1200px;
+}
+
+/* automatic slide navigation */
+
+
+
+@media screen and (min-width: 900px) and (max-width: 1550px) {
+    .slider{
+        width: 800px;
+        height: 800px;
+    }
+    .slides{
+        width: 800px;
+        height: 800px;
+    }
+    .slide{
+        width: 100%;
+    }
+    .slide img{
+        width: 800px;
+        height: 800px;
+    }
+
+    .manual-navigation{
+        width: 800px;
+    }
+
+    #radio2:checked ~ .first{
+        margin-left: -800px;
+    }
+    
+    #radio3:checked ~ .first{
+        margin-left: -1600px;
+    }
+
 }
 
 /* Roadmap section*/
@@ -339,7 +382,7 @@ table{
 }
 
 table, td{
-    border: 3px solid black;
+    border: 3px solid #fff;
     border-collapse: collapse;
     height: 100px;
     padding: 10px 20px;
@@ -367,6 +410,7 @@ td.phase{
     align-items: center;
     flex-wrap: wrap-reverse;
     min-height: 1300px;
+    width: 100%;
 }
 
 .faq-section{
@@ -406,17 +450,16 @@ footer{
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    min-height: 300px;
 }
 
 footer h1{
-    margin: 100px 50px 50px 50px;
+    margin: 75px 50px 25px 50px;
     text-align: center;
     flex: 1 1;
 }
 
 footer p{
-    margin: 25px 50px 50px 50px;
+    margin: 25px 50px 25px 50px;
     text-align: center;
 }
 
@@ -425,8 +468,7 @@ footer a{
 }
 
 .bottom-list{
-    margin: 25px;
-    margin-bottom: 50px;
+    margin: 0 25px 50px;
 }
 
 .bottom-list svg{

@@ -1,25 +1,17 @@
 *{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0;
     padding: 0;
 }
 
 @font-face {
     font-family: coder;
-    /* src: url(../assets/fonts/PressStart2P-Regular.woff) format("woff"); */
     src: url(../assets/fonts/NintendoDSBIOS.ttf) format("woff");
 }
 
 body{
     background: white;
-    /* background: cyan; */
     display: block;
-
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column; */
     
     margin: 0;
     padding: 0;
@@ -51,4 +43,8 @@ span{
 
 img{
     width: 100%;
+}
+
+svg{
+    fill: #fff;
 }
