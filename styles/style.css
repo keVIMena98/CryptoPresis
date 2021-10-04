@@ -525,18 +525,18 @@ footer{
 }
 
 footer h1{
-    margin: 75px 50px 25px 50px;
+    margin: 50px 50px 10px 50px;
     text-align: center;
     flex: 1 1;
 }
 
 footer p{
-    margin: 25px 50px 25px 50px;
+    margin: 10px 50px 10px 50px;
     text-align: center;
 }
 
 footer a{
-    margin: 25px;
+    margin: 10px;
 }
 
 .bottom-list{
