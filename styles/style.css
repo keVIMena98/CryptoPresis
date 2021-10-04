@@ -1,16 +1,16 @@
 /* Background */
 
 .dark-background{
-    background: #000;
+    background: #fff;
 }
 
 .dark-background, .menu, .menu a{
-    color: #fff;
+    color: #000;
 }
 
 .light-background{
-    background: white;
-    color: #000;
+    background: #000;
+    color: #fff;
 }
 
 /* Navigation bar */
@@ -18,7 +18,7 @@
 .navigation{
     font-size: 0.8em;
     width: 100%;
-    height: 300px;
+    height: 150px;
     display: flex;
     display: -webkit-flex;
     flex-wrap: wrap;
@@ -68,7 +68,7 @@
     background: transparent;
     padding: 10px;
     border-radius: 15px;
-    box-shadow: 5px 8px 26px 5px rgba(0,122,122,1);
+    box-shadow: 5px 8px 26px 5px rgba(0,180,180,1);
 }
 
 .dropdown-content a{
@@ -90,7 +90,7 @@
 }
 
 .dropdown-content a:hover{
-    background: rgb(0, 122, 122);
+    background: rgb(0, 255, 255);
 }
 
 .dropdown-content a:hover .box-arrow-up-right{
@@ -116,7 +116,7 @@
     .hamburger-menu div{
         width: 50px;
         height: 7px;
-        background: #fff;
+        background: #000;
         border-radius: 5px;
         
     }
@@ -126,14 +126,14 @@
         display: flex;
         position: absolute;
         flex-direction: column;
-        background: #000;
-        box-shadow: 5px 8px 26px rgba(0,122,122,1);
+        background: #fff;
+        box-shadow: 5px 8px 26px rgba(0,180,180,1);
         padding: 20px;
         width: 150px;
     }
     
     .dropdown-content{
-        background: #000;
+        background: #fff;
         right: 0px;
     }
 
@@ -142,7 +142,7 @@
     }
 
     .menu a:hover{
-        background: #00b1b1;
+        background: #0ff;
         border-radius: 5px;
     }
 
@@ -170,13 +170,13 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
-    min-height: 1000px;
+    width: 80%;
+    min-height: 700px;
 }
 
 .overview .image{
     flex: 1 350px;
-    max-width: 600px;
+    max-width: 400px;
     margin: 50px;
 }
 
@@ -202,8 +202,8 @@
 }
 
 a #discord-btn{
-    background-color: black;
-    color: #fff;
+    background-color: #0ff;
+    color: #000;
     font-size: 30px;
     cursor: pointer;
     padding: 8px;
@@ -292,21 +292,21 @@ a #discord-btn{
     background: #fff;
 }
 
+.manual-btn:checked{
+    background: #fff;
+}
+
 #radio1:checked ~ .first{
     margin-left: 0;
 }
 
 #radio2:checked ~ .first{
-    margin-left: -600px;
+    margin-left: -100%;
 }
 
 #radio3:checked ~ .first{
-    margin-left: -1200px;
+    margin-left: -200%;
 }
-
-/* automatic slide navigation */
-
-
 
 @media screen and (min-width: 900px) and (max-width: 1550px) {
     .slider{
@@ -328,15 +328,72 @@ a #discord-btn{
     .manual-navigation{
         width: 800px;
     }
+}
 
-    #radio2:checked ~ .first{
-        margin-left: -800px;
+@media screen and (max-width: 700px) {
+    .slider{
+        width: 500px;
+        height: 500px;
     }
-    
-    #radio3:checked ~ .first{
-        margin-left: -1600px;
+    .slides{
+        width: 500px;
+        height: 500px;
+    }
+    .slide{
+        width: 100%;
+    }
+    .slide img{
+        width: 500px;
+        height: 500px;
     }
 
+    .manual-navigation{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slider{
+        width: 400px;
+        height: 400px;
+    }
+    .slides{
+        width: 400px;
+        height: 400px;
+    }
+    .slide{
+        width: 100%;
+    }
+    .slide img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .manual-navigation{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .slider{
+        width: 300px;
+        height: 300px;
+    }
+    .slides{
+        width: 300px;
+        height: 300px;
+    }
+    .slide{
+        width: 100%;
+    }
+    .slide img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .manual-navigation{
+        width: 300px;
+    }
 }
 
 /* Roadmap section*/
@@ -382,22 +439,37 @@ table{
 }
 
 table, td{
-    border: 3px solid #fff;
+    border: 3px solid #000;
     border-collapse: collapse;
-    height: 100px;
+    min-height: 100px;
     padding: 10px 20px;
+}
+
+#development tr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 td{ 
     line-height: 40px;
 }
 
+#development .phase-descrp{
+    flex: 1 1 600px;
+}
+
+.launch{
+    width: 1500px;
+}
+
 td.phase{
+    display: flex;
     font-weight: 900;
-    width: 250px;
-    font-size: 50px;
-    text-align: center;
-    vertical-align: middle;
+    flex: 1 1 250px;
+    font-size: 45px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* FAQ section*/
@@ -414,7 +486,7 @@ td.phase{
 }
 
 .faq-section{
-    border: 2px solid black;
+    border: 2px solid #fff;
     padding: 20px;
     flex: 1 600px;
     max-width: 750px;
@@ -436,7 +508,7 @@ td.phase{
 }
 
 .faq-section a{
-    color: darkblue;
+    color: #0ff;
 }
 
 /* Footer */
