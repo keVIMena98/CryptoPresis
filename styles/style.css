@@ -466,7 +466,7 @@ table, td{
     padding: 10px 20px;
 }
 
-#development tr{
+tr{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -480,8 +480,12 @@ td{
     flex: 1 1 600px;
 }
 
-.launch{
-    width: 1500px;
+#launch td{
+    width: 100%;
+}
+
+#launch table{
+    margin-bottom: 50px;
 }
 
 td.phase{
