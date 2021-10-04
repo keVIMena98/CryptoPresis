@@ -18,15 +18,16 @@
                 <a id="head" href="/home.html"><img src="/assets/images/logo.png"></a>
             </div>
             <!-- nav panel -->
-            <div class="nav-panel">
+            <div class="nav-panel" data-dropdown>
                 <!-- menu for when window gets too small -->
-                <button class="hamburger-menu">
+                <button class="hamburger-menu" data-dropdown-button>
                     <div></div>
                     <div></div>
                     <div></div>
                 </button>
                 <!-- end -->
-                <ul class="menu">
+                <!-- navigation bar menu -->
+                <div id="menu">
                     <a href="">Mint</a>
                     <a href="#roadmap">Roadmap</a>
                     <a href="#faq">FAQ</a>
@@ -36,7 +37,7 @@
                         </svg></a>
                     <!-- dropdown menu -->
                     <div class="dropdown">
-                        <p id="drop">Social<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        <p id="drop">Social <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                             viewBox="0 0 25.93 25.93" style="enable-background:new 0 0 25.93 25.93;" xml:space="preserve">
                             <g id="c118_triangle">
                                <path d="M25.397,4.554h-2.042l-9.974,12.644c-0.101,0.124-0.256,0.197-0.416,0.197c-0.164,0-0.315-0.073-0.419-0.197L2.575,4.554
@@ -70,8 +71,14 @@
                         <!-- content in dropdown menu end -->
                     </div>
                     <!-- dropdown menu end -->
-                </ul>
+                </div>
+                <!-- navigation bar menu end -->
             </div>
+            <!-- <script>
+                function menu() {
+                    document.getElementById('menu').classList.toggle('show');
+                }
+            </script> -->
             <!-- nav paner end -->
         </div>
         <!-- navigation bar end -->
