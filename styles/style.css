@@ -423,7 +423,7 @@ a #discord-btn{
 }
 
 #development{
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .table-head{
@@ -441,7 +441,7 @@ table{
 table, td{
     border: 3px solid #000;
     border-collapse: collapse;
-    min-height: 100px;
+    min-height: 60px;
     padding: 10px 20px;
 }
 
@@ -452,7 +452,7 @@ table, td{
 }
 
 td{ 
-    line-height: 40px;
+    line-height: 30px;
 }
 
 #development .phase-descrp{
