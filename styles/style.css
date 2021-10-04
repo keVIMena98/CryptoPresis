@@ -191,8 +191,8 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 80%;
-    min-height: 700px;
+    width: 100%;
+    min-height: 800px;
 }
 
 .overview .image{
