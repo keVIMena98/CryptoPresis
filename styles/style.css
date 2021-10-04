@@ -153,7 +153,9 @@
     .dropdown-content{
         background: #fff;
         box-shadow: 0px 25px 26px rgba(0,180,180,.5);
-        display: block;
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
         left: -17px;
     }
 
@@ -164,12 +166,7 @@
     #menu a:hover{
         background: #0ff;
         border-radius: 5px;
-        transition: 1s;
-    }
-
-    .show{
-        display: block;
-        /* flex-direction: column; */
+        transition: 1s ease-in-out;
     }
 }
 
