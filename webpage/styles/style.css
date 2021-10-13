@@ -341,7 +341,7 @@ a #discord-btn{
     margin-left: -200%;
 }
 
-@media screen and (min-width: 900px) and (max-width: 1550px) {
+/* @media screen and (min-width: 900px) and (max-width: 1550px) {
     .slider{
         width: 800px;
         height: 800px;
@@ -361,7 +361,7 @@ a #discord-btn{
     .manual-navigation{
         width: 800px;
     }
-}
+} */
 
 @media screen and (max-width: 700px) {
     .slider{
