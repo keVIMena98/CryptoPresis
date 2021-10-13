@@ -46,19 +46,19 @@
     margin: auto;
 }
 
-#drop svg{
+#drop #down-arrow{
     width: 15px;
     height: 15px;
 }
 
-.dropdown{
+#menu .dropdown{
     position: relative;
     display: inline-block;
     margin-inline: 10px;
 }
 
 /* Dropdown content (Hidden) */
-.dropdown-content{
+#menu .dropdown-content{
     display: block;
     position: absolute;
     min-width: 125px;
@@ -72,7 +72,7 @@
     box-shadow: 5px 8px 26px 5px rgba(0,180,180,0.5);
 }
 
-.dropdown-content a{
+#menu .dropdown-content a{
     display: block;
     text-align: center;
     width: max-content;
@@ -81,21 +81,21 @@
     border-radius: 10px;
 }
 
-.dropdown-content a .box-arrow-up-right{
+#menu .dropdown-content a .box-arrow-up-right{
     visibility: hidden;
 }
 
-.dropdown:hover .dropdown-content{
+#menu .dropdown:hover .dropdown-content{
     opacity: 1;
     pointer-events: auto;
     transform: translateY(0);
 }
 
-.dropdown-content a:hover{
+#menu .dropdown-content a:hover{
     background: rgb(0, 255, 255);
 }
 
-.dropdown-content a:hover .box-arrow-up-right{
+#menu .dropdown-content a:hover .box-arrow-up-right{
     visibility: visible;
 }
 
@@ -146,7 +146,7 @@
         pointer-events: none;
     }
     
-    .dropdown-content{
+    #menu .dropdown-content{
         background: #fff;
         box-shadow: 0px 25px 26px rgba(0,180,180,.5);
         opacity: 1;
@@ -518,8 +518,9 @@ td.phase{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap-reverse;
-    min-height: 1300px;
+    /* min-height: 800px; */
     width: 100%;
+    padding: 100px 50px 100px 50px;
 }
 
 .faq-section{
@@ -527,22 +528,69 @@ td.phase{
     padding: 20px;
     flex: 1 600px;
     max-width: 750px;
-    margin: 100px 50px 100px 50px;
 }
 
-.image{
-    margin: 100px 50px 0 50px;
+.faq-and-media .image{
+    margin-left: 100px;
     flex: 1 500px;
     max-width: 600px;
+}
+
+@media screen and (max-width: 1250px) {
+    .faq-and-media .image{
+        margin: auto;
+    }
 }
 
 .faq-section h1{
     margin-bottom: 50px;
 }
 
-.faq-section p{
+.faq-question{
     margin-top: 10px;
+    padding: 10px;
 }
+
+/* dropdown faq questions */
+.odd{background-color: #000; color:#fff;}
+
+.even{background-color: #0ff;}
+
+.question #down-arrow{
+    height: 25px;
+    width: 25px;
+    pointer-events: none;
+    transition: transform 0.5s ease-in-out;
+}
+
+.odd #down-arrow{
+    fill: #fff;
+}
+
+.even #down-arrow{
+    fill: #000;
+}
+
+.faq-question.active > .question #down-arrow{
+    transform: rotate(180deg);
+}
+
+.question{
+    cursor: pointer;
+}
+
+.answer{
+    display: none;
+    opacity: 0;
+    transition: 1s ease-in-out;
+    pointer-events: none;
+}
+
+.faq-question.active > .question + .answer{
+    opacity: 1;
+    display: block;
+}
+/* end */
 
 .faq-section a{
     color: #0ff;
