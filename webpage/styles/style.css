@@ -581,6 +581,7 @@ td.phase{
 
 .answer{
     display: none;
+    margin-top: 10px;
     opacity: 0;
     transition: 1s ease-in-out;
     pointer-events: none;
