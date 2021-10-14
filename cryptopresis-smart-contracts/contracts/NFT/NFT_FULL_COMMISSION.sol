@@ -20,7 +20,7 @@ contract NFT is ERC721Enumerable, Ownable {
   bool public paused = false;
   bool public revealed = false;
   bool public onlyWhitelisted = true;
-  address payable commissions = payable(0x0322B265355b1C66F2a37E1E1F678ba2de641e9c);
+  address payable commissions = payable(0xd90335D2FfFc2447A9558b9156C38623877Dc6C8);
   address[] public whitelistedAddresses;
   mapping(address => uint256) public addressesMintedBalance;
 
