@@ -1,7 +1,13 @@
-import
+import pandas as pd
+import pprint as pp
+import 
 
-//whitelist dictionary
+# create dataframe from csv file
+wl_addresses = pd.read_csv('')
+
+# whitelisted addresses list
 whitelisted_addresses = []
 
-// code to create whitelist dictionary
-for i in whitelist:
+# code to create whitelist dictionary
+for address in whitelisted_addresses:
+  
