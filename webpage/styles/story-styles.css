@@ -1,0 +1,23 @@
+/* story page styles */
+
+.cards{
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.info-card{
+    flex: 0 1 400px;
+    border: 2px solid #000;
+    margin: 25px;
+}
+
+.info-card img{
+    flex: 1 1;
+}
+
+.info-card p{
+    text-align: center;
+}
