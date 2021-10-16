@@ -29,6 +29,15 @@
 
 #head img{
     height: 100px;
-    width: 300px;
+    max-width: 300px;
+    flex: 1;
     border-radius: 10px;
+}
+
+.hamburger-menu div{
+    background: #000;
+}
+
+#menu .dropdown-content{
+    background: #fff;
 }
