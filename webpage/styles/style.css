@@ -1,6 +1,6 @@
 /* Background */
 
-.dark-background, #menu, #menu a{
+.dark-background{
     background: #fff;
     color: #000;
 }
@@ -23,6 +23,10 @@
     justify-content: space-around;
 }
 
+.navigation, #menu, #menu a{
+    background: #020050;
+    color: #fff;
+}
 
 #menu a{
     text-decoration: none;
@@ -32,7 +36,7 @@
 
 #head img{
     height: 100px;
-    width: 300px;
+    width: 500px;
     border-radius: 10px;
 }
 
@@ -49,6 +53,7 @@
 #drop #down-arrow{
     width: 15px;
     height: 15px;
+    fill: #fff;
 }
 
 #menu .dropdown{
@@ -79,6 +84,7 @@
     padding: 5%;
     transition: background 0.5s;
     border-radius: 10px;
+    background: transparent;
 }
 
 #menu .dropdown-content a .box-arrow-up-right{
@@ -92,7 +98,7 @@
 }
 
 #menu .dropdown-content a:hover{
-    background: rgb(0, 255, 255);
+    background: rgba(0, 255, 255, 0.5);
 }
 
 #menu .dropdown-content a:hover .box-arrow-up-right{
@@ -196,6 +202,8 @@
     flex-wrap: wrap;
     width: 100%;
     min-height: 1000px;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)),
+                url("../assets/images/4426.gif") no-repeat center center / cover;
 }
 
 .overview .image{
@@ -341,28 +349,6 @@ a #discord-btn{
     margin-left: -200%;
 }
 
-/* @media screen and (min-width: 900px) and (max-width: 1550px) {
-    .slider{
-        width: 800px;
-        height: 800px;
-    }
-    .slides{
-        width: 800px;
-        height: 800px;
-    }
-    .slide{
-        width: 100%;
-    }
-    .slide img{
-        width: 800px;
-        height: 800px;
-    }
-
-    .manual-navigation{
-        width: 800px;
-    }
-} */
-
 @media screen and (max-width: 700px) {
     .slider{
         width: 500px;
@@ -472,7 +458,7 @@ table{
 }
 
 table, td{
-    border: 3px solid #fff;
+    border: 3px solid #000;
     border-collapse: collapse;
     min-height: 100px;
     padding: 10px 20px;
@@ -524,7 +510,7 @@ td.phase{
 }
 
 .faq-section{
-    border: 2px solid #000;
+    border: 2px solid #fff;
     padding: 20px;
     flex: 1 600px;
     max-width: 750px;
@@ -552,22 +538,15 @@ td.phase{
 }
 
 /* dropdown faq questions */
-.odd{background-color: #000; color:#fff;}
+.odd{background-color: #fff; color: #000 !important;;}
 
-.even{background-color: #0ff;}
+.even{background-color: #0ff; color: #000 !important;}
 
 .question #down-arrow{
     height: 25px;
     width: 25px;
     pointer-events: none;
     transition: transform 0.5s ease-in-out;
-}
-
-.odd #down-arrow{
-    fill: #fff;
-}
-
-.even #down-arrow{
     fill: #000;
 }
 
@@ -636,5 +615,5 @@ footer a{
 .bottom-list svg{
     width: 25px;
     height: 25px;
-    fill: #fff;
+    fill: #000;
 }
