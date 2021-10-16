@@ -204,7 +204,7 @@
     width: 100%;
     min-height: 1000px;
     background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)),
-                url("../assets/images/4426.gif") no-repeat center center / cover;
+                url("../assets/images/4426.gif") no-repeat right 25% center / cover;
 }
 
 .overview .image{
