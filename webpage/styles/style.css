@@ -147,13 +147,13 @@
     .hamburger-menu div{
         width: 50px;
         height: 7px;
-        background: #000;
+        background: #fff;
         border-radius: 5px;
         pointer-events: none;
     }
     
     #menu .dropdown-content{
-        background: #fff;
+        background: #020050;
         box-shadow: 0px 25px 26px rgba(0,180,180,.5);
         opacity: 1;
         pointer-events: auto;
@@ -166,7 +166,7 @@
     }
 
     #menu a:hover{
-        background: #0ff;
+        background: rgba(0, 255, 255, 0.5);
         border-radius: 5px;
         transition: 1s ease-in-out;
     }

@@ -21,3 +21,14 @@
 .info-card p{
     text-align: center;
 }
+
+.navigation, #menu, #menu a{
+    background: #fff;
+    color: #000;
+}
+
+#head img{
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+}
