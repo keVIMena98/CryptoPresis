@@ -18,7 +18,7 @@ with open('cabinet_whitelist_form.csv') as csv_file:
 
 # create dataframe from csv file
 with open('cabinet_whitelist_form.csv') as csv_file:
-    wl_data = pd.read_csv(csv_file, index_col='username')
+    wl_data = pd.read_csv(csv_file)
     wl_df = pd.DataFrame(wl_data, columns= ['username','addresses'])
 print(wl_df)
 
