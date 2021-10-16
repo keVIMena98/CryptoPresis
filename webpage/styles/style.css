@@ -349,6 +349,22 @@ a #discord-btn{
     margin-left: -200%;
 }
 
+#radio4:checked ~ .first{
+    margin-left: -300%;
+}
+
+#radio5:checked ~ .first{
+    margin-left: -400%;
+}
+
+#radio6:checked ~ .first{
+    margin-left: -500%;
+}
+
+#radio7:checked ~ .first{
+    margin-left: -600%;
+}
+
 @media screen and (max-width: 700px) {
     .slider{
         width: 500px;
