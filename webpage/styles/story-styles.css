@@ -27,9 +27,13 @@
     color: #000;
 }
 
+.logo{
+    margin: 25px;
+}
+
 #head img{
     height: 100px;
-    max-width: 300px;
+    max-width: 500px;
     flex: 1;
     border-radius: 10px;
 }

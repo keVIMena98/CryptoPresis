@@ -34,6 +34,10 @@
     display: inline-block;
 }
 
+.logo{
+    margin: 25px;
+}
+
 #head img{
     height: 100px;
     max-width: 500px;
@@ -537,11 +541,13 @@ td.phase{
     margin-left: 100px;
     flex: 1 500px;
     max-width: 600px;
+    margin-bottom: 50px;
 }
 
 @media screen and (max-width: 1250px) {
     .faq-and-media .image{
         margin: auto;
+        margin-bottom: 50px;
     }
 }
 
