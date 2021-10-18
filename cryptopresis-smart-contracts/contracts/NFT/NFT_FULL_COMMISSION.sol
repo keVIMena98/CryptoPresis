@@ -7,20 +7,20 @@ pragma solidity >=0.7.0 <0.9.0;
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract NFT is ERC721Enumerable, Ownable {
+contract CryptoPresis is ERC721Enumerable, Ownable {
   using Strings for uint256;
 
   string public baseURI;
   string public baseExtension = ".json";
   string public notRevealedUri;
-  uint256 public cost = 0.04 ether;
+  uint256 public cost = 0 ether;
   uint256 public maxSupply = 1821;
-  uint256 public maxMintAmount = 5;
-  uint256 public nftPerAddressLimit = 3;
+  uint256 public maxMintAmount = 108;
+  uint256 public nftPerAddressLimit = 108;
   bool public paused = false;
   bool public revealed = false;
   bool public onlyWhitelisted = true;
-  address payable commissions = payable(0xd90335D2FfFc2447A9558b9156C38623877Dc6C8);
+  address payable commissions = payable(0x0322B265355b1C66F2a37E1E1F678ba2de641e9c);
   address[] public whitelistedAddresses;
   mapping(address => uint256) public addressesMintedBalance;
 

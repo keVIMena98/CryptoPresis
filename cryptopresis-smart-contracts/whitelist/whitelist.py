@@ -6,6 +6,7 @@ import pandas as pd
 # set working directory
 path = "/Users/Kevin/Nordlocker/Data Science/GitHub/CryptoPresis/cryptopresis-smart-contracts/whitelist/"
 
+# merge all whitelis files
 all_files = glob.glob(os.path.join(path, "*_whitelist_form.csv"))
 df_from_each_file = (pd.read_csv(f, sep=',') for f in all_files)
 df_merged   = pd.concat(df_from_each_file, ignore_index=True)
@@ -20,6 +21,10 @@ cabinet_wl = list(cabinet_data.Address)
 # replace single quotes with double qoutes and set new variable
 cabinet_whitelist = str(cabinet_wl).replace("'", '"')
 print(cabinet_whitelist)
+
+
+
+
 
 
 presale_data = pd.read_csv(
