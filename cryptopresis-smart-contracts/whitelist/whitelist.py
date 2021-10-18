@@ -1,35 +1,39 @@
-import pprint as pp
-import pandas as pd
+# import libraries
 import csv
+import os, glob
+import pandas as pd
 
-# test terminal
-print("hello world")
+# set working directory
+path = "/Users/Kevin/Nordlocker/Data Science/GitHub/CryptoPresis/cryptopresis-smart-contracts/whitelist/"
 
-# whitelisted addresses list
-whitelist = []
+all_files = glob.glob(os.path.join(path, "*_whitelist_form.csv"))
+df_from_each_file = (pd.read_csv(f, sep=',') for f in all_files)
+df_merged   = pd.concat(df_from_each_file, ignore_index=True)
+df_merged.to_csv( "merged.csv")
 
-# code to create whitelist list with csv
-with open('cabinet_whitelist_form.csv') as csv_file:
-    csv_reader = csv.reader(csv_file, delimiter='", "')
-    for column in csv_reader: # .columns['addresses']
-        col_ls = csv_reader[column].tolist()
-        whitelist.append(col_ls)
-    print(whitelist)
+# create dataframe using pandas
+cabinet_data = pd.read_csv(
+    r'/Users/Kevin/Nordlocker/Data Science/GitHub/CryptoPresis/cryptopresis-smart-contracts/whitelist/cabinet_whitelist_form.csv', header = 0)
+# convert dataframe to list and set to variable
+cabinet_wl = list(cabinet_data.Address)
 
-# create dataframe from csv file
-with open('cabinet_whitelist_form.csv') as csv_file:
-    wl_data = pd.read_csv(csv_file)
-    wl_df = pd.DataFrame(wl_data, columns= ['username','addresses'])
-print(wl_df)
-
-# code to create whitelist list with pandas
-for col in wl_df.columns:
-    # convert pandas series to list
-    col_ls = wl_df[col].tolist()
-    # append column list to ls
-    whitelist.append(col_ls)
-# print the created list
-print(whitelist)
+# replace single quotes with double qoutes and set new variable
+cabinet_whitelist = str(cabinet_wl).replace("'", '"')
+print(cabinet_whitelist)
 
 
-# r'C:\Users\CICC\Documents\GitHub\NFT-Project\cryptopresis-smart-contracts\whitelist\cabinet_whitelist_form.csv'
+presale_data = pd.read_csv(
+    r'/Users/Kevin/Nordlocker/Data Science/GitHub/CryptoPresis/cryptopresis-smart-contracts/whitelist/presale_whitelist_form.csv', header = 0)
+presale_wl = list(presale_data.Address)
+
+presale_whitelist = str(presale_wl).replace("'", '"')
+print(presale_whitelist)
+
+
+data = pd.read_csv(
+    r'/Users/Kevin/Nordlocker/Data Science/GitHub/CryptoPresis/cryptopresis-smart-contracts/whitelist/fmc_whitelist_form.csv', header = 0)
+fmc_wl = list(data.Address)
+
+fmc_whitelist = str(fmc_wl).replace("'", '"')
+print(fmc_whitelist)
+
