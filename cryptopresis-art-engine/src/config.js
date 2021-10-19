@@ -3,33 +3,22 @@
 const path = require("path");
 const isLocal = typeof process.pkg === "undefined";
 const basePath = isLocal ? process.cwd() : path.dirname(process.execPath);
-const { MODE } = require(path.join(basePath, "src/blendMode.js"));
+const { MODE } = require(path.join(basePath, "constants/blend_mode.js"));
 const description =
   "CryptoPresis is a collection of 1821 algorithmically generated art pieces inspired by the President of El Salvador, Nayib Bukele. The first NFT project made with love from El Salvador to the world.";
 const baseUri = "ipfs://Qmdxo123SeNPV1zybP8WSfvLHgy8EpH8f9KTFt6SV44CJW";
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 1756,
+    growEditionSizeTo: 182,
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Base" },
       { name: "Skin" },
-      { name: "Haircolor"},
+      { name: "Haircolor" },
+      { name: "Eyes" },
       { name: "Hats" },
-      { name: "Eyes" }
-    ],
-  },
-
-  {
-    growEditionSizeTo: 55,
-    layersOrder: [
-      { name: "Backgrounds" },
-      { name: "Base" },
-      { name: "Skin" },
-      { name: "Haircolor"},
-      { name: "Hats" },
-      { name: "Eyes" }
+      { name: "Mouth" },
     ],
   },
 ];
@@ -43,9 +32,28 @@ const format = {
   height: 512,
 };
 
+const text = {
+  only: false,
+  color: "#ffffff",
+  size: 20,
+  xGap: 40,
+  yGap: 40,
+  align: "left",
+  baseline: "top",
+  weight: "regular",
+  family: "Courier",
+  spacer: " => ",
+};
+
+const pixelFormat = {
+  ratio: 2 / 128,
+};
+
 const background = {
-  generate: false,
+  generate: true,
   brightness: "80%",
+  static: false,
+  default: "#000000",
 };
 
 const extraMetadata = {
@@ -58,8 +66,8 @@ const rarityDelimiter = "#";
 const uniqueDnaTorrance = 10000;
 
 const preview = {
-  thumbPerRow: 150,
-  thumbWidth: 150,
+  thumbPerRow: 25,
+  thumbWidth: 50,
   imageRatio: format.width / format.height,
   imageName: "preview.png",
 };
@@ -76,4 +84,6 @@ module.exports = {
   shuffleLayerConfigurations,
   debugLogs,
   extraMetadata,
+  pixelFormat,
+  text,
 };
