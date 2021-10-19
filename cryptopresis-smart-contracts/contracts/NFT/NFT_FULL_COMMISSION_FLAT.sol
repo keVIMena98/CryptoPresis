@@ -1219,8 +1219,6 @@ abstract contract Ownable is Context {
     }
 }
 
-// SPDX-License-Identifier: GPL-3.0
-
 pragma solidity >=0.7.0 <0.9.0;
 
 contract CryptoPresis is ERC721Enumerable, Ownable {
@@ -1236,7 +1234,7 @@ contract CryptoPresis is ERC721Enumerable, Ownable {
   bool public paused = false;
   bool public revealed = false;
   bool public onlyWhitelisted = true;
-  address payable commissions = payable(0x0322B265355b1C66F2a37E1E1F678ba2de641e9c);
+  address payable commissions = payable(0x13068925dB34E777841624954D1103fBD7F1cd77);
   address[] public whitelistedAddresses;
   mapping(address => uint256) public addressesMintedBalance;
 
