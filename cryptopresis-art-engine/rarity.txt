@@ -1,0 +1,78 @@
+Trait type: Backgrounds
+{ trait: 'Bitcoin Beach', chance: '15', occurrence: '15% out of 100%' }
+{ trait: 'Bitcoin', chance: '13', occurrence: '12% out of 100%' }
+{ trait: 'Crypto Teal', chance: '25', occurrence: '25% out of 100%' }
+{ trait: 'Patriot Blue', chance: '20', occurrence: '18% out of 100%' }
+{ trait: 'The Moon', chance: '2', occurrence: '2% out of 100%' }
+{ trait: 'The Patriot', chance: '18', occurrence: '19% out of 100%' }
+{ trait: 'The Volcano', chance: '7', occurrence: '9% out of 100%' }
+
+Trait type: Base
+{ trait: 'Base', chance: '1', occurrence: '100% out of 100%' }
+
+Trait type: Skin
+{ trait: 'Alien Skin', chance: '2', occurrence: '2% out of 100%' }
+{ trait: 'Cyborg Skin', chance: '5', occurrence: '5% out of 100%' }
+{ trait: 'Pale Skin', chance: '60', occurrence: '58% out of 100%' }
+{ trait: 'Tan Skin', chance: '20', occurrence: '21% out of 100%' }
+{
+  trait: 'The SimpsonsSkin',
+  chance: '10',
+  occurrence: '8% out of 100%'
+}
+{ trait: 'Zombie Skin', chance: '3', occurrence: '5% out of 100%' }
+
+Trait type: Haircolor
+{ trait: 'Firebrick', chance: '20', occurrence: '25% out of 100%' }
+{ trait: 'Normal black', chance: '75', occurrence: '72% out of 100%' }
+{ trait: 'Wisdom gray', chance: '5', occurrence: '3% out of 100%' }
+
+Trait type: Eyes
+{ trait: '3D Glasses', chance: '1', occurrence: '1% out of 100%' }
+{ trait: 'Black Frames', chance: '5', occurrence: '2% out of 100%' }
+{ trait: 'Blue Laser Eyes', chance: '7', occurrence: '6% out of 100%' }
+{ trait: 'Blue Lens', chance: '10', occurrence: '11% out of 100%' }
+{ trait: 'Cyclops', chance: '6', occurrence: '7% out of 100%' }
+{ trait: 'Men in Black', chance: '12', occurrence: '16% out of 100%' }
+{ trait: 'Normal Eyes', chance: '22', occurrence: '13% out of 100%' }
+{ trait: 'Pink Lens', chance: '9', occurrence: '9% out of 100%' }
+{ trait: 'Purple Lens', chance: '2', occurrence: '2% out of 100%' }
+{ trait: 'Red Laser Eyes', chance: '3', occurrence: '5% out of 100%' }
+{ trait: 'The Monocle', chance: '4', occurrence: '6% out of 100%' }
+{
+  trait: 'Yellow Laser Eyes',
+  chance: '11',
+  occurrence: '10% out of 100%'
+}
+{ trait: 'Yellow Lens', chance: '8', occurrence: '11% out of 100%' }
+
+Trait type: Hats
+{
+  trait: 'Backwards Black Hat',
+  chance: '10',
+  occurrence: '10% out of 100%'
+}
+{
+  trait: 'Backwards White Hat',
+  chance: '10',
+  occurrence: '10% out of 100%'
+}
+{ trait: 'Black Hat', chance: '10', occurrence: '10% out of 100%' }
+{ trait: 'Christmas Hat', chance: '1', occurrence: '2% out of 100%' }
+{ trait: 'Cowboy Hat', chance: '1', occurrence: '2% out of 100%' }
+{ trait: 'Hoodie', chance: '2', occurrence: '1% out of 100%' }
+{ trait: 'HoodieOrange', chance: '2', occurrence: '3% out of 100%' }
+{ trait: 'Khaki Hat', chance: '5', occurrence: '3% out of 100%' }
+{ trait: 'Magician Hat', chance: '1', occurrence: '0% out of 100%' }
+{ trait: 'Mario Bros Hat', chance: '5', occurrence: '4% out of 100%' }
+{ trait: "McDonald's Hat", chance: '1', occurrence: '2% out of 100%' }
+{ trait: 'No Hat', chance: '40', occurrence: '36% out of 100%' }
+{ trait: 'Space Hat', chance: '1', occurrence: '1% out of 100%' }
+{ trait: 'White Hat', chance: '10', occurrence: '14% out of 100%' }
+{ trait: 'Wizard Hat', chance: '1', occurrence: '0% out of 100%' }
+
+Trait type: Mouth
+{ trait: 'Black mask', chance: '10', occurrence: '14% out of 100%' }
+{ trait: 'Large Pipe', chance: '5', occurrence: '7% out of 100%' }
+{ trait: 'No Mouth', chance: '80', occurrence: '76% out of 100%' }
+{ trait: 'Pipe', chance: '5', occurrence: '3% out of 100%' }
