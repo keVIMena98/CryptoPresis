@@ -186,16 +186,6 @@
     flex-wrap: wrap;
 }
 
-/* Intro section */
-
-.intro{
-    display: flex;
-    display: -webkit-flex;
-    align-items: center;
-    width: 100%;
-    padding: 100px 50px;
-}
-
 /* Overview section*/
 
 .overview{
@@ -206,7 +196,7 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    min-height: 1000px;
+    min-height: 700px;
     background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)),
                 url("../assets/images/4426.gif") no-repeat right 25% center / cover;
 }
@@ -287,15 +277,15 @@ a #discord-btn{
     background: transparent;
 }
 .slider{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .slides{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     display: flex;
 }
 
@@ -309,14 +299,14 @@ a #discord-btn{
 }
 
 .slide img{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
 }
 
 /* manual slide navigation */
 .manual-navigation{
     position: absolute;
-    width: 600px;
+    width: 500px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -368,28 +358,6 @@ a #discord-btn{
 
 #radio7:checked ~ .first{
     margin-left: -600%;
-}
-
-@media screen and (max-width: 700px) {
-    .slider{
-        width: 500px;
-        height: 500px;
-    }
-    .slides{
-        width: 500px;
-        height: 500px;
-    }
-    .slide{
-        width: 100%;
-    }
-    .slide img{
-        width: 500px;
-        height: 500px;
-    }
-
-    .manual-navigation{
-        width: 500px;
-    }
 }
 
 @media screen and (max-width: 600px) {
@@ -525,7 +493,6 @@ td.phase{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap-reverse;
-    /* min-height: 800px; */
     width: 100%;
     padding: 100px 50px 100px 50px;
 }
@@ -540,7 +507,7 @@ td.phase{
 .faq-and-media .image{
     margin-left: 100px;
     flex: 1 500px;
-    max-width: 600px;
+    max-width: 500px;
     margin-bottom: 50px;
 }
 
@@ -623,7 +590,7 @@ footer h1{
 }
 
 footer p{
-    margin: 25px 50px 25px 50px;
+    margin: 25px 25px 0px 25px;
     text-align: center;
 }
 
