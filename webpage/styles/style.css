@@ -416,72 +416,47 @@ a #discord-btn{
     min-height: 2000px;
 }
 
-.roadmap-content{
-    margin: 100px 5% 100px 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.table-header{
+.roadmap > h1{
     font-size: 70px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-#development{
-    margin-top: 50px;
-}
-
-.table-head{
-    text-align: center;
-    font-size: 50px;
-    margin: 15px 25%;
-}
-
-table{
-    flex: 1 1 700px;
-    max-width: 75%;
-    margin: auto 12.5%;
-}
-
-table, td{
-    border: 3px solid #000;
-    border-collapse: collapse;
-    min-height: 100px;
-    padding: 10px 20px;
-}
-
-tr{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-td{ 
-    line-height: 40px;
-}
-
-#development .phase-descrp{
-    flex: 1 1 600px;
-}
-
-#launch td{
+    margin: 100px auto 30px;
     width: 100%;
+    text-align: center;
 }
 
-#launch table{
-    margin-bottom: 50px;
+.roadmap > *:last-child{
+    margin-bottom: 100px;
 }
 
-td.phase{
+.phases{
     display: flex;
-    font-weight: 900;
-    flex: 1 1 250px;
-    font-size: 45px;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    border: 5px solid #000;
+    margin: 50px;
+    max-width: 1500px;
+}
+
+.phase{
+    /* border:5px solid #000; */
+    text-align: center;
+    flex: 150px;
+    font-weight: 700;
+    font-size: 45px;
+    padding: 25px
+}
+
+.details{
+    border:5px solid #000;
+    flex: 1 800px;
+    padding: 25px;
+}
+
+.phase-details{
+    color: #020050;
+    font-size: 35px;
 }
 
 /* FAQ section*/
