@@ -44,7 +44,7 @@
 }
 
 .info-card img{
-    flex: 1 1 300px;
+    flex: 1 300px;
     max-width: 300px;
     max-height: 400px;
 }
@@ -67,6 +67,14 @@
     text-align: center;
     padding: 25px;
     flex: 1 300px;
+}
+
+.header{
+    font-size: 40px;
+}
+
+.sub-header{
+    font-size: 35px;
 }
 
 .info-container{
