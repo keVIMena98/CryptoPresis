@@ -269,13 +269,25 @@ a #discord-btn{
     color: hsl(180, 100%, 20%)
 }
 
-.slider-container{
+.slider-info{
     margin: 0px 50px 100px 50px;
     display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+}
+
+.slider-container{
+    display: flex;
+    display: -webkit-flex;
     align-items: center;
     justify-content: center; 
     background: transparent;
 }
+
 .slider{
     width: 500px;
     height: 500px;
@@ -358,6 +370,18 @@ a #discord-btn{
 
 #radio7:checked ~ .first{
     margin-left: -600%;
+}
+
+#radio8:checked ~ .first{
+    margin-left: -700%;
+}
+
+#radio9:checked ~ .first{
+    margin-left: -800%;
+}
+
+#radio10:checked ~ .first{
+    margin-left: -900%;
 }
 
 @media screen and (max-width: 600px) {
