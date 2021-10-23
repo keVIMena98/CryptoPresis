@@ -2,9 +2,6 @@
 
 .dark-background{
     background: #fff;
-}
-
-.dark-background, #menu, #menu a{
     color: #000;
 }
 
@@ -18,7 +15,7 @@
 .navigation{
     font-size: 0.8em;
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     display: flex;
     display: -webkit-flex;
     flex-wrap: wrap;
@@ -26,6 +23,10 @@
     justify-content: space-around;
 }
 
+.navigation, #menu, #menu a{
+    background: #020050;
+    color: #fff;
+}
 
 #menu a{
     text-decoration: none;
@@ -33,9 +34,14 @@
     display: inline-block;
 }
 
+.logo{
+    margin: 25px;
+}
+
 #head img{
     height: 100px;
-    width: 300px;
+    max-width: 500px;
+    flex: 1;
     border-radius: 10px;
 }
 
@@ -49,19 +55,20 @@
     margin: auto;
 }
 
-#drop svg{
+#drop #down-arrow{
     width: 15px;
     height: 15px;
+    fill: #fff;
 }
 
-.dropdown{
+#menu .dropdown{
     position: relative;
     display: inline-block;
     margin-inline: 10px;
 }
 
 /* Dropdown content (Hidden) */
-.dropdown-content{
+#menu .dropdown-content{
     display: block;
     position: absolute;
     min-width: 125px;
@@ -75,30 +82,31 @@
     box-shadow: 5px 8px 26px 5px rgba(0,180,180,0.5);
 }
 
-.dropdown-content a{
+#menu .dropdown-content a{
     display: block;
     text-align: center;
     width: max-content;
     padding: 5%;
     transition: background 0.5s;
     border-radius: 10px;
+    background: transparent;
 }
 
-.dropdown-content a .box-arrow-up-right{
+#menu .dropdown-content a .box-arrow-up-right{
     visibility: hidden;
 }
 
-.dropdown:hover .dropdown-content{
+#menu .dropdown:hover .dropdown-content{
     opacity: 1;
     pointer-events: auto;
     transform: translateY(0);
 }
 
-.dropdown-content a:hover{
-    background: rgb(0, 255, 255);
+#menu .dropdown-content a:hover{
+    background: rgba(0, 255, 255, 0.5);
 }
 
-.dropdown-content a:hover .box-arrow-up-right{
+#menu .dropdown-content a:hover .box-arrow-up-right{
     visibility: visible;
 }
 
@@ -107,7 +115,6 @@
         display: flex;
         flex-direction: column;
         position: absolute;
-        background: #fff;
         box-shadow: 0px 25px 26px rgba(0,180,180,0.5);
         border-radius: 10px;
         padding: 20px;
@@ -145,13 +152,13 @@
     .hamburger-menu div{
         width: 50px;
         height: 7px;
-        background: #000;
+        background: #fff;
         border-radius: 5px;
         pointer-events: none;
     }
     
-    .dropdown-content{
-        background: #fff;
+    #menu .dropdown-content{
+        background: #020050;
         box-shadow: 0px 25px 26px rgba(0,180,180,.5);
         opacity: 1;
         pointer-events: auto;
@@ -164,7 +171,7 @@
     }
 
     #menu a:hover{
-        background: #0ff;
+        background: rgba(0, 255, 255, 0.5);
         border-radius: 5px;
         transition: 1s ease-in-out;
     }
@@ -189,12 +196,14 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    min-height: 1000px;
+    min-height: 700px;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)),
+                url("../assets/images/4426.gif") no-repeat right 25% center / cover;
 }
 
 .overview .image{
     flex: 1 350px;
-    max-width: 400px;
+    max-width: 425px;
     margin: 50px;
 }
 
@@ -251,23 +260,49 @@ a #discord-btn{
     margin-bottom: 25px;
 }
 
-.slider-container{
+.story-txt a{
+    text-decoration: none;
+    color: #0ff;
+}
+
+.story-txt a:hover{
+    color: hsl(180, 100%, 20%)
+}
+
+.slider-info{
     margin: 0px 50px 100px 50px;
     display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+}
+
+.slider-info > h2{
+    text-align: center;
+    margin: 0 0 25px;
+}
+
+.slider-container{
+    display: flex;
+    display: -webkit-flex;
     align-items: center;
     justify-content: center; 
     background: transparent;
 }
+
 .slider{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .slides{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     display: flex;
 }
 
@@ -281,14 +316,14 @@ a #discord-btn{
 }
 
 .slide img{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
 }
 
 /* manual slide navigation */
 .manual-navigation{
     position: absolute;
-    width: 600px;
+    width: 500px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -326,49 +361,33 @@ a #discord-btn{
     margin-left: -200%;
 }
 
-@media screen and (min-width: 900px) and (max-width: 1550px) {
-    .slider{
-        width: 800px;
-        height: 800px;
-    }
-    .slides{
-        width: 800px;
-        height: 800px;
-    }
-    .slide{
-        width: 100%;
-    }
-    .slide img{
-        width: 800px;
-        height: 800px;
-    }
-
-    .manual-navigation{
-        width: 800px;
-    }
+#radio4:checked ~ .first{
+    margin-left: -300%;
 }
 
-@media screen and (max-width: 700px) {
-    .slider{
-        width: 500px;
-        height: 500px;
-    }
-    .slides{
-        width: 500px;
-        height: 500px;
-    }
-    .slide{
-        width: 100%;
-    }
-    .slide img{
-        width: 500px;
-        height: 500px;
-    }
-
-    .manual-navigation{
-        width: 500px;
-    }
+#radio5:checked ~ .first{
+    margin-left: -400%;
 }
+
+/* #radio6:checked ~ .first{
+    margin-left: -500%;
+} */
+
+/* #radio7:checked ~ .first{
+    margin-left: -600%;
+} */
+
+/* #radio8:checked ~ .first{
+    margin-left: -700%;
+} */
+
+/* #radio9:checked ~ .first{
+    margin-left: -800%;
+} */
+
+/* #radio10:checked ~ .first{
+    margin-left: -900%;
+} */
 
 @media screen and (max-width: 600px) {
     .slider{
@@ -426,72 +445,47 @@ a #discord-btn{
     min-height: 2000px;
 }
 
-.roadmap-content{
-    margin: 100px 5% 100px 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.table-header{
+.roadmap > h1{
     font-size: 70px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-#development{
-    margin-top: 50px;
-}
-
-.table-head{
-    text-align: center;
-    font-size: 50px;
-    margin: 15px 25%;
-}
-
-table{
-    flex: 1 1 700px;
-    max-width: 75%;
-    margin: auto 12.5%;
-}
-
-table, td{
-    border: 3px solid #000;
-    border-collapse: collapse;
-    min-height: 60px;
-    padding: 10px 20px;
-}
-
-tr{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-td{ 
-    line-height: 30px;
-}
-
-#development .phase-descrp{
-    flex: 1 1 600px;
-}
-
-#launch td{
+    margin: 100px auto 30px;
     width: 100%;
+    text-align: center;
 }
 
-#launch table{
-    margin-bottom: 50px;
+.roadmap > *:last-child{
+    margin-bottom: 100px;
 }
 
-td.phase{
+.phases{
     display: flex;
-    font-weight: 900;
-    flex: 1 1 250px;
-    font-size: 45px;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    border: 5px solid #000;
+    margin: 50px;
+    max-width: 1500px;
+}
+
+.phase{
+    /* border:5px solid #000; */
+    text-align: center;
+    flex: 150px;
+    font-weight: 700;
+    font-size: 45px;
+    padding: 25px
+}
+
+.details{
+    border:5px solid #000;
+    flex: 1 800px;
+    padding: 25px;
+}
+
+.phase-details{
+    color: #020050;
+    font-size: 35px;
 }
 
 /* FAQ section*/
@@ -503,8 +497,8 @@ td.phase{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap-reverse;
-    min-height: 1300px;
     width: 100%;
+    padding: 100px 50px 100px 50px;
 }
 
 .faq-section{
@@ -512,25 +506,72 @@ td.phase{
     padding: 20px;
     flex: 1 600px;
     max-width: 750px;
-    margin: 100px 50px 100px 50px;
 }
 
-.image{
-    margin: 100px 50px 0 50px;
+.faq-and-media .image{
+    margin-left: 100px;
     flex: 1 500px;
-    max-width: 700px;
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1250px) {
+    .faq-and-media .image{
+        margin: auto;
+        margin-bottom: 50px;
+    }
 }
 
 .faq-section h1{
     margin-bottom: 50px;
 }
 
-.faq-section p{
+.faq-question{
     margin-top: 10px;
+    padding: 10px;
 }
+
+/* dropdown faq questions */
+.odd{background-color: #fff; color: #000 !important;;}
+
+.even{background-color: #0ff; color: #000 !important;}
+
+.question #down-arrow{
+    height: 25px;
+    width: 25px;
+    pointer-events: none;
+    transition: transform 0.5s ease-in-out;
+    fill: #000;
+}
+
+.faq-question.active > .question #down-arrow{
+    transform: rotate(180deg);
+}
+
+.question{
+    cursor: pointer;
+}
+
+.answer{
+    display: none;
+    margin-top: 10px;
+    opacity: 0;
+    transition: 1s ease-in-out;
+    pointer-events: none;
+}
+
+.faq-question.active > .question + .answer{
+    opacity: 1;
+    display: block;
+}
+/* end */
 
 .faq-section a{
     color: #0ff;
+}
+
+.faq-section a:hover{
+    color: hsl(180, 100%, 20%)
 }
 
 /* Footer */
@@ -553,7 +594,7 @@ footer h1{
 }
 
 footer p{
-    margin: 10px 50px 10px 50px;
+    margin: 25px 25px 0px 25px;
     text-align: center;
 }
 
@@ -568,4 +609,5 @@ footer a{
 .bottom-list svg{
     width: 25px;
     height: 25px;
+    fill: #000;
 }

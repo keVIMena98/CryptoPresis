@@ -10,8 +10,6 @@
 }
 
 body{
-    background: white;
-    /* display: block; */
     box-sizing: border-box;
     
     margin: 0;
@@ -43,8 +41,4 @@ span{
 
 img{
     width: 100%;
-}
-
-svg{
-    fill: #000;
 }
