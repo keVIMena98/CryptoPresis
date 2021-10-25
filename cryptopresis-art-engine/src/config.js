@@ -4,13 +4,37 @@ const path = require("path");
 const isLocal = typeof process.pkg === "undefined";
 const basePath = isLocal ? process.cwd() : path.dirname(process.execPath);
 const { MODE } = require(path.join(basePath, "constants/blend_mode.js"));
-const description =
-  "CryptoPresis is a collection of 1821 algorithmically generated art pieces inspired by the President of El Salvador, Nayib Bukele. The first NFT project made with love from El Salvador to the world.";
-const baseUri = "ipfs://Qmdxo123SeNPV1zybP8WSfvLHgy8EpH8f9KTFt6SV44CJW";
+const { NETWORK } = require(path.join(basePath, "constants/network.js"));
 
+const network = NETWORK.eth;
+
+// General metadata for Ethereum
+const namePrefix = "CryptoPresi";
+const description = "CryptoPresis is a collection of 1821 algorithmically generated art pieces inspired by the President of El Salvador, Nayib Bukele. The first NFT project made with love from El Salvador to the world.";
+const baseUri = "ipfs://NewUriToReplace";
+
+const solanaMetadata = {
+  symbol: "YC",
+  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
+  external_url: "https://replace",
+  creators: [
+    {
+      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      share: 100,
+    },
+  ],
+};
+
+// If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 182,
+    growEditionSizeTo: 10,
+    layersOrder: [
+      { name: "Legendary" },
+    ],
+  },
+  {
+    growEditionSizeTo: 1821,
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Base" },
@@ -28,8 +52,15 @@ const shuffleLayerConfigurations = true;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 5117,
+  height: 5117,
+};
+
+const gif = {
+  export: false,
+  repeat: 0,
+  quality: 100,
+  delay: 250,
 };
 
 const text = {
@@ -66,10 +97,10 @@ const rarityDelimiter = "#";
 const uniqueDnaTorrance = 10000;
 
 const preview = {
-  thumbPerRow: 10,
-  thumbWidth: 80,
+  thumbPerRow: 20,
+  thumbWidth: 50,
   imageRatio: format.width / format.height,
-  imageName: "preview.png",
+  imageName: "collage.png",
 };
 
 module.exports = {
@@ -86,4 +117,8 @@ module.exports = {
   extraMetadata,
   pixelFormat,
   text,
+  namePrefix,
+  network,
+  solanaMetadata,
+  gif,
 };

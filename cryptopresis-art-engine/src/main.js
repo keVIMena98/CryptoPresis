@@ -3,6 +3,7 @@
 const path = require("path");
 const isLocal = typeof process.pkg === "undefined";
 const basePath = isLocal ? process.cwd() : path.dirname(process.execPath);
+const { NETWORK } = require(path.join(basePath, "constants/network.js"));
 const fs = require("fs");
 const sha1 = require(path.join(basePath, "/node_modules/sha1"));
 const { createCanvas, loadImage } = require(path.join(
@@ -23,6 +24,10 @@ const {
   debugLogs,
   extraMetadata,
   text,
+  namePrefix,
+  network,
+  solanaMetadata,
+  gif,
 } = require(path.join(basePath, "/src/config.js"));
 const canvas = createCanvas(format.width, format.height);
 const ctx = canvas.getContext("2d");
@@ -30,6 +35,12 @@ var metadataList = [];
 var attributesList = [];
 var dnaList = new Set();
 const DNA_DELIMITER = "-";
+const HashlipsGiffer = require(path.join(
+  basePath,
+  "/modules/HashlipsGiffer.js"
+));
+
+let hashlipsGiffer = null;
 
 const buildSetup = () => {
   if (fs.existsSync(buildDir)) {
@@ -38,6 +49,9 @@ const buildSetup = () => {
   fs.mkdirSync(buildDir);
   fs.mkdirSync(path.join(buildDir, "/json"));
   fs.mkdirSync(path.join(buildDir, "/images"));
+  if (gif.export) {
+    fs.mkdirSync(path.join(buildDir, "/gifs"));
+  }
 };
 
 const getRarityWeight = (_str) => {
@@ -118,16 +132,42 @@ const drawBackground = () => {
 const addMetadata = (_dna, _edition) => {
   let dateTime = Date.now();
   let tempMetadata = {
-    dna: sha1(_dna),
-    name: `CryptoPresi #${_edition}`,
+    name: `${namePrefix} #${_edition}`,
     description: description,
     image: `${baseUri}/${_edition}.png`,
+    dna: sha1(_dna),
     edition: _edition,
     date: dateTime,
     ...extraMetadata,
     attributes: attributesList,
     compiler: "CryptoPresis Art Engine",
   };
+  if (network == NETWORK.sol) {
+    tempMetadata = {
+      //Added metadata for solana
+      name: tempMetadata.name,
+      symbol: solanaMetadata.symbol,
+      description: tempMetadata.description,
+      //Added metadata for solana
+      seller_fee_basis_points: solanaMetadata.seller_fee_basis_points,
+      image: `image.png`,
+      //Added metadata for solana
+      external_url: solanaMetadata.external_url,
+      edition: _edition,
+      ...extraMetadata,
+      attributes: tempMetadata.attributes,
+      properties: {
+        files: [
+          {
+            uri: "image.png",
+            type: "image/png",
+          },
+        ],
+        category: "image",
+        creators: solanaMetadata.creators,
+      },
+    };
+  }
   metadataList.push(tempMetadata);
   attributesList = [];
 };
@@ -250,11 +290,11 @@ function shuffle(array) {
 
 const startCreating = async () => {
   let layerConfigIndex = 0;
-  let editionCount = 11;
+  let editionCount = 1;
   let failedCount = 0;
   let abstractedIndexes = [];
   for (
-    let i = 11;
+    let i = network == NETWORK.sol ? 0 : 1;
     i <= layerConfigurations[layerConfigurations.length - 1].growEditionSizeTo;
     i++
   ) {
@@ -285,6 +325,17 @@ const startCreating = async () => {
         await Promise.all(loadedElements).then((renderObjectArray) => {
           debugLogs ? console.log("Clearing canvas") : null;
           ctx.clearRect(0, 0, format.width, format.height);
+          if (gif.export) {
+            hashlipsGiffer = new HashlipsGiffer(
+              canvas,
+              ctx,
+              `${buildDir}/gifs/${abstractedIndexes[0]}.gif`,
+              gif.repeat,
+              gif.quality,
+              gif.delay
+            );
+            hashlipsGiffer.start();
+          }
           if (background.generate) {
             drawBackground();
           }
@@ -294,7 +345,13 @@ const startCreating = async () => {
               index,
               layerConfigurations[layerConfigIndex].layersOrder.length
             );
+            if (gif.export) {
+              hashlipsGiffer.add();
+            }
           });
+          if (gif.export) {
+            hashlipsGiffer.stop();
+          }
           debugLogs
             ? console.log("Editions left to create: ", abstractedIndexes)
             : null;

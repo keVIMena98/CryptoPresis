@@ -2,6 +2,10 @@
 
 If you are cloning the project then run this first, otherwise you can download the source code on the release page and skip this step.
 
+```sh
+git clone
+```
+
 Go to the root of your folder and run this command if you have yarn installed.
 
 ```sh
@@ -98,7 +102,7 @@ const layerConfigurations = [
         name: "Eye color",
         options: {
           blend: MODE.destinationIn,
-          opcacity: 0.2,
+          opacity: 0.2,
           displayName: "Awesome Eye Color",
         },
       },
@@ -232,6 +236,21 @@ const pixelFormat = {
 };
 ```
 
+### Generate pixelated images from collection
+
+In order to export gifs based on the layers created, you just need to set the export on the `gif` object in the `src/config.js` file to `true`. You can also play around with the `repeat`, `quality` and the `delay` of the exported gif.
+
+Setting the `repeat: -1` will produce a one time render and `repeat: 0` will loop forever.
+
+```js
+const gif = {
+  export: true,
+  repeat: 0,
+  quality: 100,
+  delay: 500,
+};
+```
+
 ### Printing rarity data (Experimental feature)
 
 To see the percentages of each attribute across your collection, run:
@@ -253,5 +272,3 @@ Trait type: Iris
 { trait: 'Medium', chance: '20', occurrence: '15% out of 100%' }
 { trait: 'Small', chance: '60', occurrence: '70% out of 100%' }
 ```
-
-Hope you create some awesome artworks with this code 👄
