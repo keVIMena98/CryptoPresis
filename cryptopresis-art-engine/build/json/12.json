@@ -2,15 +2,15 @@
   "name": "CryptoPresi #12",
   "description": "CryptoPresis is a collection of 1821 algorithmically generated art pieces inspired by the President of El Salvador, Nayib Bukele. The first NFT project made with love from El Salvador to the world.",
   "image": "ipfs://NewUriToReplace/12.png",
-  "dna": "d722848091b5f48d1dbfaee96dccdbf6ccf85068",
+  "dna": "be8df693d835f042c4b444f3fc4745fa42cde854",
   "edition": 12,
-  "date": 1635196421878,
+  "date": 1635216086445,
   "creators": "ackermann.eth (twitter: @ackermann_eth), Capitan Capibara (twitter: @capitancapibara)",
   "artist": "Pxl Plnktn (twitter: @PxlPlnktn)",
   "attributes": [
     {
       "trait_type": "Backgrounds",
-      "value": "Cyan"
+      "value": "Bitcoin Beach"
     },
     {
       "trait_type": "Base",
@@ -18,7 +18,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Pale Skin"
+      "value": "Tan Skin"
     },
     {
       "trait_type": "Haircolor",
@@ -30,7 +30,7 @@
     },
     {
       "trait_type": "Hats",
-      "value": "Backwards White Cap"
+      "value": "McDonalds"
     },
     {
       "trait_type": "Mouth",
