@@ -369,9 +369,9 @@ a #discord-btn{
     margin-left: -400%;
 }
 
-/* #radio6:checked ~ .first{
+#radio6:checked ~ .first{
     margin-left: -500%;
-} */
+}
 
 /* #radio7:checked ~ .first{
     margin-left: -600%;
