@@ -17,7 +17,7 @@ contract CryptoPresis is ERC721Enumerable, Ownable {
   uint256 public maxSupply = 1821;
   uint256 public maxMintAmount = 108;
   uint256 public nftPerAddressLimit = 108;
-  bool public paused = false;
+  bool public paused = true;
   bool public revealed = false;
   bool public onlyWhitelisted = true;
   address payable commissions = payable(0x13068925dB34E777841624954D1103fBD7F1cd77);
