@@ -373,21 +373,21 @@ a #discord-btn{
     margin-left: -500%;
 }
 
-/* #radio7:checked ~ .first{
+#radio7:checked ~ .first{
     margin-left: -600%;
-} */
+}
 
-/* #radio8:checked ~ .first{
+#radio8:checked ~ .first{
     margin-left: -700%;
-} */
+}
 
-/* #radio9:checked ~ .first{
+#radio9:checked ~ .first{
     margin-left: -800%;
-} */
+}
 
-/* #radio10:checked ~ .first{
+#radio10:checked ~ .first{
     margin-left: -900%;
-} */
+}
 
 @media screen and (max-width: 600px) {
     .slider{
