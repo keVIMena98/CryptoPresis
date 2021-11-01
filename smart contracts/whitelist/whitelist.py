@@ -6,13 +6,15 @@ import pandas as pd
 cwd = os.getcwd()
 
 # Print the current working directory
-print("Current working directory: {0}".format(cwd))
+#print("Current working directory: {0}".format(cwd))
+
 
 # set working directory for mac
-#path = "/Volumes/NO NAME/GitHub/CryptoPresis/cryptopresis-smart-contracts/whitelist/"
+path = "/Volumes/NO NAME/GitHub/CryptoPresis/smart contracts/whitelist/"
 
 # set working directory for mac
-path = "E:/GitHub/CryptoPresis/smart contracts/whitelist/"
+#path = "E:/GitHub/CryptoPresis/smart contracts/whitelist/"
+
 
 # merge all whitelist files
 all_files = glob.glob(os.path.join(path, "*_whitelist_form.csv"))
@@ -20,14 +22,17 @@ df_from_each_file = (pd.read_csv(f, sep=',') for f in all_files)
 df_merged = pd.concat(df_from_each_file, ignore_index=True)
 df_merged.to_csv("merged.csv")
 
+
 # create dataframe using pandas for mac
-#whitelist_data = pd.read_csv(
-    #r'/Volumes/NO NAME/GitHub/CryptoPresis/cryptopresis-smart-contracts/whitelist/merged.csv', header = 0)
+whitelist_data = pd.read_csv(r'/Volumes/NO NAME/GitHub/CryptoPresis/smart contracts/whitelist/merged.csv', header = 0)
 
 # create dataframe using pandas for windows
-whitelist_data = pd.read_csv(r'E:/GitHub/CryptoPresis/smart contracts/whitelist/merged.csv', header = 0)
+#whitelist_data = pd.read_csv(r'E:/GitHub/CryptoPresis/smart contracts/whitelist/merged.csv', header = 0)
+
+
 # convert dataframe to list and set to variable
 whitelist = list(whitelist_data.Address)
+
 
 # replace single quotes with double qoutes and set new variable
 whitelist_array = str(whitelist).replace("'", '"')
