@@ -48,11 +48,11 @@ export const connect = () => {
           method: "net_version",
         });
        // const NetworkData = await SmartContract.networks[networkId];
-        if (networkId == 4) {
+        if (networkId == 1) {
           const SmartContractObj = new web3.eth.Contract(
             SmartContract,
            // NetworkData.address
-            "0x55cc03C3ad6b2688dd31ecb63E36516BbA291893"
+            "0x3eE15e0B8D236F7741CA5c1259fbcf1544e51621"
           );
           dispatch(
             connectSuccess({
@@ -70,7 +70,7 @@ export const connect = () => {
           });
         // Add listeners end
         } else {
-          dispatch(connectFailed("Change network to Ethereum."));
+          dispatch(connectFailed("Change network to Ethereum Mainnet."));
         }
       } catch (err) {
         dispatch(connectFailed("Something went wrong."));
