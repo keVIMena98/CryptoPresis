@@ -33,21 +33,21 @@ document.addEventListener('click', e => {
     })
 });
 
-// Modal window
-const modal = document.getElementById('modal');
-const btn = document.getElementById('mint');
-const span = document.getElementsByClassName('close')[0];
+// // Modal window
+// const modal = document.getElementById('modal');
+// const btn = document.getElementById('mint');
+// const span = document.getElementsByClassName('close')[0];
 
-btn.onclick = () => {
-    modal.style.display = 'block';
-};
+// btn.onclick = () => {
+//     modal.style.display = 'block';
+// };
 
-span.onclick = () => {
-    modal.style.display = 'none';
-};
+// span.onclick = () => {
+//     modal.style.display = 'none';
+// };
 
-window.onclick = event => {
-    if (event.target == modal) {
-        modal.style.display = 'none';
-    }
-};
+// window.onclick = event => {
+//     if (event.target == modal) {
+//         modal.style.display = 'none';
+//     }
+// };

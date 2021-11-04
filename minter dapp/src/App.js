@@ -65,7 +65,7 @@ function App() {
      blockchain.smartContract.methods
       .mint(_amount)
       .send({
-        // gasLimit: "285000",
+        gasLimit: "500000",
         // to: "0x3a65373e354ad8f3c90ed830a403f487652632e2",
         from: blockchain.account,
         value: blockchain.web3.utils.toWei(
@@ -131,7 +131,7 @@ function App() {
                 <s.SpacerSmall />
                 <s.TextDescription style={{ textAlign: "center" }}>
                   You can still find CryptoPresis on{" "}
-                  <a target={"_blank"} href={"https://opensea.io/collection/cryptopresis"}>
+                  <a target={"_blank"} href={"https://opensea.io/collection/cryptopresisoffcial"}>
                     Opensea.io
                   </a>
                 </s.TextDescription>
