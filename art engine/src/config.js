@@ -97,8 +97,8 @@ const rarityDelimiter = "#";
 const uniqueDnaTorrance = 10000;
 
 const preview = {
-  thumbPerRow: 50,
-  thumbWidth: 45,
+  thumbPerRow: 20,
+  thumbWidth: 100,
   imageRatio: format.width / format.height,
   imageName: "collage.png",
 };
