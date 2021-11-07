@@ -6,11 +6,11 @@ import {
     SideBarWrapper,
     SidebarMenu,
     SidebarLink,
-    SideSocialIconWrap,
-    SideSocialIconRoute
+    SideSocialIconWrap
 } from './SidebarElements';
+import SocialFollow from '../SocialFollow';
 
-const Sidebar = (isOpen, toggle) => {
+const Sidebar = ({isOpen, toggle}) => {
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
             <Icon onClick={toggle}>
@@ -29,7 +29,7 @@ const Sidebar = (isOpen, toggle) => {
                     </SidebarLink>
                 </SidebarMenu>
                 <SideSocialIconWrap>
-                    <SideSocialIconRoute to='/twitter'>twitter</SideSocialIconRoute>
+                    <SocialFollow />
                 </SideSocialIconWrap>
             </SideBarWrapper>
         </SidebarContainer>

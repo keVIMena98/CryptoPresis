@@ -3,9 +3,9 @@ import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
 export const Nav = styled.nav`
-    background: #000;
+    background: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
     height: 80px;
-    /* margin-top: -80px; */
+    margin-top: -80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +21,7 @@ export const Nav = styled.nav`
 
 export const NavbarContainer = styled.div`
     display: flex;
+    opacity: 100%;
     justify-content: space-between;
     height: 80px;
     z-index: 1;
@@ -30,7 +31,7 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogo = styled(LinkR)`
-    color: cyan;
+    color: #fff;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -82,18 +83,18 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
 
     &.active {
-        border-bottom: 3px solid #01bf71;
+        border-bottom: 3px solid #00FFFF;
     }
 `;
 
-export const NavSocialIcon = styled.nav`
+/* export const NavSocialIcon = styled.nav`
     display: flex;
     align-items: center;
 
     @media screen and (max-width: 760) {
         display: none;
     }
-`
+` */
 
 export const NavSocialIconLink = styled(LinkR)`
     border-radius: 50px;
@@ -112,5 +113,39 @@ export const NavSocialIconLink = styled(LinkR)`
         transition: all 0.2s ease-in-out;
         background: #fff;
         color: #010606;
+    }
+`
+
+export const NavSocialIcon = styled.nav`
+    .social-container {
+        display: flex;
+        align-items: center;
+        justify-self: flex-start;
+        cursor: pointer;
+        margin-left: 24px;
+
+        @media screen and (max-width: 760) {
+        display: none;
+        }
+    }
+    
+    a.social {
+        margin: 0 1rem;
+        transition: transform 250ms;
+        display: flex;
+        align-items: center;
+        justify-self: flex-start;
+    }
+    
+    a.twitter {
+        color: #fff;
+    }
+    
+    a.instagram {
+        color: #fff;
+    }
+    
+    a.discord {
+        color: #fff;
     }
 `
