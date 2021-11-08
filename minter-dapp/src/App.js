@@ -65,7 +65,7 @@ function App() {
      blockchain.smartContract.methods
       .mint(_amount)
       .send({
-        gasLimit: "450000",
+        gasLimit: "600000",
         // to: "0x3a65373e354ad8f3c90ed830a403f487652632e2",
         from: blockchain.account,
         value: blockchain.web3.utils.toWei(
@@ -139,7 +139,7 @@ function App() {
             ) : (
               <>
                 <s.TextTitle style={{ textAlign: "center" }}>
-                  1 CryptoPresi costs 0.04 ETH.
+                  1 CryptoPresi costs 0.0888 ETH.
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription style={{ textAlign: "center" }}>
@@ -208,6 +208,17 @@ function App() {
                       }}
                     >
                       {claimingNft ? "BUSY MINTING" : "BUY 3"}
+                    </StyledButton>
+                    <s.SpacerSmall />
+                    <StyledButton
+                      disabled={claimingNft ? 1 : 0}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        claimNFTs(4);
+                        getData();
+                      }}
+                    >
+                      {claimingNft ? "BUSY MINTING" : "BUY 4"}
                     </StyledButton>
                     <s.SpacerSmall />
                   </s.Container>
