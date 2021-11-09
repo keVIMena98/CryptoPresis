@@ -9,7 +9,7 @@ export const homeObjOne = {
         'A collection of 1821 algorithmically generated art pieces. Inspired by the actions of the President of El Salvador, making history as the first country in the world to accept Bitcoin as legal tender.',
     buttonlabel: 'READ MORE',
     imgStart: false,
-    img: require('../../images/collage3.png'),
+    img: require('../../images/legendaries.png'),
     alt: 'NFTs', 
     dark: true,
     primary: true,

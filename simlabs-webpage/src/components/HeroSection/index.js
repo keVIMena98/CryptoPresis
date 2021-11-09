@@ -38,6 +38,8 @@ const HeroSection = () => {
                         to='about' 
                         onMouseEnter={onHover} 
                         onMouseLeave={onHover}
+                        primary='true'
+                        dark='true'
                     >
                         About Us {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>

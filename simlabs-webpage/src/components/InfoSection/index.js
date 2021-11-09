@@ -40,16 +40,17 @@ const InfoSection = ({
                             <TextWrapper>
                                 <TopLine>{topline}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
-                                <Subtitle darktext={darkText}>{description}</Subtitle>
+                                <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
                                     <Button to='https://cryptopresis.simlabs.io/'
                                         smooth={true}
                                         duration={500}
-                                        spy="true"
+                                        spy={true}
+                                        exact="true"
                                         offset={-80}
-                                        /*primary={primary ? 1 : 0}
+                                        primary={primary ? 1 : 0}
                                         dark={dark ? 1 : 0}
-                                        dark2={dark2 ? 1 : 0}*/
+                                        dark2={dark2 ? 1 : 0}
                                         >{buttonlabel}</Button>
                                 </BtnWrap>
                             </TextWrapper>
