@@ -139,7 +139,7 @@ function App() {
             ) : (
               <>
                 <s.TextTitle style={{ textAlign: "center" }}>
-                  1 CryptoPresi costs 0.0888 ETH.
+                  1 CryptoPresi costs 0.05 ETH.
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription style={{ textAlign: "center" }}>
@@ -219,6 +219,17 @@ function App() {
                       }}
                     >
                       {claimingNft ? "BUSY MINTING" : "BUY 4"}
+                    </StyledButton>
+                    <s.SpacerSmall />
+                    <StyledButton
+                      disabled={claimingNft ? 1 : 0}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        claimNFTs(5);
+                        getData();
+                      }}
+                    >
+                      {claimingNft ? "BUSY MINTING" : "BUY 5"}
                     </StyledButton>
                     <s.SpacerSmall />
                   </s.Container>
