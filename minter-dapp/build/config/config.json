@@ -11,8 +11,8 @@
   "MAX_SUPPLY": 1821,
   "WEI_COST": 50000000000000000,
   "DISPLAY_COST": 0.05,
-  "GAS_LIMIT": 195000,
-  "MARKETPLACE": "Opeansea",
+  "GAS_LIMIT": 193000,
+  "MARKETPLACE": "OpeanSea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/cryptopresisoffcial",
   "SHOW_BACKGROUND": true
 }
