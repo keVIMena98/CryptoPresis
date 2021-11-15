@@ -125,7 +125,8 @@ table {
 
 @font-face {
   font-family: "coder";
-  src: local("coder"), url(PressStart2P-Regular.woff) format("woff");
+  src: local("coder"),
+    url(../assets/fonts/PressStart2P-Regular.woff) format("woff");
 }
 
 body {
@@ -143,7 +144,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "coder", "Courier New",
     monospace;
 }
 
@@ -151,6 +152,7 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+/* Hide scrollbar for IE, Edge and Firefox */
 body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
