@@ -34,7 +34,7 @@ const updateAccountRequest = (payload) => {
 export const connect = () => {
   return async (dispatch) => {
     dispatch(connectRequest());
-    const abiResponse = await fetch("/config/CRPR.json", {
+    const abiResponse = await fetch("/config/abi.json", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
