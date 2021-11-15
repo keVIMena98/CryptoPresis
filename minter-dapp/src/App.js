@@ -63,9 +63,9 @@ function App() {
     setFeedback("Minting your CryptoPresi...");
     setClaimingNft(true);
      blockchain.smartContract.methods
-      .mint(_amount)
+      .mint(blockchain.account, _amount)
       .send({
-        gasLimit: "800000",
+        // gasLimit: "800000",
         // to: "0x3a65373e354ad8f3c90ed830a403f487652632e2",
         from: blockchain.account,
         value: blockchain.web3.utils.toWei(
