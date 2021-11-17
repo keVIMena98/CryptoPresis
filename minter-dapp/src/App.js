@@ -231,6 +231,11 @@ function App() {
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
             <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+                  Connect wallet to view amount minted.
+                </s.TextDescription>
+            <s.TextDescription
               style={{
                 textAlign: "center",
                 color: "var(--primary-text)",
