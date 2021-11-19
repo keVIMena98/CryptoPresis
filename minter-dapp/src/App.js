@@ -236,6 +236,17 @@ function App() {
                 color: "var(--accent-text)",
               }}
             >
+              <s.TextTitle 
+                style={{
+                  textAlign: "center",
+                  fontSize: 20,
+                  fontWeight: "bold",
+                  color: "var(--accent-text)",
+                }}
+              >
+              LIMITED COLLECTION
+              </s.TextTitle>
+              <s.SpacerXSmall />
               {CONFIG.MAX_SUPPLY - data.totalSupply} / {CONFIG.MAX_SUPPLY}
               {/*{data.totalSupply} / {CONFIG.MAX_SUPPLY}*/}
             </s.TextTitle>
