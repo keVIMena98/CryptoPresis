@@ -242,7 +242,7 @@ function App() {
             <s.TextDescription
                 style={{ textAlign: "center", color: "var(--accent-text)" }}
               >
-                connect wallet to view remaining.
+                connect wallet to view remaining supply.
             </s.TextDescription>
             <s.SpacerXSmall />
             <s.TextDescription
