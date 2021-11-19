@@ -4,6 +4,14 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
+// import { dataReducer } from "./redux/data/dataReducers"
+
+const options = {method: 'GET', headers: {Accept: 'application/json'}};
+
+fetch('https://api.opensea.io/api/v1/collection/cryptopresisoffcial/stats', options)
+  .then(response => response.json())
+  .then(response => console.log(response))
+  .catch(err => console.error(err));
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -228,13 +236,15 @@ function App() {
                 color: "var(--accent-text)",
               }}
             >
-              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
+              {CONFIG.MAX_SUPPLY - data.totalSupply} / {CONFIG.MAX_SUPPLY}
+              {/*{data.totalSupply} / {CONFIG.MAX_SUPPLY}*/}
             </s.TextTitle>
             <s.TextDescription
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  Connect wallet to view amount minted.
-                </s.TextDescription>
+                style={{ textAlign: "center", color: "var(--accent-text)" }}
+              >
+                connect wallet to view remaining.
+            </s.TextDescription>
+            <s.SpacerXSmall />
             <s.TextDescription
               style={{
                 textAlign: "center",
@@ -242,7 +252,8 @@ function App() {
               }}
             >
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
-                {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
+                {/*{truncate(CONFIG.CONTRACT_ADDRESS, 15)}*/}
+                {(CONFIG.CONTRACT_ADDRESS, "Etherscan")}
               </StyledLink>
             </s.TextDescription>
             <s.SpacerSmall />

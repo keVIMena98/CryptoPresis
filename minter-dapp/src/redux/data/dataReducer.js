@@ -1,3 +1,5 @@
+import { bindActionCreators } from "redux";
+
 const initialState = {
   loading: false,
   totalSupply: 0,
