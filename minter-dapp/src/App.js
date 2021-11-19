@@ -247,7 +247,7 @@ function App() {
               LIMITED COLLECTION
               </s.TextTitle>
               <s.SpacerXSmall />
-              {CONFIG.MAX_SUPPLY - data.totalSupply} / {CONFIG.MAX_SUPPLY}
+              {CONFIG.MAX_SUPPLY - data.totalSupply} REMAINING
               {/*{data.totalSupply} / {CONFIG.MAX_SUPPLY}*/}
             </s.TextTitle>
             <s.TextDescription
