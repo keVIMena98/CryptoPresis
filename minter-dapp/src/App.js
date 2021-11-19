@@ -231,7 +231,7 @@ function App() {
             <s.TextTitle
               style={{
                 textAlign: "center",
-                fontSize: 25,
+                fontSize: 20,
                 fontWeight: "bold",
                 color: "var(--accent-text)",
               }}
@@ -239,7 +239,7 @@ function App() {
               <s.TextTitle 
                 style={{
                   textAlign: "center",
-                  fontSize: 20,
+                  fontSize: 16,
                   fontWeight: "bold",
                   color: "var(--accent-text)",
                 }}
