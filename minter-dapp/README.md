@@ -11,7 +11,7 @@ The more complex route allows you to add additional functionality if you are com
 If you are cloning the project then run this first, otherwise you can download the source code on the release page and skip this step.
 
 ```sh
-git clone https://github.com/HashLips/hashlips_nft_minting_dapp.git
+git clone https://github.com/kramirez23/minter-dapp.git
 ```
 
 Make sure you have node.js installed so you can use npm, then run:
@@ -32,22 +32,22 @@ Note: this dapp is designed to work with the intended NFT smart contract, that o
 
 ```json
 {
-  "CONTRACT_ADDRESS": "0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
-  "SCAN_LINK": "https://polygonscan.com/token/0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
+  "CONTRACT_ADDRESS": "0x3eE15e0B8D236F7741CA5c1259fbcf1544e51621",
+  "SCAN_LINK": "https://etherscan.io/address/0x3eE15e0B8D236F7741CA5c1259fbcf1544e51621",
   "NETWORK": {
-    "NAME": "Polygon",
-    "SYMBOL": "Matic",
-    "ID": 137
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 1
   },
-  "NFT_NAME": "Nerdy Coder Clones",
-  "SYMBOL": "NCC",
-  "MAX_SUPPLY": 1000,
-  "WEI_COST": 75000000000000000,
-  "DISPLAY_COST": 0.075,
+  "NFT_NAME": "CryptoPresis",
+  "SYMBOL": "CRPR",
+  "MAX_SUPPLY": 1821,
+  "WEI_COST": 50000000000000000,
+  "DISPLAY_COST": 0.05,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/nerdy-coder-clones",
-  "SHOW_BACKGROUND": true
+  "MARKETPLACE": "Rarible",
+  "MARKETPLACE_LINK": "https://rarible.com/cryptopresisofficial",
+  "SHOW_BACKGROUND": false
 }
 ```
 
@@ -56,17 +56,6 @@ Make sure you copy the contract ABI from remix and paste it in the `public/confi
 
 Now you will need to create and change 2 images and a gif in the `public/config/images` folder, `bg.png`, `example.gif` and `logo.png`.
 
-Next change the theme colors to your liking in the `public/config/theme.css` file.
-
-```css
-:root {
-  --primary: #ebc908;
-  --primary-text: #1a1a1a;
-  --secondary: #ff1dec;
-  --secondary-text: #ffffff;
-  --accent: #ffffff;
-  --accent-text: #000000;
-}
 ```
 
 Now you will need to create and change the `public/favicon.ico`, `public/logo192.png`, and
@@ -75,16 +64,16 @@ Now you will need to create and change the `public/favicon.ico`, `public/logo192
 Remember to update the title and description the `public/index.html` file
 
 ```html
-<title>Nerdy Coder Clones</title>
-<meta name="description" content="Mint your Nerdy Coder Clone NFT" />
+<title>CryptoPresis</title>
+<meta name="description" content="Mint your CryptoPresis" />
 ```
 
 Also remember to update the short_name and name fields in the `public/manifest.json` file
 
 ```json
 {
-  "short_name": "NCC",
-  "name": "Coder Clone NFT"
+  "short_name": "CRPR",
+  "name": "CryptoPresis"
 }
 ```
 
