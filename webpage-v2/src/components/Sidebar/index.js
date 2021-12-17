@@ -46,7 +46,7 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SocialIconLink href="//instagram.com/cryptopresisnft" target="_blank" aria-label="Instagram">
                         <FaInstagram />
                     </SocialIconLink>
-                    <SocialIconLink href="//discord.com/cryptopresis" target="_blank" aria-label="Discord">
+                    <SocialIconLink href="//discord.gg/cryptopresis" target="_blank" aria-label="Discord">
                         <FaDiscord />
                     </SocialIconLink>
                 </SideSocialIcon>

@@ -114,7 +114,7 @@ export const NavSocialIcon = styled.nav`
 export const SocialIconLink = styled.a`
     color: #fff;
     font-size: 20px;
-    ext-decoration: none;
+    text-decoration: none;
     list-style: none;
     transition: 0.2s ease-in-out;
     cursor: pointer;

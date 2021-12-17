@@ -53,16 +53,16 @@ const Footer = () => {
                             <ImgLogo src={require("../../assets/images/logo.png")} alt="logo"/>
                         </SocialLogo>
                         <WebsiteRights>Made with <span role="img" aria-label="Heart">💖</span>  and a whole lot of
-                        <span role="img" aria-label="Heart"> 🍷</span>. Simlabs © {new Date().getUTCFullYear()} All Right Reserved.
+                        <span role="img" aria-label="Heart"> 🍷</span>. Simlabs © {new Date().getUTCFullYear()} All Rights Reserved.
                         </WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href="//www.twitter.com/CryptoPresis" target="_blank" aria-label="Twitter">
+                            <SocialIconLink href="//twitter.com/CryptoPresis" target="_blank" aria-label="Twitter">
                                 <FaTwitter />
                             </SocialIconLink>
-                            <SocialIconLink href="//www.instagram.com/cryptopresisnft" target="_blank" aria-label="Instagram">
+                            <SocialIconLink href="//instagram.com/cryptopresisnft" target="_blank" aria-label="Instagram">
                                 <FaInstagram />
                             </SocialIconLink>
-                            <SocialIconLink href="//www.discord.com/cryptopresis" target="_blank" aria-label="Discord">
+                            <SocialIconLink href="//discord.gg/cryptopresis" target="_blank" aria-label="Discord">
                                 <FaDiscord />
                             </SocialIconLink>
                         </SocialIcons>

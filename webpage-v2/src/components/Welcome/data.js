@@ -6,7 +6,7 @@ export const homeObjOne = {
     topline: 'Artist: Pxl Plnktn',
     headline: 'WELCOME TO THE HOME OF CRYPTOPRESIS',
     description: 
-        'CryptoPresis is a collection of 1821 algorithmically generated art pieces. Inspired by the actions of the President of El Salvador, making history as the first country in the world to accept Bitcoin as legal tender. The first NFT collection from Latin America to the world aims to spread education, throughout our communities, about the possibilities and the potential of cryptocurrencies and NFTs by donating 10% of proceeds to charitable orgnaizations like Bitcoin Beach & others.',
+        'CryptoPresis is a collection of 1821 algorithmically generated art pieces. Inspired by the actions of the President of El Salvador, making history as the first country in the world to accept Bitcoin as legal tender. The first NFT collection from Latin America to the world aims to spread education, throughout our communities, about the possibilities and the potential of cryptocurrencies and NFTs by donating 10% of proceeds to charitable organizations like Bitcoin Beach & others.',
     buttonlabel: 'READ MORE',
     imgStart: false,
     img: require('../../assets/images/The Presi.png'),
