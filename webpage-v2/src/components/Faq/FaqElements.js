@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
-export const FaqContainer = styled.div `
+export const FaqContainer = styled.div`
     color: #fff;
     padding: 48px 24px;
     background: ${({LightBg}) => (LightBg ? '#f9f9f9' : '#010606')};
 
     @media screen and (max-width: 768px) {
-        padding: 48px 24px;
+        padding: 0 24px;
     }
 `;
 
@@ -17,8 +17,8 @@ export const FaqRow = styled.div`
     align-items: center;
     grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'` )};
 
-    @media screen and (max-width: 768 px) {
-        grid-template-areas: ${({ imgStart }) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)}
+    @media screen and (max-width: 768px) {
+        grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)}
     }
 `;
 
@@ -26,7 +26,7 @@ export const FaqWrapper = styled.div`
     display: grid;
     z-index: 1;
     height: 100%;
-    max-height: 3000px;
+    max-height: 1600px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -49,7 +49,7 @@ export const Column1 = styled.div`
 `;
 
 export const Column2 = styled.div`
-    margin-bottom: 60px;
+    margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
 `;
@@ -58,10 +58,6 @@ export const TextWrapper = styled.div`
     max-width: 740px;
     padding-top: 0;
     padding-bottom: 60px;
-
-    @media screen and (max-width: 480px) {
-        font-size: 8px;
-    }
 `;
 
 export const Wrap = styled.div`
@@ -95,7 +91,7 @@ export const Wrap = styled.div`
 export const Dropdown = styled.div`
     background: #000;
     color: #fff;
-    max-width 1200px;
+    max-width: 1200px;
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -130,6 +126,6 @@ export const ImgWrap = styled.div`
 
 export const Img = styled.img`
     width: 100%;
-    margin: 0 0 0 0
+    margin: 0 0 0 0;
     padding-right: 0;
 `;

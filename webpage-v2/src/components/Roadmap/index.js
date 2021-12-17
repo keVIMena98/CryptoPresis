@@ -19,7 +19,7 @@ const Roadmap = () => {
             <InfoContainer id="Roadmap">
                 <InfoWrapper>
                     <TitleContainer>
-                        <Heading>ROADMAP</Heading>
+                        <Heading>ROADMAP 1.0</Heading>
                     </TitleContainer>
                     <InfoRow>
                         {/* <Column1>
@@ -36,12 +36,10 @@ const Roadmap = () => {
                         <Column2>
                             <TextWrapper2>
                                 <Subtitle2>
-                                    Generative art collection launch. Some of these airdropped directly
-                                    to the genesis holders.
+                                    future art collections launch. Free to mint NFTs by local artists for genesis holders.
                                 </Subtitle2>
                                 <Subtitle2>
-                                    Collaborate with 10 local artist to create a 10000 piece collection
-                                    as a derivative of the genesis collection.
+                                    Launch of 10000 piece collection. Mind-blowing art and tons more traits.
                                 </Subtitle2>
                                 <Subtitle2>
                                     Launch of the member-exclusive CryptoPresis Merch Store, featuring
@@ -60,8 +58,7 @@ const Roadmap = () => {
                                     purpose of spreading education in the general cryptocurrency space.
                                 </Subtitle2>
                                 <Subtitle2>
-                                    Purchase of the CryptoPresis Beach Club House in El Salvador for member-
-                                    exclusive parties and events.
+                                    Purchase an estate in the metaverse for member-exclusive parties, events and get-togethers.
                                 </Subtitle2>
                             </TextWrapper2>
                         </Column2>
