@@ -58,6 +58,10 @@ export const TextWrapper = styled.div`
     max-width: 740px;
     padding-top: 0;
     padding-bottom: 60px;
+
+    @media screen and (max-width: 480px) {
+        font-size: 8px;
+    }
 `;
 
 export const Wrap = styled.div`
@@ -82,6 +86,10 @@ export const Wrap = styled.div`
     span {
         margin-right: 1.5rem;
     }
+
+    @media screen and (max-width: 480px) {
+        font-size: 8px;
+    }
 `;
 
 export const Dropdown = styled.div`
@@ -97,6 +105,10 @@ export const Dropdown = styled.div`
     p {
         font-size: 12px;
     }
+
+    @media screen and (max-width: 480px) {
+        font-size: 8px;
+    }
 `
 
 export const Heading = styled.h1`
@@ -106,7 +118,7 @@ export const Heading = styled.h1`
     font-weight: 600;
     color: #fff;
 
-    @media screen and (max-wdith: 480px) {
+    @media screen and (max-width: 480px) {
         font-size: 12px;
     }
 `;

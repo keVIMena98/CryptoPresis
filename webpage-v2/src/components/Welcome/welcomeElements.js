@@ -71,7 +71,7 @@ export const Heading = styled.h1`
     font-weight: 600;
     color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
 
-    @media screen and (max-wdith: 480px) {
+    @media screen and (max-width: 480px) {
         font-size: 12px;
     }
 `;
@@ -83,6 +83,10 @@ export const Subtitle = styled.p`
     font-size: 12px;
     line-height: 18px;
     color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+
+    @media screen and (max-width: 480px) {
+        font-size: 8px;
+    }
 `;
 
 export const ImgWrap = styled.div`

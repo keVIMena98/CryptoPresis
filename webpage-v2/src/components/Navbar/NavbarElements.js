@@ -33,7 +33,7 @@ export const NavLogo = styled(LinkR)`
     cursor: pointer;
     display; grid;
     align-items: center;
-    margin: 24px 0 24px 0;
+    margin: 30px 0 24px 0;
 
     @media screen and (max-width: 768px) {
         cursor: pointer;
@@ -44,7 +44,7 @@ export const NavLogo = styled(LinkR)`
 `
 
 export const ImgLogo = styled.img`
-    width: 300px;
+    width: 200px;
     align-items: center;
     transition: width 0.5s;
     transition: height 0.5s;

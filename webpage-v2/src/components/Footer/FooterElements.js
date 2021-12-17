@@ -107,7 +107,7 @@ export const SocialLogo = styled(LinkR)`
 `
 
 export const ImgLogo = styled.img`
-  width: 300px;
+  width: 200px;
   align-items: center;
 //   margin-left: 12px;
   transition: width 0.5s;
