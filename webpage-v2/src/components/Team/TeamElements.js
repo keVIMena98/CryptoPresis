@@ -45,7 +45,7 @@ export const TeamWrapper = styled.div`
 
     @media screen and (max-width: 768px) {
         grid-template-columns: 1fr;
-        padding: 0;
+        padding: 0 12px;
     }
 `
 
