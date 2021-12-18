@@ -45,7 +45,7 @@ export const TeamWrapper = styled.div`
 
     @media screen and (max-width: 768px) {
         grid-template-columns: 1fr;
-        padding: 0 60px 0 60px;
+        padding: 0;
     }
 `
 
@@ -68,7 +68,7 @@ export const TeamCard = styled.div`
     }
 
     @media screen and (max-width: 480px) {
-        max-height: 250px;
+        max-height: 300px;
     }
 `
 
@@ -78,8 +78,8 @@ export const TeamProfile = styled.img`
     margin-bottom: 10px;
 
     @media screen and (max-width: 480px) {
-        height: 150px;
-        width: 150px;
+        height: 200px;
+        width: 200px;
     }
 `
 
