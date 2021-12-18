@@ -50,27 +50,27 @@ const Navbar = ({ toggle }) => {
                         <NavMenu>
                             <NavItem>
                                 <NavLinks to="Home" smooth={true} duration={500} spy={true} exact='true' offset={-100}>
-                                    Home
+                                    HOME
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="Mint" smooth={true} duration={500} spy={true} exact='true' offset={-100}>
-                                    Mint
+                                    BUY A PRESI
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
                                 <Link href="//rarible.com/cryptopresisofficial" target="_blank" >
-                                    Rarible
+                                    RARIBLE
                                 </Link>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="Roadmap" smooth={true} duration={500} spy={true} exact='true' offset={-100}>
-                                    Roadmap
+                                    ROADMAP
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="Team" smooth={true} duration={500} spy={true} exact='true' offset={-100}>
-                                    Team
+                                    TEAM
                                 </NavLinks>
                             </NavItem>
                             <NavItem>

@@ -33,7 +33,7 @@ export const NavLogo = styled(LinkR)`
     cursor: pointer;
     display; grid;
     align-items: center;
-    margin: 30px 0 24px 0;
+    margin: 24px 0 24px 0;
 
     @media screen and (max-width: 768px) {
         cursor: pointer;
@@ -44,10 +44,14 @@ export const NavLogo = styled(LinkR)`
 `
 
 export const ImgLogo = styled.img`
-    width: 200px;
+    width: 250px;
     align-items: center;
     transition: width 0.5s;
     transition: height 0.5s;
+
+    @media screen and (max-width: 768px) {
+        width: 200px;
+    }
 `;
 
 export const MobileIcon = styled.div`
@@ -55,7 +59,7 @@ export const MobileIcon = styled.div`
 
     @media screen and (max-width: 768px) {
         display: block;
-        margin: 16px 0 0 0;
+        margin: 10px 0 0 0;
         position: absolute;
         top: 0;
         right: 0;

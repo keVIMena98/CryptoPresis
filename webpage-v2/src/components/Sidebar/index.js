@@ -21,19 +21,19 @@ const Sidebar = ({isOpen, toggle}) => {
             <SideBarWrapper>
                 <SidebarMenu>
                     <SidebarLink to="Home" onClick={toggle} smooth={true} duration={500} spy={true} exact='true' offset={-100}>
-                        Home
+                        HOME
                     </SidebarLink>
                     <SidebarLink to="Mint" onClick={toggle} smooth={true} duration={500} spy={true} exact='true' offset={-100}>
-                        Mint
+                        BUY A PRESI
                     </SidebarLink>
                     <Link href="//rarible.com/cryptopresisofficial" target="_blank">
-                        Rarible
+                        RARIBLE
                     </Link>
                     <SidebarLink to="Roadmap" onClick={toggle} smooth={true} duration={500} spy={true} exact='true' offset={-100}>
-                        Roadmap
+                        ROADMAP
                     </SidebarLink>
                     <SidebarLink to="Team" onClick={toggle} smooth={true} duration={500} spy={true} exact='true' offset={-100}>
-                        Team
+                        TEAM
                     </SidebarLink>
                     <SidebarLink to="FAQ" onClick={toggle} smooth={true} duration={500} spy={true} exact='true' offset={-100}>
                         FAQ

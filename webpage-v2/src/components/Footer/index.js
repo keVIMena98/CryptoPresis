@@ -26,7 +26,7 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>Home</FooterLinkTitle>
-                            <FooterLink to="Mint" smooth={true} duration={500} spy={true} exact='true' offset={-100} >Mint</FooterLink>
+                            <FooterLink to="Mint" smooth={true} duration={500} spy={true} exact='true' offset={-100} >Buy A Presi</FooterLink>
                             <ExternalLink href="//rarible.com/cryptopresisofficial" target="_blank" >Rarible</ExternalLink>
                             <FooterLink to="Roadmap" smooth={true} duration={500} spy={true} exact='true' offset={-100} >Roadmap</FooterLink>
                             <FooterLink to="Team" smooth={true} duration={500} spy={true} exact='true' offset={-100} >Team</FooterLink>
