@@ -31,7 +31,7 @@ export const TeamContainer = styled.div`
 `
 
 export const TeamWrapper = styled.div`
-    width: 100%;
+    width: 90%;
     max-width: 1100px;
     margin: 0 auto;
     display: grid;
@@ -73,8 +73,8 @@ export const TeamCard = styled.div`
 `
 
 export const TeamProfile = styled.img`
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     margin-bottom: 10px;
 
     @media screen and (max-width: 480px) {
