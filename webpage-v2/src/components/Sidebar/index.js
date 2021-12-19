@@ -9,7 +9,7 @@ import {
     SidebarLink,
     SideSocialIcon,
     SocialIconLink,
-    Link
+    // Link
 } from './SidebarElements';
 
 const Sidebar = ({isOpen, toggle}) => {
@@ -26,11 +26,11 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to="Mint" onClick={toggle} smooth={true} duration={500} spy={true} exact='true' offset={-100}>
                         BUY A PRESI
                     </SidebarLink>
-                    <Link href="//rarible.com/cryptopresisofficial" target="_blank">
-                        RARIBLE
-                    </Link>
                     <SidebarLink to="Roadmap" onClick={toggle} smooth={true} duration={500} spy={true} exact='true' offset={-100}>
                         ROADMAP
+                    </SidebarLink>
+                    <SidebarLink to="Collection" onClick={toggle} smooth={true} duration={500} spy={true} exact='true' offset={-100}>
+                        COLLECTION
                     </SidebarLink>
                     <SidebarLink to="Team" onClick={toggle} smooth={true} duration={500} spy={true} exact='true' offset={-100}>
                         TEAM

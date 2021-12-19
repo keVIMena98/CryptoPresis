@@ -14,7 +14,7 @@ import {
     NavLinks,
     NavSocialIcon,
     SocialIconLink,
-    Link
+    //Link
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
@@ -59,13 +59,13 @@ const Navbar = ({ toggle }) => {
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
-                                <Link href="//rarible.com/cryptopresisofficial" target="_blank" >
-                                    RARIBLE
-                                </Link>
-                            </NavItem>
-                            <NavItem>
                                 <NavLinks to="Roadmap" smooth={true} duration={500} spy={true} exact='true' offset={-100}>
                                     ROADMAP
+                                </NavLinks>
+                            </NavItem>
+                            <NavItem>
+                                <NavLinks to="Collection" smooth={true} duration={500} spy={true} exact='true' offset={-100}>
+                                    COLLECTION
                                 </NavLinks>
                             </NavItem>
                             <NavItem>

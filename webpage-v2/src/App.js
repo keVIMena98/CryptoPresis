@@ -5,11 +5,13 @@ import { connect } from "./redux/blockchain/blockchainActions.js";
 import { fetchData } from "./redux/data/dataActions.js";
 import * as s from "./styles/globalStyles";
 import { homeObjOne } from './components/Welcome/data';
+import { homeObjTwo } from './components/Collection/data';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import Welcome from './components/Welcome';
+import Collection from './components/Collection';
 import Roadmap from './components/Roadmap';
-import Team from "./components/Team";
+import Team from './components/Team';
 import FAQ from './components/Faq';
 import Footer from './components/Footer';
 
@@ -319,6 +321,7 @@ function App() {
           </s.ResponsiveWrapper>
         </s.Container>
         <Roadmap />
+        <Collection {...homeObjTwo} />
         <Team />
         <FAQ />
         <Footer />
