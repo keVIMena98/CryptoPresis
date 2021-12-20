@@ -48,11 +48,11 @@ const Navbar = ({ toggle }) => {
                             <FaBars />
                         </MobileIcon>
                         <NavMenu>
-                            <NavItem>
+                            {/* <NavItem>
                                 <NavLinks to="Home" smooth={true} duration={500} spy={true} exact='true' offset={-100}>
                                     HOME
                                 </NavLinks>
-                            </NavItem>
+                            </NavItem> */}
                             <NavItem>
                                 <NavLinks to="Mint" smooth={true} duration={500} spy={true} exact='true' offset={-100}>
                                     BUY A PRESI

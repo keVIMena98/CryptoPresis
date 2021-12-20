@@ -20,9 +20,9 @@ const Sidebar = ({isOpen, toggle}) => {
             </Icon>
             <SideBarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="Home" onClick={toggle} smooth={true} duration={500} spy={true} exact='true' offset={-100}>
+                    {/* <SidebarLink to="Home" onClick={toggle} smooth={true} duration={500} spy={true} exact='true' offset={-100}>
                         HOME
-                    </SidebarLink>
+                    </SidebarLink> */}
                     <SidebarLink to="Mint" onClick={toggle} smooth={true} duration={500} spy={true} exact='true' offset={-100}>
                         BUY A PRESI
                     </SidebarLink>

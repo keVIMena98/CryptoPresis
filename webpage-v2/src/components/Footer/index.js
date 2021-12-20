@@ -1,5 +1,6 @@
 import React from 'react';
 import {FaTwitter, FaInstagram, FaDiscord} from 'react-icons/fa'
+import {animateScroll as scroll} from 'react-scroll';
 import {
     FooterContainer,
     FooterWrap,
@@ -15,10 +16,15 @@ import {
     WebsiteRights,
     SocialIcons,
     SocialIconLink,
-    ExternalLink
+    // ExternalLink
 } from './FooterElements'
 
 const Footer = () => {
+
+    const toggleHome = () => {
+        scroll.scrollToTop()
+    };
+
     return (
         <FooterContainer>
             <FooterWrap>
@@ -27,8 +33,8 @@ const Footer = () => {
                         <FooterLinkItems>
                             <FooterLinkTitle>Home</FooterLinkTitle>
                             <FooterLink to="Mint" smooth={true} duration={500} spy={true} exact='true' offset={-100} >Buy A Presi</FooterLink>
-                            <ExternalLink href="//rarible.com/cryptopresisofficial" target="_blank" >Rarible</ExternalLink>
                             <FooterLink to="Roadmap" smooth={true} duration={500} spy={true} exact='true' offset={-100} >Roadmap</FooterLink>
+                            <FooterLink to="Collection" smooth={true} duration={500} spy={true} exact='true' offset={-100} >Collection</FooterLink>
                             <FooterLink to="Team" smooth={true} duration={500} spy={true} exact='true' offset={-100} >Team</FooterLink>
                             <FooterLink to="FAQ" smooth={true} duration={500} spy={true} exact='true' offset={-100} >FAQ</FooterLink>
                         </FooterLinkItems>
@@ -49,7 +55,7 @@ const Footer = () => {
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to="Home" smooth={true} duration={500} spy={true} exact='true' offset={-100} >
+                        <SocialLogo to="/" onClick={toggleHome} >
                             <ImgLogo src={require("../../assets/images/logo.png")} alt="logo"/>
                         </SocialLogo>
                         <WebsiteRights>Made with <span role="img" aria-label="Heart">💖</span>  and a whole lot of
