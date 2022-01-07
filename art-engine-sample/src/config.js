@@ -28,14 +28,21 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 105,
+    growEditionSizeTo: 10,
     layersOrder: [
+      { name: "Legendary" },
+    ],
+  },
+  {
+    growEditionSizeTo: 100,
+    layersOrder: [
+      { name: "Backgrounds" },
       { name: "Base" },
       { name: "Skin" },
       { name: "Haircolor" },
       { name: "Eyes" },
-      { name: "Mouth" },
       { name: "Hats" },
+      { name: "Mouth" },
     ],
   },
 ];
@@ -45,8 +52,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 1048,
+  height: 1048,
 };
 
 const gif = {
@@ -90,8 +97,8 @@ const rarityDelimiter = "#";
 const uniqueDnaTorrance = 10000;
 
 const preview = {
-  thumbPerRow: 20,
-  thumbWidth: 100,
+  thumbPerRow: 25,
+  thumbWidth: 150,
   imageRatio: format.width / format.height,
   imageName: "collage.png",
 };

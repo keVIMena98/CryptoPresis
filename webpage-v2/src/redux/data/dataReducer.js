@@ -1,4 +1,4 @@
-import { bindActionCreators } from "redux";
+// import { bindActionCreators } from "redux";
 
 const initialState = {
   loading: false,
