@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Button } from '../ButtonElements';
+// import { Button } from '../ButtonElements';
 
 export const InfoContainer = styled.div`
     color: #fff;
@@ -113,18 +113,6 @@ const DropIntroSection = ({
                             <Subtitle>Bitcoin Backgrounds is a specially curated Twitter Background NFT drop.</Subtitle>
                             <Subtitle>Selecting 5 of the top Salvadorean artists to launch their Genesis piece, this collection is available free-to-mint for 5 days exclusively for holders of the CryptoPresis NFT.</Subtitle>
                             <Subtitle>Each of these pieces will grant future utility for their holders and are designed to be used as Twitter backgrounds complementing the CryptoPresis NFT profile pictures.</Subtitle>
-                            <BtnWrap>
-                                <Button to=''
-                                    smooth={true}
-                                    duration={500}
-                                    spy={true}
-                                    exact="true"
-                                    offset={-80}
-                                    primary={primary ? 1 : 0}
-                                    dark={dark ? 1 : 0}
-                                    dark2={dark2 ? 1 : 0}
-                                    >{buttonlabel}</Button>
-                            </BtnWrap>
                         </TextWrapper>
                     </InfoRow>
                 </InfoWrapper>

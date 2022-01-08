@@ -171,21 +171,21 @@ export const Link = styled.a`
 const Navbar = ({ toggle }) => {
     const [dropdown, setDropdown] = useState(false);
 
-    const onMouseEnter = () => {
-        if(window.innerWidth < 960) {
-            setDropdown(false);
-        } else {
-            setDropdown(true);
-        }
-    };
+    // const onMouseEnter = () => {
+    //     if(window.innerWidth < 960) {
+    //         setDropdown(false);
+    //     } else {
+    //         setDropdown(true);
+    //     }
+    // };
 
-    const onMouseLeave = () => {
-        if(window.innerWidth < 960) {
-            setDropdown(false);
-        } else {
-            setDropdown(false);
-        }
-    };
+    // const onMouseLeave = () => {
+    //     if(window.innerWidth < 960) {
+    //         setDropdown(false);
+    //     } else {
+    //         setDropdown(false);
+    //     }
+    // };
     
     const [scrollNav, setScrollNav] = useState(false);
 
@@ -247,7 +247,8 @@ const Navbar = ({ toggle }) => {
                                     FAQ
                                 </NavLinksS>
                             </NavItem>
-                            <NavItem  onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+                            {/* <NavItem  onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}> */}
+                            <NavItem onClick={setDropdown}>
                                 <NavLinksR to="">
                                     MEMBERS <i className='fas fa-caret-down' />
                                 </NavLinksR>

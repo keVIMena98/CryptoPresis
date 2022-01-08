@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
-// import Image from '../../assets/images/herobg.png';
 import { Button2 } from '../ButtonElements';
 import styled from 'styled-components';
 import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
-import herobg from '../../assets/images/herobgdark2.png';
+import herobg from '../../assets/images/herobgdark3.png';
+import herobg2 from '../../assets/images/herobgdark4.png';
 
 export const HeroContainer = styled.div`
     background : #0c0c0c;
@@ -11,7 +11,7 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 645px;
+    height: 850px;
     position: relative;
     z-index: 1;
 
@@ -31,11 +31,11 @@ export const HeroContainer = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        height: 500px;
+        height: 1000px;
     }
     
     @media screen and (max-width: 480px) {
-        height: 250px;
+        height: 650px;
     }
 `;
 
@@ -57,12 +57,17 @@ export const ImageBg = styled.div`
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(${herobg});
+
+    @media screen and (max-width: 768px) {
+        background-image: url(${herobg2});
+    }
 `;
 
 export const HeroContent = styled.div`
     z-index: 3;
     width: 100%
     max-width: 1200px;
+    margin-bottom: 200px;
     position: absolute;
     padding: 8px 24px;
     display: flex;
@@ -71,18 +76,19 @@ export const HeroContent = styled.div`
 
     @media screen and (max-width: 768px) {
         width: 300px;
-        // padding-bottom: 48px;
+        margin-bottom: 100px;
     }
 `;
 
 export const HeroH1 = styled.h1`
     color: #fff;
     font-size: 24px;
+    font-style: italic;
     text-align: center;
     max-width: 800px;
 
     @media screen and (max-width: 480px) {
-        font-size: 14px;
+        font-size: 18px;
     }
 `
 
@@ -94,7 +100,7 @@ export const HeroP = styled.p`
     max-width: 600px;
 
     @media screen and (max-width: 480px) {
-        font-size: 8px;
+        font-size: 12px;
     }
 `
 

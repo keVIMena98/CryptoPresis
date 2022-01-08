@@ -1,0 +1,26 @@
+{
+  "name": "member-lounge",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@3rdweb/sdk": "^1.32.2",
+    "@chakra-ui/react": "^1.7.4",
+    "@ethersproject/providers": "^5.5.2",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "ethers": "^5.5.3",
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7"
+  }
+}

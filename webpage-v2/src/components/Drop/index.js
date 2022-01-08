@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Button } from '../ButtonElements';
+import { Button3 } from '../ButtonElements';
 import styled from 'styled-components';
 
 export const DropContainer = styled.div `
@@ -114,7 +114,7 @@ export const ImgWrap = styled.div`
 
 export const Img = styled.img`
     width: 100%;
-    margin: 0 0 10px 0;
+    margin: 48px 0 10px 0;
     padding-right: 0;
 `;
 
@@ -126,7 +126,6 @@ const DropSection = ({
     lightText, 
     headline, 
     darkText, 
-    description,
     description1, 
     description2, 
     description3,  
@@ -149,24 +148,25 @@ const DropSection = ({
                                 <Subtitle darkText={darkText}>{description1}</Subtitle>
                                 <Subtitle darkText={darkText}>{description2}</Subtitle>
                                 <Subtitle darkText={darkText}>{description3}</Subtitle>
-                                {/* <BtnWrap>
-                                    <Button to=''
-                                        smooth={true}
-                                        duration={500}
-                                        spy={true}
-                                        exact="true"
-                                        offset={-80}
-                                        primary={primary ? 1 : 0}
-                                        dark={dark ? 1 : 0}
-                                        dark2={dark2 ? 1 : 0}
-                                        >{buttonlabel}</Button>
-                                </BtnWrap> */}
                             </TextWrapper>
                         </Column1>
                         <Column2>
                             <ImgWrap>
                                 <Img src={img} alt={alt}/>
                             </ImgWrap>
+                            <BtnWrap>
+                                <Button3 
+                                    to='/mint'
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact="true"
+                                    offset={-80}
+                                    primary={primary ? 1 : 0}
+                                    dark={dark ? 1 : 0}
+                                    dark2={dark2 ? 1 : 0}
+                                >{buttonlabel}</Button3>
+                            </BtnWrap>
                         </Column2>
                     </DropRow>
                 </DropWrapper>
