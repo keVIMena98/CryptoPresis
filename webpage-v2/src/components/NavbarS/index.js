@@ -248,8 +248,8 @@ const Navbar = ({ toggle }) => {
                                 </NavLinksS>
                             </NavItem>
                             {/* <NavItem  onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}> */}
-                            <NavItem onClick={setDropdown}>
-                                <NavLinksR to="">
+                            <NavItem onClick={() => setDropdown(true)}>
+                                <NavLinksR>
                                     MEMBERS <i className='fas fa-caret-down' />
                                 </NavLinksR>
                                 {dropdown && <Dropdown />}
