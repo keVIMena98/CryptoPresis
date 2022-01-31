@@ -26,7 +26,7 @@ const MintSection = () => {
         <>
             <Container>
                 <Wrapper
-                    src="https://cloudflare-ipfs.com/ipfs/bafybeibw2xn3tas5nobkrhdxszdbpkaa7pyov2vjoe5bmcdhj64vs2bwfu?contract=0xB72A3Bf2f89aF3c4845994E8DB364e377156672E&chainId=4&tokenId=0"
+                    src="https://cloudflare-ipfs.com/ipfs/bafybeihz5jer6ad75ku3dh6mj4rlufrtiydv5mkoqurm55nv2uckmfiuya?contract=0xB7D67be516E80f05259CDdb9efA3523F72E2F912&chainId=137&tokenId=0"
                     width="100%"
                     height="600px"
                     frameborder="0"
