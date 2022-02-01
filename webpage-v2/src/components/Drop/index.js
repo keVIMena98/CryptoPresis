@@ -156,7 +156,7 @@ const DropSection = ({
                             </ImgWrap>
                             <BtnWrap>
                                 <Button3 
-                                    to='/mint'
+                                    // to='/mint'
                                     smooth={true}
                                     duration={500}
                                     spy={true}
