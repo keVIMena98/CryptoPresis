@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.ebc0a450.chunk.css",
-  "main.js": "/static/js/main.e799e749.chunk.js",
-  "main.js.map": "/static/js/main.e799e749.chunk.js.map",
+  "main.js": "/static/js/main.e5727c68.chunk.js",
+  "main.js.map": "/static/js/main.e5727c68.chunk.js.map",
   "static/js/1.8c5a734f.chunk.js": "/static/js/1.8c5a734f.chunk.js",
   "static/js/1.8c5a734f.chunk.js.map": "/static/js/1.8c5a734f.chunk.js.map",
   "static/js/2.b9402b7b.chunk.js": "/static/js/2.b9402b7b.chunk.js",
@@ -20,6 +20,6 @@
   "static/media/reset.css": "/static/media/PressStart2P-Regular.027246ff.woff",
   "static/css/main.ebc0a450.chunk.css.map": "/static/css/main.ebc0a450.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.c6e0cc0eff66ccaa78071b5cbaef355b.js": "/precache-manifest.c6e0cc0eff66ccaa78071b5cbaef355b.js",
+  "precache-manifest.42a82f07ab39df54e4ae33a7d42ffd1d.js": "/precache-manifest.42a82f07ab39df54e4ae33a7d42ffd1d.js",
   "service-worker.js": "/service-worker.js"
 }
