@@ -11,7 +11,7 @@ export const homeObjOne = {
         'This is his genesis NFT and will provide additional utility for its holders.',
     description3:
         'The first of the "Bitcoin Backgrounds" drop is available free-to-mint for 5 days exclusively for CryptoPresis NFT holders.',
-    buttonlabel: 'CLAIM',
+    buttonlabel: 'BUY ON OPENSEA',
     imgStart: false,
     img: require('../../assets/images/bb-marquez.png'),
     alt: 'NFTs', 
