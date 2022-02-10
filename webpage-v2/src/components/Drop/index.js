@@ -156,7 +156,12 @@ const DropSection = ({
                             </ImgWrap>
                             <BtnWrap>
                                 <Button3 
+<<<<<<< HEAD
                                     href='//opensea.io/assets/matic/0xb7d67be516e80f05259cddb9efa3523f72e2f912/0/'
+=======
+                                    href="//opensea.io/assets/matic/0xb7d67be516e80f05259cddb9efa3523f72e2f912/0/"
+                                    target="_blank"
+>>>>>>> a869af8f981433f7af0f7681bf28d7436a68e00b
                                     smooth={true}
                                     duration={500}
                                     spy={true}
