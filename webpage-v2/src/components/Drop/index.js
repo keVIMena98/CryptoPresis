@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button3 } from '../ButtonElements';
+import { Button } from '../ButtonElements';
 import styled from 'styled-components';
 
 export const DropContainer = styled.div `
@@ -155,7 +155,7 @@ const DropSection = ({
                                 <Img src={img} alt={alt}/>
                             </ImgWrap>
                             <BtnWrap>
-                                <Button3 
+                                <Button
                                     href="//opensea.io/assets/matic/0xb7d67be516e80f05259cddb9efa3523f72e2f912/0/"
                                     target="_blank"
                                     smooth={true}
@@ -166,7 +166,7 @@ const DropSection = ({
                                     primary={primary ? 1 : 0}
                                     dark={dark ? 1 : 0}
                                     dark2={dark2 ? 1 : 0}
-                                >{buttonlabel}</Button3>
+                                >{buttonlabel}</Button>
                             </BtnWrap>
                         </Column2>
                     </DropRow>
