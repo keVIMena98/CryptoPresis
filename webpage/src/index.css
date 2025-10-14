@@ -1,0 +1,61 @@
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.animatedBackground {
+		animation: animatedBackground 100s linear infinite;
+	}
+
+	@keyframes animatedBackground {
+		from {
+			background-position: 0 0;
+		}
+		to {
+			background-position: -1875px 0;
+		}
+	}
+
+	.beforeElement::before {
+		@apply w-3.5 h-3.5 border-2 border-white absolute -left-9 bg-cyan transition-all duration-500;
+		content: '';
+		top: 20%;
+		transform: translateY(-50%);
+	}
+
+	.element:hover::before {
+		@apply bg-cyan;
+	}
+
+	.grid-area-col1 {
+		grid-area: col1;
+	}
+
+	.grid-area-col2 {
+		grid-area: col2;
+	}
+
+	.justify-start {
+		justify-self: start;
+	}
+
+	.transformTranslate {
+		transform: translate(-100%, 60%);
+	}
+
+	&.active {
+		@apply border-b-4 border-[#00ffff];
+	}
+}
+
+html {
+	@apply scroll-smooth;
+}
+
+body {
+	background-color: black;
+}
